@@ -1,0 +1,1301 @@
+{
+    "recipes": [
+        {
+            "id": "place_akihabara_begin",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "place_akihabara": 1,
+                "funds": 1,
+                "aspect_partner": 1
+            },
+            "label": "探险开始：秋叶原之行",
+            "startdescription": "我已一再向合作者们保证绝对不会有语言不通问题，中文在秋叶原绝对是大主流语言。至于如何在这种地方取得心仪之物，就要看我们打破次元壁的本领如何。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "craftable": true,
+            "warmup": 30
+        },
+        {
+            "id": "explore_aki",
+            "label": "探险进行中",
+            "actionId": "verb_cooperate",
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "startdescription": "合作者们正在修整。我现在可以追加资金投入，或者再派一名合作者。",
+            "description": ".",
+            "warmup": 30,
+            "alt": [
+                {
+                    "id": "explorevaultfailure_nofunds",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultfailure_nofollowers",
+                    "chance": 100
+                }
+            ],
+            "effects": {
+                "funds": -1
+            },
+            "linked": [
+                {
+                    "id": "encounter_akihabara_1",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_akihabara_2",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_akihabara_3",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_akihabara_4",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_akihabara_5",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_akihabara_6",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_akihabara_7",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_akihabara_8",
+                    "chance": 100
+                },
+                {
+                    "id": "explore_akihabara_end",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "encounter_akihabara_1",
+            "actionId": "verb_cooperate",
+            "label": "K-ON！的演唱会",
+            "startdescription": "二次元与三次元们爆发了激烈的争吵，从订票到座位，从服饰到周边，需要浩大的<b>心</b>之力让他们达成妥协。",
+            "requirements": {
+                "lock_aki_loveforkon": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_loveforkon_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_loveforkon_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_loveforkon_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_loveforkon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_loveforkon_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "heart": 10
+            },
+            "label": "我们拜请VOCALOID，虚拟歌姬之神",
+            "startdescription": "VOCALOID横跨两大次元，承载V之荣耀，谅必足以平息这一矛盾。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_loveforkon_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_loveforkon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_loveforkon_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "heart": 5
+            },
+            "label": "我们拜请SV，合成歌姬之神",
+            "startdescription": "SV的技术力足够强大，能够平息这一矛盾……大概能吧。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_loveforkon_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_loveforkon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_loveforkon_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "heart": 1
+            },
+            "label": "我们拜请ACE，AI歌姬之神",
+            "startdescription": "或许ACE的技术可以使三次元与二次元的矛盾平息……又或许不能。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_loveforkon_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_loveforkon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_loveforkon_success",
+            "actionId": "verb_cooperate",
+            "label": "满意的双方",
+            "startdescription": "书撰的慷慨让所有人都购置了应援棒和新周边。极高的热情甚至甚至让合作者们自行排练了WOTA艺。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_loveforkon",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "pen_4_lamy": 1,
+                "pen_4_mikimoto": 1
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_loveforkon_failure",
+            "actionId": "verb_cooperate",
+            "label": "令人无话可说的内讧",
+            "startdescription": "双方互不领情，争吵从昭和偶像到令和唱见，新小鬼引战老东西摆谱，萌萌人拉架乐子人拱火，令人头晕脑胀。",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_akihabara_2",
+            "actionId": "verb_cooperate",
+            "label": "博丽神社",
+            "startdescription": "我们看中了一位巫女的丈长————满溢灵力的白色檀纸。没有人能强行从一位镇压幻想乡的存在的头上拿到什么，但如果我们能搞到足够多的奉纳金……这需要充足的<b>铸</b>。",
+            "requirements": {
+                "lock_aki_shrine": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_shrine_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_shrine_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_shrine_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_shrine_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_shrine_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "forge": 6
+            },
+            "label": "亚当斯密之法",
+            "startdescription": "亚当斯密揭示了减损货币质量以增加货币数量的绝技，使用此法得到的钱币谅必足以填满钱箱。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_shrine_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_shrine_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_shrine_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "forge": 4
+            },
+            "label": "书撰之法",
+            "startdescription": "书撰的财富可谓天文数字，我们可以请求足够的资金援助——",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_shrine_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_shrine_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_shrine_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "forge": 1
+            },
+            "label": "清算人少主之法",
+            "startdescription": "清算人少主有着丰富的制作假币的经验，这大概能骗过巫女的眼睛。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_shrine_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_shrine_xxxxxxx",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_shrine_success",
+            "actionId": "verb_cooperate",
+            "label": "巫女宽衣解带",
+            "startdescription": "我们躲避着巫女眼中炽热的光芒，尽量不去看已经一丝不挂的肉体，并勉为其难拒绝了最后两件白色短袜。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_shrine",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "paper_6_tanzhi": 4
+            },
+            "alt": [
+                {
+                    "id": "explore_aki_special",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explore_aki_special",
+            "actionId": "explore_aki_special",
+            "label": "陌生来客",
+            "startdescription": "一位视觉系乐队重金属吉他手，在得知我们面见博丽灵梦并拿到不少贴身衣物后死死咬住我们的队伍。",
+            "description": "呃……本命博丽灵梦啊，那大家可以谈谈嘛。",
+            "effects": {
+                "f_zhanchangyuanyaojing": 1
+            },
+            "craftable": false,
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_shrine_failure",
+            "actionId": "verb_cooperate",
+            "label": "巫女拒绝——",
+            "startdescription": "巫女的热情令人望而生畏，但要贴身物品……就差明说“得加钱”了。",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_shrine_xxxxxxx",
+            "actionId": "verb_cooperate",
+            "label": "幻 想 乡 的 震 怒",
+            "startdescription": "无穷无尽的阴阳大玉横扫天际，两条御币带着浪潮般的灵力轰杀而来，所有人慌不择路，试图逃离——",
+            "description": ".",
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "explore_leveldown",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "aspect_partner": 1
+                        }
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_akihabara_3",
+            "actionId": "verb_cooperate",
+            "label": "智略对决",
+            "startdescription": "有人看上了折木奉太郎手里的钢笔和国木田独步怀中的笔记本。前者需要刀锋般的智略，后者需要智略者的刀锋。无<b>刃</b>之伟力必难成事。",
+            "requirements": {
+                "lock_aki_battleofwits": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_battleofwits_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_battleofwits_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_battleofwits_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_battleofwits_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_battleofwits_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "edge": 12
+            },
+            "label": "以楚轩的作风行事",
+            "startdescription": "此乃人类的一种极限形态，对付两位涉世未深的年轻人绰绰有余。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_battleofwits_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_battleofwits_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_battleofwits_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "edge": 6
+            },
+            "label": "以萧炎的作风行事",
+            "startdescription": "作为敢作敢当的正派强者，只要我们以诚相待，应当能应付两位青年。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_battleofwits_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_battleofwits_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_battleofwits_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "edge": 1
+            },
+            "label": "以唐三的作风行事",
+            "startdescription": "以大恶人的形象对付此二人，所有人都不看好此事。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_battleofwits_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_battleofwits_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_battleofwits_success",
+            "actionId": "verb_cooperate",
+            "label": "大功告成",
+            "startdescription": "钢笔对其不算重要因此成功到手，笔记本后面的空页不少故而得赠数张。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_battleofwits",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "pen_4_baijin3776": 1,
+                "paper_10_bijiben": 5
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_battleofwits_failure",
+            "actionId": "verb_cooperate",
+            "label": "丢人现眼",
+            "startdescription": "堂堂无形之术学者被高中生和异能者耍的团团转……",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_akihabara_4",
+            "actionId": "verb_cooperate",
+            "label": "夜晚的秋叶原",
+            "startdescription": "仙人跳，喜当爹，谎报年龄，疾病威胁——JK乃至JC的战斗力可不是说笑的，穿着cos服也不能放松警惕。有请浩大的<b>杯</b>为我们选择目标。",
+            "requirements": {
+                "lock_aki_sex": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_sex_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_sex_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_sex_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_sex_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_sex_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "grail": 10
+            },
+            "label": "请教中式英雄",
+            "startdescription": "冲国客人对整条街道的绯色生意洞若观火了如指掌，专注任务一掷千金的作风名传两千里开外，谅必他们能为我们安排直击XP的完美选择。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_sex_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_sex_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_sex_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "grail": 5
+            },
+            "label": "请教日式英雄",
+            "startdescription": "本地客人熟悉流程，他应当能为我们找到适合的人。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_sex_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_sex_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_sex_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "grail": 1
+            },
+            "label": "请教西式英雄",
+            "startdescription": "没有人喜欢欧美客人，钱少事多磨损还大，许多从业者的评价是不如死肥宅。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_sex_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_sex_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_sex_success",
+            "actionId": "verb_cooperate",
+            "label": "神魂消磨之夜",
+            "startdescription": "负责的合作者会把被榨干的其他人从床上拖走。总之东西都收集到了。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_sex",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "ink_10_lcl": 4,
+                "ink_6_meizhi": 2
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_sex_failure",
+            "actionId": "verb_cooperate",
+            "label": "意兴阑珊",
+            "startdescription": "合作者们的眼光完全看不上这些选择，还是下次再来吧。",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_akihabara_5",
+            "actionId": "verb_cooperate",
+            "label": "冬木市",
+            "startdescription": "若非历史研究在这片土地上长盛不衰，合作者们根本察觉不到进入的路径，而开辟道路所需的<b>蛾</b>无法估量。",
+            "requirements": {
+                "lock_aki_fgo": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_fgo_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_fgo_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_fgo_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_fgo_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_fgo_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "moth": 18
+            },
+            "label": "我们拜请遗世独立的理想乡，守护一切的结界宝具",
+            "startdescription": "阿瓦隆的完全展开甚至足以将时光静止，我们必然能借此进入另一侧。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_fgo_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_fgo_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_fgo_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "moth": 10
+            },
+            "label": "我们拜请天地乖离开辟之星，粉碎一切的对界宝具",
+            "startdescription": "天地乖离开辟之星的完全出力足以粉碎空间，我们应当能借机前往另一侧。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_fgo_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_fgo_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_fgo_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "grail": 1
+            },
+            "label": "我们拜请无限剑制，仿制一切的固有结界",
+            "startdescription": "无限剑制可以仿制各种兵器，我们大概能找到合适的东西以前往另一侧。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_fgo_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_fgo_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_fgo_success",
+            "actionId": "verb_cooperate",
+            "label": "一片漆黑",
+            "startdescription": "我们抵达了应当正确的地方，但无穷无尽的黑色覆盖了一切，合作者们取得其中一部分后迅速撤离。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_fgo",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "ink_15_666": 6
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_fgo_failure",
+            "actionId": "verb_cooperate",
+            "label": "毫无用处",
+            "startdescription": "那个世界本就自我封闭，这些小伎俩根本不起效。",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_akihabara_6",
+            "actionId": "verb_cooperate",
+            "label": "《crossroad》",
+            "startdescription": "我们在广告短片中看到了好东西————新海诚宇宙虽说算作二次元宇宙的一部分，但画风差距过大的情况下想强行入内仍需一些<b>灯</b>的指引。",
+            "requirements": {
+                "lock_aki_crossroad": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_crossroad_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_crossroad_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_crossroad_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_crossroad_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_crossroad_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "lantern": 4
+            },
+            "label": "我们拜请宫崎骏……呃，啊？这……",
+            "startdescription": "所有人都认为这充满了丧病的思路既满足了画风的贴合又能让大家接受。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_crossroad_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_crossroad_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_crossroad_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "lantern": 2
+            },
+            "label": "我们拜请荒木飞吕彦……这他娘是不是不对劲？",
+            "startdescription": "大家要知道替身使者无处不在且会互相吸引……你这算ky吧？",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_crossroad_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_crossroad_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_crossroad_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "lantern": 1
+            },
+            "label": "我们拜请伊藤诚……谁他娘出的鬼主意？",
+            "startdescription": "首先，伊藤诚是一位久负盛名的动画制作人……去你大爷的，给爷爬！",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_crossroad_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_crossroad_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_crossroad_success",
+            "actionId": "verb_cooperate",
+            "label": "君の名は",
+            "startdescription": "我们成功借助某种离谱的方式潜入了短短两分钟的片段，立刻奔赴教学楼办公室。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_crossroad",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "pen_2_bailered": 1
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_crossroad_failure",
+            "actionId": "verb_cooperate",
+            "label": "呵呵",
+            "startdescription": "“我劝写代码的家伙，对，就你。”一位合作者指着天怒骂，“你多给自己攒几个理性再写，净往这里面掺躁动谁也顶不住！”",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_akihabara_7",
+            "actionId": "verb_cooperate",
+            "label": "拜师真城最高",
+            "startdescription": "相对来说请教真城最高并不难，但必须依靠大量的<b>秘史</b>知识才能找到这片角落。",
+            "requirements": {
+                "lock_aki_cartoon": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_cartoon_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_cartoon_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_cartoon_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_cartoon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_cartoon_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "secrethistories": 8
+            },
+            "label": "我们拜请袁藤冲人，精益求精之神",
+            "startdescription": "以袁藤老师对线条、色彩和细节无极限的追求，我们必然能吸引真城最高的目光。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_cartoon_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_cartoon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_cartoon_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "secrethistories": 4
+            },
+            "label": "我们拜请饭田Pochi，里表沉浮之神",
+            "startdescription": "以饭田老师时不时下海动不动上岸的两栖作风，我们应当能引起真城最高的兴趣。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_cartoon_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_cartoon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_cartoon_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "secrethistories": 1
+            },
+            "label": "我们拜请池咲ミサ，色气正太之神",
+            "startdescription": "以池咲老师将画风与剧情推向顶峰并逼迫自家孩子下海的实力……不是，这样会不会把对面吓跑？",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_cartoon_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_cartoon_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_cartoon_success",
+            "actionId": "verb_cooperate",
+            "label": "肝部硬化",
+            "startdescription": "“一个成熟的漫画家不止有一个肝脏。”说完真城最高给了我们一些练习纸。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_cartoon",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "paper_4_feigaozhi": 4,
+                "paper_2_kente": 5
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_cartoon_failure",
+            "actionId": "verb_cooperate",
+            "label": "漫长的排队",
+            "startdescription": "真城最高的病房外排起熟悉角色的长龙，天知道什么时候能轮到我们。",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_akihabara_8",
+            "actionId": "verb_cooperate",
+            "label": "调教咖啡厅",
+            "startdescription": "没有浩大的<b>心</b>之力，谁也顶不住抖S的服务。",
+            "requirements": {
+                "lock_aki_maidcafe": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_aki_maidcafe_high",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_maidcafe_mid",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_aki_maidcafe_low",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_aki_maidcafe_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_maidcafe_high",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "heart": 10
+            },
+            "label": "请教哈兰·山德士，每个星期四都要疯狂的白胡子肌肉老爷爷。",
+            "startdescription": "懂什么叫儿时崇拜的对象不？这不稳了？",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_maidcafe_success",
+                    "chance": 95
+                },
+                {
+                    "id": "lock_aki_maidcafe_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_maidcafe_mid",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "heart": 5
+            },
+            "label": "请教罗纳德·麦当劳，有着无数甜品站的红鼻子滑稽小丑。",
+            "startdescription": "没有人能拒绝奶油冰激凌的诱惑——基本没有。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_maidcafe_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_aki_maidcafe_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_maidcafe_low",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "secrethistories": 1
+            },
+            "label": "请教迪诺，混账谁让你们去请教他的？！",
+            "startdescription": "匪夷所思嗷，恋爱脑能对付恋爱脑？你这辈子就是被搞cp毁了。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_aki_maidcafe_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_aki_maidcafe_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_aki_maidcafe_success",
+            "actionId": "verb_cooperate",
+            "label": "顽强的心脏",
+            "startdescription": "怀揣着钢铁信念的合作者撑过了蛋包饭服务，端走盘子速速撤退！",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_akihabara",
+                    "mutate": "lock_aki_maidcafe",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "effects": {
+                "ink_4_tomato": 3
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_aki_maidcafe_failure",
+            "actionId": "verb_cooperate",
+            "label": "粉碎的意志",
+            "startdescription": "合作者飞速跑出咖啡厅，哭诉说完全无法接受。",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_aki",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explore_akihabara_end",
+            "label": "圆满收官",
+            "actionId": "verb_cooperate",
+            "startdescription": "东京之行圆满结束，合作者们的宅化程度急剧上升，书撰对此不置可否，只要东西拿到就行。",
+            "description": ".",
+            "effects": {
+                "place_akihabara": -1
+            },
+            "warmup": 30
+        }
+    ]
+}

@@ -1,0 +1,340 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_edge_tip",
+            "label": "撰写《孙子兵法》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 105
+            },
+            "startdescription": "兵者，国之大事，死生之地，存亡之道，不可不察也……[需诸史俯首者上承四圣，兼形势、夹阴阳、包技巧，方开此道先河]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_edge_link",
+            "label": "撰写《孙子兵法》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 105,
+                
+                "aspect_level": 15,
+
+                "pen_15_youxi": 1,
+                "influenceedgeg": 1,
+                "influencemothe": 1,
+                "influencelanterng": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。凡此五者，将莫不闻，知之者胜，不知者不胜。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_edge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_edge",
+            "label": "撰写《孙子兵法》",
+            "actionId": "write_15_edge",
+            "effects": {
+                "book_15_edge": 1
+            },
+            "startdescription": "兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。凡此五者，将莫不闻，知之者胜，不知者不胜。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_14_edge_tip",
+            "label": "撰写《纪效新书》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 98
+            },
+            "startdescription": "据一书撰称，近来扬纪效新书之力者李小龙也，以拳经篇第十四所载‘倒插式’大破天下……[欲撰此书，另需三重理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_14_edge_link",
+            "label": "撰写《纪效新书》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 98,
+
+                "aspect_level": 14,
+
+                "reason": 3
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "据一书撰称，近来扬纪效新书之力者李小龙也，以拳经篇第十四所载‘倒插式’大破天下，遂慨叹兵击衰微至此。另据一书撰称，习学此书可成军团指挥，虽难入武庙，亦少逢敌手。",
+            "description": "需自明前路，取舍得当。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_edge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_14_edge",
+            "label": "撰写《纪效新书》",
+            "actionId": "write_14_edge",
+            "effects": {
+                "book_14_edge": 1
+            },
+            "startdescription": "据一书撰称，近来扬纪效新书之力者李小龙也，以拳经篇第十四所载‘倒插式’大破天下，遂慨叹兵击衰微至此。另据一书撰称，习学此书可成军团指挥，虽难入武庙，亦少逢敌手。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_12_edge_tip",
+            "label": "撰写《八阵图》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 84
+            },
+            "startdescription": "上下四方曰宇，古往今来曰宙……[欲撰此书，需九性相齐备。]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_12_edge_link",
+            "label": "撰写《八阵图》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 84,
+
+                "aspect_level": 12,
+                
+                "forge": 12,
+                "grail": 12,
+                "heart": 12,
+                "secrethistories": 12,
+                "knock": 12,
+                "lantern": 12,
+                "moth": 12,
+                "winter": 12
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "上下四方曰宇，古往今来曰宙。八阵图中不分天涯海角，不论过去未来，逆转阴阳，变换乾坤，定虚实，成真假，无所不包，无所不能。",
+            "description": "需天赋超绝，心性极坚。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_12_edge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_12_edge",
+            "label": "撰写《八阵图》",
+            "actionId": "write_12_edge",
+            "effects": {
+                "book_12_edge": 1
+            },
+            "startdescription": "上下四方曰宇，古往今来曰宙。八阵图中不分天涯海角，不论过去未来，逆转阴阳，变换乾坤，定虚实，成真假，无所不包，无所不能。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_edge_tip",
+            "label": "篆刻《神策军碑》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 70
+            },
+            "startdescription": "……诚悬笔锋未至，碑石崩解，四面开张。[欲撰此书，另需三激情。]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_edge_link",
+            "label": "篆刻《神策军碑》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 70,
+
+                "aspect_level": 10,
+                
+                "passion": 3
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "……诚悬笔锋未至，碑石崩解，四面开张，文未过半全碑尽碎，换十余奇石乃成。碑成而不可拓，印则纸作飞灰。",
+            "description": "需屏息静气，力透三寸。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_edge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_edge",
+            "label": "篆刻《神策军碑》",
+            "actionId": "write_10_edge",
+            "effects": {
+                "book_10_edge": 1
+            },
+            "startdescription": "……诚悬笔锋未至，碑石崩解，四面开张，文未过半全碑尽碎，换十余奇石乃成。碑成而不可拓，印则纸作飞灰。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_8_edge_tip",
+            "label": "撰写《伊戈尔远征记》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 56
+            },
+            "startdescription": "雅罗斯拉夫和全斯拉夫的所有子孙团结起来！[欲撰此书，另需冬之性相。]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_8_edge_link",
+            "label": "撰写《伊戈尔远征记》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 56,
+                
+                "aspect_level": 8,
+                
+                "winter": 8
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "雅罗斯拉夫和全斯拉夫的所有子孙团结起来！为祖国和民族！",
+            "description": "需身环书海，夜以继日。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_8_edge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_8_edge",
+            "label": "撰写《伊戈尔远征记》",
+            "actionId": "write_8_edge",
+            "effects": {
+                "book_8_edge": 1
+            },
+            "startdescription": "雅罗斯拉夫和全斯拉夫的所有子孙团结起来！为祖国和民族！",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_6_edge_tip",
+            "label": "撰写《刀剑神域》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+
+                "edge": 42
+            },
+            "startdescription": "或许不能？撰写当代书撰的作品绝对不是个好主意。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_2_edge_tip",
+            "label": "WHAT ARE YOU WANT TO DO?!",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "edge": 14
+            },
+            "startdescription": "……………………",
+            "craftable": false,
+            "hintonly": true
+        }
+    ]
+}

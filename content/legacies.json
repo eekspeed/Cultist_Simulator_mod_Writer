@@ -1,0 +1,19 @@
+{
+    "legacies": [
+        {
+            "id": "legacies_author",
+            "label": "书撰",
+            "description": "九大图书馆未能穷尽五重历史，二十四相，门关不得不向后来者开放。",
+            "startdescription": "唯以尤赛所示人类之辉，昭万千往日余光。",
+            "effects": {
+                "card_salebook_1": 1,
+                "myself": 1
+            },
+            "image": "legacies_author",
+            "fromEnding": "default",
+            "availableWithoutEndingMatch": true,
+            "startingVerbId": "work",
+            "newstart": true
+        }
+    ]
+}

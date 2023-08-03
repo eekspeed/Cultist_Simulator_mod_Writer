@@ -1,0 +1,82 @@
+{
+    "recipes": [
+        {
+            "id": "buy_stationery",
+            "actionId": "verb_cooperate",
+            "label": "买文具",
+            "startdescription": "墨水中金粉的密度与浓度，不同质地笔尖与纸张的摩擦……",
+            "description": "反复抉择之下，钱财尽其所用。",
+            "requirements": {
+                "place_smallshop": 1,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1,
+                "good_stationery": 1
+            },
+            "warmup": 20,
+            "craftable": true
+        },
+        {
+            "id": "explorevaultfailure_nofunds",
+            "actionId": "verb_cooperate",
+            "label": "后勤不力",
+            "startdescription": "补给开始紧缺。除非投入更多资金，否则我们只能被迫放弃前进。",
+            "description": "尘埃落定后，我们可以再试一次。",
+            "requirements": {
+                "funds": -1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "explorevaultfailure_nofollowers",
+            "actionId": "verb_cooperate",
+            "label": "难以为继",
+            "startdescription": "合作者们无法突破阻碍，要么见好就收，要么让合适的人处理此事。",
+            "description": "合作者们将属于书撰的那份带回。",
+            "requirements": {
+                "aspect_partner": -1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "explore_leveldown",
+            "actionId": "explore_leveldown",
+            "label": "一名合作者受创！",
+            "startdescription": "合作者以重伤为代价逃离。",
+            "description": "这样的伤害会留下永远的代价。[此人的阶位永久下降一阶。]",
+            "craftable": false,
+            "mutations": [
+                {
+                    "filterOnAspectId": "aspect_partner",
+                    "mutateAspectId": "aspect_level",
+                    "mutationLevel": -1,
+                    "additive": true
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "rec_exptip1",
+            "actionId": "verb_cooperate",
+            "label": "买文具？",
+            "startdescription": "人们戏称这条街道为“艺术殿堂”。但我不得不感谢这些步履悠悠神神叨叨的行人，没有其随心所欲的作风，就没有这些质量过硬的店铺。",
+            "craftable": false,
+            "requirements": {
+                "place_smallshop": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "rec_exptip2",
+            "actionId": "verb_cooperate",
+            "label": "探索藏宝地？",
+            "startdescription": "书撰没有说走就走的旅行，只有周密无遗的探索计划与后勤保障。虽然通常毫无用处，但其中最重要的正是做计划的过程。",
+            "craftable": false,
+            "requirements": {
+                "vault": 1
+            },
+            "hintonly": true
+        }
+    ]
+}

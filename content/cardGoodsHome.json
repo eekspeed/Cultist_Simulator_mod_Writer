@@ -1,0 +1,61 @@
+{
+    "elements": [
+        {
+            "id": "book_2_edge",
+            "label": "《假面骑士：G4计划》",
+            "description": "一张蓝色近代DVD光盘，标题为“奥特曼大战”，其下的集数编号模糊不清。",
+            "aspects": {
+                "edge": 2,
+                "aspect_value": 6
+            },
+            "unique": true,
+            "icon":"book_2_edge"
+        },
+        {
+            "id": "spiritsheart",
+            "label": "精灵之心",
+            "description": "从一只血脉惊人的精灵身上获得的心脏。",
+            "aspects": {
+
+            }
+        },
+        {
+            "id": "ryukibelt",
+            "label": "龙骑腰带",
+            "description": "塑料感十足恰恰说明了这玩意是真货。"
+        },
+        {
+            "id": "heavyarmour",
+            "label": "生物重甲胚胎",
+            "description": "一枚短期寄生生物胚胎，依靠液体进行物质交换，根据宿主体型逐渐成长，完全包裹宿主后开始硬化直至死亡，最终形成全身护甲，应注意在彻底硬化前保留可能需要的感光、通气与物质交换孔。"
+        },
+        {
+            "id": "ink_12_airgel",
+            "label": "大气水母凝胶",
+            "description": "“本水母的设计理念是在气态行星上实现K策略发展。”至少培养皿前面的简介是这么说的。",
+            "aspects":{
+                "aspect_ink": 1,
+                "heart":12
+            }
+        },
+        {
+            "id": "proskeletonstab",
+            "label": "蛋白质骨架稳定剂",
+            "description": "通过将心与杯直接以放射性粒子形式注入细胞生物的体液系统中以获取足够强大的身体素质。速成实验品。",
+            "aspects":{
+                "ingredient": 1,
+                "heart":10,
+                "grail":6
+            }
+        },
+        {
+            "id": "wurenmooncake",
+            "label": "坚不可摧的五仁月饼",
+            "description": "与GTX 690并称为两大战术核武器。",
+            "aspects":{
+                "aspect_weapon": 1,
+                "winter":4
+            }
+        }
+    ]
+}

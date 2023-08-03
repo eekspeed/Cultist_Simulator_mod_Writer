@@ -1,0 +1,68 @@
+{
+    "elements": [
+        {
+            "id": "lock_aki_loveforkon",
+            "label": "K-ON！的演唱会",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "我们要让吵着要去看红白歌会和闹着要去看魔法未来的双方达成折中方案。"
+        },
+        {
+            "id": "lock_aki_shrine",
+            "label": "博丽神社",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "这种一丈长度的白色檀纸本质上和口嚼酒是一种东西。要拿到它并不容易。"
+        },
+        {
+            "id": "lock_aki_battleofwits",
+            "label": "智略对决",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "原本的计划是安排弹丸论破玩家进行推理竞技，安排黑暗之魂玩家对战异能文豪。"
+        },
+        {
+            "id": "lock_aki_sex",
+            "label": "夜晚的秋叶原",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "one last kiss唱八遍的时间足以让站在两侧的联排jk换一遍人。"
+        },
+        {
+            "id": "lock_aki_fgo",
+            "label": "冬木市",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "以阿瓦隆为基石指向大圣杯……如能打开通道，天知道会发生什么。"
+        },
+        {
+            "id": "lock_aki_crossroad",
+            "label": "《crossroad》",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "呐！\n我是不是在哪个考场见过你？\n我也是。\n你的名次是……"
+        },
+        {
+            "id": "lock_aki_cartoon",
+            "label": "拜师真城最高",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "漫画教学第一册：从入门到入土。"
+        },
+        {
+            "id": "lock_aki_maidcafe",
+            "label": "调教咖啡厅",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "纯度极高的死宅领域，绝非凡人可入。"
+        }
+    ]
+}

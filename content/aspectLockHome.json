@@ -1,0 +1,20 @@
+{
+    "elements": [
+        {
+            "id": "lock_home_lostway",
+            "label": "复杂路况",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "位于香港油尖旺区尖沙咀……后面是哪来着？算了管他呢，导个航好了。"
+        },
+        {
+            "id": "lock_home_hideroom",
+            "label": "隐藏隔间",
+            "aspects": {
+                "aspect_lock": 1
+            },
+            "description": "以这里寸土寸金的地理位置，空间布局不可能是这种状况，必然存在我们没有发现的房间。"
+        }
+    ]
+}

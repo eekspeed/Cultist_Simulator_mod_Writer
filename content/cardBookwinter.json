@@ -1,0 +1,142 @@
+{
+    "elements": [
+        {
+            "id": "book_2_winter",
+            "label": "《反叛的大魔王》",
+            "description": "绝不承认此书之阶位。绝不否认此书之阶位。",
+            "aspects": {
+                "aspect_original": 1,
+                "winter": 2,
+                "aspect_value": 6
+            },
+            "unique": true,
+            "icon": "book_2_winter"
+        },
+        {
+            "id": "book_2_winter_t",
+            "label": "《反叛的大魔王》",
+            "description": "绝不承认此书之阶位。绝不否认此书之阶位。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "winter": 2,
+                "aspect_value": 2
+            },
+            "unique": false,
+            "icon": "book_2_winter"
+        },
+        {
+            "id": "book_4_winter",
+            "label": "《被侮辱与被损害的人》",
+            "description": "陀思妥耶夫斯基将更大的分裂投射到某种社会现象上……我们并不知道他是否预言了后来震撼世人的斗争，但分裂确实是那片土地上笼罩的黄昏之色。",
+            "aspects": {
+                "aspect_original": 1,
+                "winter": 4,
+                "aspect_value": 12,
+                "aspect_russian": 1
+            },
+            "unique": true,
+            "icon": "book_4_winter"
+        },
+        {
+            "id": "book_4_winter_t",
+            "label": "《被侮辱与被损害的人》",
+            "description": "陀思妥耶夫斯基将更大的分裂投射到某种社会现象上……我们并不知道他是否预言了后来震撼世人的斗争，但分裂确实是那片土地上笼罩的黄昏之色。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "winter": 4,
+                "aspect_value": 4
+            },
+            "unique": false,
+            "icon": "book_4_winter"
+        },
+        {
+            "id": "book_8_winter",
+            "label": "《西游记》",
+            "description": "勇者读其争天斗地，智者读其伏脉千里，奸者读其上下谋算，空者读其赤诚干净。",
+            "aspects": {
+                "aspect_original": 1,
+                "winter": 8,
+                "moth": 8,
+                "aspect_value": 24,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_8_winter"
+        },
+        {
+            "id": "book_8_winter_t",
+            "label": "《西游记》",
+            "description": "勇者读其争天斗地，智者读其伏脉千里，奸者读其上下谋算，空者读其赤诚干净。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "winter": 8,
+                "moth": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon": "book_8_winter"
+        },
+        {
+            "id": "book_10_winter",
+            "label": "《聊斋志异》",
+            "description": "写鬼写妖高人一等，刺贪刺虐入骨三分。",
+            "aspects": {
+                "aspect_original": 1,
+                "winter": 10,
+                "aspect_value": 30,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_10_winter"
+        },
+        {
+            "id": "book_10_winter_t",
+            "label": "《聊斋志异》",
+            "description": "写鬼写妖高人一等，刺贪刺虐入骨三分。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "winter": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_winter"
+        },
+        {
+            "id": "book_12_winter",
+            "label": "《搜神记》",
+            "description": "及其著述，亦足以发明神道之不诬也。群言百家，不可胜览；耳目所受，不可胜载。亦粗取足以演八略之旨，成其微说而已。幸将来好事之士，录其根体，有以游心寓目，而无尤焉。",
+            "aspects": {
+                "aspect_original": 1,
+                "winter": 10,
+                "aspect_value": 30,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_12_winter"
+        },
+        {
+            "id": "book_12_winter_t",
+            "label": "《搜神记》",
+            "description": "及其著述，亦足以发明神道之不诬也。群言百家，不可胜览；耳目所受，不可胜载。亦粗取足以演八略之旨，成其微说而已。幸将来好事之士，录其根体，有以游心寓目，而无尤焉。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "winter": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_12_winter"
+        },
+        {
+            "id": "book_15_winter",
+            "label": "《静静的顿河》",
+            "description": "战争，和平，幸福，苦难，意义，虚无，最初始于静默，最终终于静默。",
+            "aspects": {
+                "aspect_original": 1,
+                "winter": 15,
+                "aspect_russian": 1
+            },
+            "unique": true,
+            "icon": "book_15_winter"
+        }
+    ]
+}

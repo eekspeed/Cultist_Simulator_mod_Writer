@@ -1,0 +1,141 @@
+{
+    "elements": [
+        {
+            "id": "book_4_forge",
+            "label": "《抱朴子》",
+            "description": "夫金丹之为物，烧之愈久，变化愈妙。黄金入火，二百炼不消，埋之，毕天不朽。服此二药，炼人身体，故能令人不老不死。",
+            "aspects": {
+                "aspect_original": 1,
+                "forge": 4,
+                "aspect_value": 12,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_4_forge"
+        },
+        {
+            "id": "book_4_forge_t",
+            "label": "《抱朴子》",
+            "description": "夫金丹之为物，烧之愈久，变化愈妙。黄金入火，二百炼不消，埋之，毕天不朽。服此二药，炼人身体，故能令人不老不死。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "forge": 4,
+                "aspect_value": 4
+            },
+            "unique": false,
+            "icon": "book_4_forge"
+        },
+        {
+            "id": "book_6_forge",
+            "label": "《竹人录》",
+            "description": "金元钰编著。嘉庆十二年刊行。",
+            "aspects": {
+                "aspect_original": 1,
+                "forge": 6,
+                "aspect_value": 18,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_6_forge"
+        },
+        {
+            "id": "book_6_forge_t",
+            "label": "《竹人录》",
+            "description": "金元钰编著。嘉庆十二年刊行。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "forge": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon": "book_6_forge"
+        },
+        {
+            "id": "book_8_forge",
+            "label": "《陶说》",
+            "description": "草野编氓，目不睹先生礼器法物，而瓦盆上缶，无人不资为饮食之用。",
+            "aspects": {
+                "aspect_original": 1,
+                "forge": 8,
+                "aspect_value": 24,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_8_forge"
+        },
+        {
+            "id": "book_8_forge_t",
+            "label": "《陶说》",
+            "description": "草野编氓，目不睹先生礼器法物，而瓦盆上缶，无人不资为饮食之用。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "forge": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon": "book_8_forge"
+        },
+        {
+            "id": "book_10_forge",
+            "label": "《铁冶志》",
+            "description": "其抄本藏于圣彼得堡国立大学东方系图书馆，系曹寅旧藏。",
+            "aspects": {
+                "aspect_original": 1,
+                "forge": 10,
+                "aspect_value": 30,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_10_forge"
+        },
+        {
+            "id": "book_10_forge_t",
+            "label": "《铁冶志》",
+            "description": "其抄本藏于圣彼得堡国立大学东方系图书馆，系曹寅旧藏。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "forge": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_forge"
+        },
+        {
+            "id": "book_14_forge",
+            "label": "《考工记》",
+            "description": "知得创物，巧者述之，守之世，谓之工。百工之事，皆圣人之作也。烁金以为刃，凝土以为器，作车以行陆，作舟行水，此皆圣人之所作也。天有时，地有气，材有美，工有巧，合此四者，然后可以为良。",
+            "aspects": {
+                "aspect_original": 1,
+                "forge": 14,
+                "aspect_value": 42,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_14_forge"
+        },
+        {
+            "id": "book_14_forge_t",
+            "label": "《考工记》",
+            "description": "知得创物，巧者述之，守之世，谓之工。百工之事，皆圣人之作也。烁金以为刃，凝土以为器，作车以行陆，作舟行水，此皆圣人之所作也。天有时，地有气，材有美，工有巧，合此四者，然后可以为良。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "forge": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon": "book_14_forge"
+        },
+        {
+            "id": "book_15_forge",
+            "label": "《天工开物》",
+            "description": "天行健，君子以自强不息。",
+            "aspects": {
+                "aspect_original": 1,
+                "forge": 15,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_15_forge"
+        }
+    ]
+}

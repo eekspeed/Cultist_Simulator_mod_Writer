@@ -1,0 +1,10 @@
+{
+    "elements": [
+        {
+            "id": "aspect_levelup",
+            "label": ".",
+            "isAspect": true,
+            "description": "此性相控制书撰晋升。"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "elements": [
+        {
+            "id": "soldplace",
+            "label": "拍卖",
+            "isAspect": true,
+            "description": "属于古币的集市。"
+        },
+        {
+            "id": "aspect_lock",
+            "label": "阻碍",
+            "isAspect": true,
+            "description": "通往收获的门扉，需足够的阶位才可通过。"
+        }
+    ]
+}

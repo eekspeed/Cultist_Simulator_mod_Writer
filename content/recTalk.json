@@ -1,0 +1,84 @@
+{
+    "recipes": [
+        {
+            "id": "talk_partner",
+            "actionId": "verb_talk",
+            "craftable": true,
+            "description": "无话可谈。",
+            "label": "与合作者交谈",
+            "startdescription": "书撰的合作者来自无穷无尽的可能性，此亦书撰渊海之识的重要源流。",
+            "warmup": 60,
+            "requirements": {
+                "aspect_partner": 1
+            },
+            "slots": [
+                {
+                    "id": "s_talk",
+                    "label": "话题",
+                    "description": "谈话的主题，或目标",
+                    "required": {
+                        "aspect_original": 1,
+                        "aspect_transcript": 1,
+                        "aspect_partner": 1,
+                        "aspect_bookwriter": 1,
+                        "tool": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "sunway_akihabara_1",
+                    "chance": 100
+                },
+                {
+                    "id": "sunway_akihabara_2",
+                    "chance": 100
+                },
+                {
+                    "id": "sunway_akihabara_3",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "talk_friend",
+            "actionId": "verb_talk",
+            "craftable": true,
+            "description": "无话可谈。",
+            "label": "与朋友交谈",
+            "startdescription": "但凡书撰上门，便是天大要事。当然，谁说满足精神上偶尔对朋友的需求不是大事呢？",
+            "warmup": 60,
+            "requirements": {
+                "aspect_friend": 1
+            },
+            "slots": [
+                {
+                    "id": "s_talk",
+                    "label": "话题",
+                    "description": "谈话的主题，或目标",
+                    "required": {
+                        "paper_4_feigaozhi": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "jileniao_cartoon",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "rec_talktip1",
+            "actionId": "verb_talk",
+            "label": "与熟人交谈？",
+            "startdescription": "这最多涉及到无关痛痒的话题。在深入之前，必须点明司书监以邀请其参与合作。",
+            "craftable": false,
+            "requirements": {
+                "acquaintance": 1,
+                "card_booksupervisor": -1
+            },
+            "hintonly": true
+        }
+    ]
+}

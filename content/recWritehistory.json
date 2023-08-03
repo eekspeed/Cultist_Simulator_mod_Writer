@@ -1,0 +1,417 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_history_tip",
+            "label": "撰写《三坟》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 105
+            },
+            "startdescription": "伏羲、神农、黄帝之书……[待补充]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_history_link",
+            "label": "撰写《三坟》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 105,
+
+                "aspect_level": 15
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "伏羲、神农、黄帝之书，谓之《三坟》，言大道也。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_history",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_history",
+            "label": "撰写《三坟》",
+            "actionId": "write_15_history",
+            "effects": {
+                "book_15_history": 1
+            },
+            "startdescription": "伏羲、神农、黄帝之书，谓之《三坟》，言大道也。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_14_history_tip",
+            "label": "撰写《摩诃婆罗多》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 98
+            },
+            "startdescription": "法、利、欲和解脱，婆罗多族雄牛。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_14_history_link",
+            "label": "撰写《摩诃婆罗多》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 98,
+
+                "aspect_level": 14,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "法、利、欲和解脱，婆罗多族雄牛。这里有，别处有，这里无，别处无。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_history",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_14_history",
+            "label": "撰写《摩诃婆罗多》",
+            "actionId": "write_14_history",
+            "effects": {
+                "book_14_history": 1
+            },
+            "startdescription": "法、利、欲和解脱，婆罗多族雄牛。这里有，别处有，这里无，别处无。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_12_history_1_tip",
+            "label": "撰写《太平广记》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 84
+            },
+            "startdescription": "撰者十余人。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_12_history_1_link",
+            "label": "撰写《太平广记》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 84,
+
+                "aspect_level": 12,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "撰者十余人，名者李明远，吕子藏，赵亚之，王守节，张师黯，殷德川，李孟雍，扈日用，宋太素，徐鼎臣，吴正仪等。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_history",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_12_history_1",
+            "label": "撰写《太平广记》",
+            "actionId": "write_14_history",
+            "effects": {
+                "book_14_history": 1
+            },
+            "startdescription": "撰者十余人，名者李明远，吕子藏，赵亚之，王守节，张师黯，殷德川，李孟雍，扈日用，宋太素，徐鼎臣，吴正仪等。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_history_tip",
+            "label": "撰写《水经注》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 70
+            },
+            "startdescription": "郦道元以桑钦所撰《水经》为纲……[欲撰此书，另需二激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_history_link",
+            "label": "撰写《水经注》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 70,
+
+                "aspect_level": 10,
+
+                "passion": 2
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "郦道元以桑钦所撰《水经》为纲，考证天下水系所成。",
+            "description": "需千锤百炼，血气焚炎。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_history",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_history",
+            "label": "撰写《水经注》",
+            "actionId": "write_10_history",
+            "effects": {
+                "book_10_history": 1
+            },
+            "startdescription": "郦道元以桑钦所撰《水经》为纲，考证天下水系所成。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_8_history_tip",
+            "label": "撰写《七略》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 56
+            },
+            "startdescription": "此书辨章学术，考镜源流……[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_8_history_link",
+            "label": "撰写《七略》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 56,
+
+                "aspect_level": 8,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "此书辨章学术，考镜源流，分辑略、六艺略、诸子略、诗赋略、兵书略、数术略、方技略七部。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_8_history",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_8_history",
+            "label": "撰写《七略》",
+            "actionId": "write_8_history",
+            "effects": {
+                "book_8_history": 1
+            },
+            "startdescription": "此书辨章学术，考镜源流，分辑略、六艺略、诸子略、诗赋略、兵书略、数术略、方技略七部。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_6_history_tip",
+            "label": "撰写《帝都物语》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 42
+            },
+            "startdescription": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_6_history_link",
+            "label": "撰写《帝都物语》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 42,
+
+                "aspect_level": 6,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！等等，没有什么邪恶的阴阳师嘛。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_6_history",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_6_history",
+            "label": "撰写《帝都物语》",
+            "actionId": "write_6_history",
+            "effects": {
+                "book_6_history": 1
+            },
+            "startdescription": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！等等，没有什么邪恶的阴阳师嘛。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_4_history_tip",
+            "label": "撰写《查尔斯·迪克斯特·瓦德事件》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 28
+            },
+            "startdescription": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_4_history_link",
+            "label": "撰写《查尔斯·迪克斯特·瓦德事件》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "secrethistories": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。如果不是某位不可分离者的强烈要求，此书将会在某些地方公开发行。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_history",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_4_history",
+            "label": "撰写《查尔斯·迪克斯特·瓦德事件》",
+            "actionId": "write_4_history",
+            "effects": {
+                "book_4_history": 1
+            },
+            "startdescription": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。如果不是某位不可分离者的强烈要求，此书将会在某些地方公开发行。",
+            "warmup": 200,
+            "craftable": true
+        }
+    ]
+}

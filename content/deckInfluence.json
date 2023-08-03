@@ -1,0 +1,53 @@
+{
+    "decks": [
+        {
+            "id": "deck_Influence1",
+            "label": "礼物",
+            "description": "影响",
+            "spec": [
+                "influenceedgec",
+                "influenceforgec",
+                "influencegrailc",
+                "influenceheartc",
+                "influenceknockc",
+                "influencelanternc",
+                "influencemothc",
+                "influencewinterc"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_Influence2",
+            "label": "礼物",
+            "description": "影响",
+            "spec": [
+                "influenceedgee",
+                "influenceforgee",
+                "influencegraile",
+                "influencehearte",
+                "influenceknocke",
+                "influencelanterne",
+                "influencoth",
+                "influencewintere"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_Influence3",
+            "label": "礼物",
+            "description": "影响",
+            "spec": [
+                "influenceedgeg",
+                "influenceforgeg",
+                "influencegrailg",
+                "influenceheartg",
+                "influenceknockg",
+                "influencelanterng",
+                "influencemothg",
+                "influencewinterg"
+            ],
+            "resetonexhaustion":true
+        }
+    ]
+}
+

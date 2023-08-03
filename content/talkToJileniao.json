@@ -1,0 +1,21 @@
+{
+    "recipes": [
+        {
+            "id": "jileniao_cartoon",
+            "label": "峥嵘岁月",
+            "actionId": "verb_talk",
+            "requirements": {
+                "f_jileniao": 1,
+                "paper_4_feigaozhi": 1
+            },
+            "startdescription": "从北京的地铁出站，他将我们请入家中。“很相似，确实如此，我高低也算个奠基人，画过什么还是记得的。”",
+            "description": "他从卫生间找到一盒儿童装香橙口味高露洁牙膏和一盒痱子粉。“我也只能帮到这里了，那里面有最纯粹的东西。” 临走前我们向他表示敬意，以书撰的身份。",
+            "effects": {
+                "good_gaolujie": 1,
+                "good_feizifen": 1
+            },
+            "craftable": true,
+            "warmup": 30
+        }
+    ]
+}

@@ -1,0 +1,479 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_grail_tip",
+            "label": "撰写《共产党宣言》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 105
+            },
+            "startdescription": "资产阶级在它已经取得了统治的地方把一切非理性的关系都破坏了……[待补充]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_grail_link",
+            "label": "撰写《共产党宣言》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 105,
+
+                "aspect_level": 15
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "资产阶级在它已经取得了统治的地方把一切非理性的关系都破坏了。它无情地斩断了形形色色的羁绊，它把宗教虔诚、骑士热忱、小市民伤感等一切情感的发作淹没在冰水之中。总而言之，它用公开的、直接的剥削代替了由一切幻想掩盖着的剥削。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_grail",
+            "label": "撰写《共产党宣言》",
+            "actionId": "write_15_grail",
+            "effects": {
+                "book_15_grail": 1
+            },
+            "startdescription": "资产阶级在它已经取得了统治的地方把一切非理性的关系都破坏了。它无情地斩断了形形色色的羁绊，它把宗教虔诚、骑士热忱、小市民伤感等一切情感的发作淹没在冰水之中。总而言之，它用公开的、直接的剥削代替了由一切幻想掩盖着的剥削。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_14_grail_tip",
+            "label": "撰写《乐经》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 98
+            },
+            "startdescription": "此蔡邕始修撰……[欲撰此书，另需理性，激情，秘史性相]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_14_grail_link",
+            "label": "撰写《乐经》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 98,
+
+                "aspect_level": 14,
+
+                "reason": 1,
+                "passion": 1,
+                "secrethistories":14
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "此蔡邕始修撰，后成书于蔡琰。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_14_grail",
+            "label": "撰写《乐经》",
+            "actionId": "write_14_grail",
+            "effects": {
+                "book_14_grail": 1
+            },
+            "startdescription": "此蔡邕始修撰，后成书于蔡琰。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_12_grail_1_tip",
+            "label": "撰写《荀子》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 84
+            },
+            "startdescription": "天行有常，而天人相分，故制天命而用之……[欲撰此书，另需理性，激情，秘史性相]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_12_grail_1_link",
+            "label": "撰写《荀子》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 84,
+
+                "aspect_level": 12,
+
+                "reason": 1,
+                "passion": 1,
+                "secrethistories":14
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "天行有常，而天人相分，故制天命而用之；人之性恶，当化性起伪，明分使群，虚一而静，学至于行之而止。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_12_grail_1",
+            "label": "撰写《荀子》",
+            "actionId": "write_14_grail",
+            "effects": {
+                "book_14_grail": 1
+            },
+            "startdescription": "天行有常，而天人相分，故制天命而用之；人之性恶，当化性起伪，明分使群，虚一而静，学至于行之而止。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_grail_tip",
+            "label": "撰写《华严经》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 70
+            },
+            "startdescription": "《大方广佛华严经》系‘法喻因果’并举，‘理智人法’兼备之名称，一经之要旨，皆在此中。[欲撰此书，另需二激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_grail_link",
+            "label": "撰写《华严经》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 70,
+
+                "aspect_level": 10,
+
+                "passion": 2
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "《大方广佛华严经》系‘法喻因果’并举，‘理智人法’兼备之名称，一经之要旨，皆在此中。大，即包含之义；方，即轨范之义；广，即周遍之义。亦即总说一心法界之体用，广大而无边，称为大方广。",
+            "description": "需千锤百炼，血气焚炎。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_grail",
+            "label": "撰写《华严经》",
+            "actionId": "write_10_grail",
+            "effects": {
+                "book_10_grail": 1
+            },
+            "startdescription": "《大方广佛华严经》系‘法喻因果’并举，‘理智人法’兼备之名称，一经之要旨，皆在此中。大，即包含之义；方，即轨范之义；广，即周遍之义。亦即总说一心法界之体用，广大而无边，称为大方广。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_8_grail_tip",
+            "label": "撰写《乐律全书》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 56
+            },
+            "startdescription": "汇编著作一十五……[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_8_grail_link",
+            "label": "撰写《乐律全书》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 56,
+
+                "aspect_level": 8,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "汇编著作一十五：律学新说、乐学新说、算学新说、历学新说、律吕精义、操缦古乐谱、旋宫合乐谱、乡饮诗乐谱、六代小舞谱、小舞乡乐谱、二佾缀兆图、灵星小舞谱、圣寿万年历、万年历备考、律历融通。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_8_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_8_grail",
+            "label": "撰写《乐律全书》",
+            "actionId": "write_8_grail",
+            "effects": {
+                "book_8_grail": 1
+            },
+            "startdescription": "汇编著作一十五：律学新说、乐学新说、算学新说、历学新说、律吕精义、操缦古乐谱、旋宫合乐谱、乡饮诗乐谱、六代小舞谱、小舞乡乐谱、二佾缀兆图、灵星小舞谱、圣寿万年历、万年历备考、律历融通。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_6_grail_tip",
+            "label": "撰写《源氏物语》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 42
+            },
+            "startdescription": "生前诚可憎，死后皆可爱。哀此东篱菊，当年共护持。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_6_grail_link",
+            "label": "撰写《源氏物语》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 42,
+
+                "aspect_level": 6,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "生前诚可憎，死后皆可爱。哀此东篱菊，当年共护持。今秋花上露，只湿一人衣。一花一木，故人相植。一思一念，令人成痴。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_6_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_6_grail",
+            "label": "撰写《源氏物语》",
+            "actionId": "write_6_grail",
+            "effects": {
+                "book_6_grail": 1
+            },
+            "startdescription": "书撰注：各位都读过“先锋文学”吧，那种东西适合普罗大众读吗？然而物哀的表现形式无处不在，甚至渗透到儿童读物和青少年读物中，此所谓霓虹文化之天坑。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_4_grail_tip",
+            "label": "撰写《论身体各部分的功能》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 28
+            },
+            "startdescription": "盖文于公元170年左右在罗马写成。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_4_grail_link",
+            "label": "撰写《论身体各部分的功能》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "盖文于公元170年左右在罗马写成。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_4_grail",
+            "label": "撰写《论身体各部分的功能》",
+            "actionId": "write_4_grail",
+            "effects": {
+                "book_4_grail": 1
+            },
+            "startdescription": "盖文于公元170年左右在罗马写成。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_2_grail_tip",
+            "label": "撰写《罗叉摩那伐底穿刺之林》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 28
+            },
+            "startdescription": "旁伽罗将梵子河视为应许，以最原始的方式向“天界”献祭，以寻求“来自高山的庇佑”……[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_2_grail_link",
+            "label": "撰写《罗叉摩那伐底穿刺之林》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "grail": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "旁伽罗将梵子河视为应许，以最原始的方式向“天界”献祭，以寻求“来自高山的庇佑”……",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_grail",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_2_grail",
+            "label": "撰写《罗叉摩那伐底穿刺之林》",
+            "actionId": "write_4_grail",
+            "effects": {
+                "book_4_grail": 1
+            },
+            "startdescription": "旁伽罗将梵子河视为应许，以最原始的方式向“天界”献祭，以寻求“来自高山的庇佑”……",
+            "warmup": 200,
+            "craftable": true
+        }
+        
+    ]
+}

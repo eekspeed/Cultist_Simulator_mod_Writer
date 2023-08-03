@@ -1,0 +1,402 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_moth_tip",
+            "label": "撰写《道诡异仙》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 105
+            },
+            "startdescription": "如何评价？只能度过一个相对失败的人生，速速下跪！正确的，直接的，形而上学的，一针见血的，神中神典中典，噫，道爷我成了！一眼丁真，普信男真下头，哪有什么坐忘道，娃，你着相了，怎么说话呢，没有米线的东西！[待补充]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_moth_link",
+            "label": "撰写《道诡异仙》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 105,
+
+                "aspect_level": 15
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "如何评价？只能度过一个相对失败的人生，速速下跪！正确的，直接的，形而上学的，一针见血的，神中神典中典，噫，道爷我成了！一眼丁真，普信男真下头，哪有什么坐忘道，娃，你着相了，怎么说话呢，没有米线的东西！感觉不如……嘿嘿嘿小小的，香香的，玉玉了，兄弟们打个郊县，开了就是挂？差不多得了（流汗黄豆），互联网真是太精彩了。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_moth",
+            "label": "撰写《道诡异仙》",
+            "actionId": "write_15_moth",
+            "effects": {
+                "book_15_moth": 1
+            },
+            "startdescription": "如何评价？只能度过一个相对失败的人生，速速下跪！正确的，直接的，形而上学的，一针见血的，神中神典中典，噫，道爷我成了！一眼丁真，普信男真下头，哪有什么坐忘道，娃，你着相了，怎么说话呢，没有米线的东西！感觉不如……嘿嘿嘿小小的，香香的，玉玉了，兄弟们打个郊县，开了就是挂？差不多得了（流汗黄豆），互联网真是太精彩了。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_14_moth_tip",
+            "label": "撰写《鲁班书》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 98
+            },
+            "startdescription": "习学此书，少而无父，老而无子，成而无妻，长而无夫，四体残损。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_14_moth_link",
+            "label": "撰写《鲁班书》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 98,
+
+                "aspect_level": 14,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "习学此书，少而无父，老而无子，成而无妻，长而无夫，四体残损，有一者入门，齐具者大成。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_14_moth",
+            "label": "撰写《鲁班书》",
+            "actionId": "write_14_moth",
+            "effects": {
+                "book_14_moth": 1
+            },
+            "startdescription": "习学此书，少而无父，老而无子，成而无妻，长而无夫，四体残损，有一者入门，齐具者大成。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_12_moth_1_tip",
+            "label": "撰写《世说新语》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 84
+            },
+            "startdescription": "苟欲爱奇而不详事理。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_12_moth_1_link",
+            "label": "撰写《世说新语》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 84,
+
+                "aspect_level": 12,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "苟欲爱奇而不详事理。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_12_moth_1",
+            "label": "撰写《世说新语》",
+            "actionId": "write_14_moth",
+            "effects": {
+                "book_14_moth": 1
+            },
+            "startdescription": "苟欲爱奇而不详事理。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_moth_tip",
+            "label": "撰写《边城》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 70
+            },
+            "startdescription": "一篇或许只属于文学的文字。[欲撰此书，另需二激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_moth_link",
+            "label": "撰写《边城》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 70,
+
+                "aspect_level": 10,
+
+                "passion": 2
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "一篇或许只属于文学的文字。",
+            "description": "需千锤百炼，血气焚炎。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_moth",
+            "label": "撰写《边城》",
+            "actionId": "write_10_moth",
+            "effects": {
+                "book_10_moth": 1
+            },
+            "startdescription": "一篇或许只属于文学的文字。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_6_moth_tip",
+            "label": "撰写《神仙戏术》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 42
+            },
+            "startdescription": "“讲到这里我们就要批评一下某位编剧了，把《魔术师》的男女情爱压下去，哪怕学学宫闱的含蓄，这书绝对不止那点成就。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_6_moth_link",
+            "label": "撰写《神仙戏术》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 42,
+
+                "aspect_level": 6,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "“讲到这里我们就要批评一下某位编剧了，把《魔术师》的男女情爱压下去，哪怕学学宫闱的含蓄，这书绝对不止那点成就。借此也劝戒某些书撰，好好想想自己撰写东西到底是为了书多一些还是为了钱多一些，既然身为书撰，希望你们的文字里只有最纯粹的东西。”",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_6_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_6_moth",
+            "label": "撰写《神仙戏术》",
+            "actionId": "write_6_moth",
+            "effects": {
+                "book_6_moth": 1
+            },
+            "startdescription": "“讲到这里我们就要批评一下某位编剧了，把《魔术师》的男女情爱压下去，哪怕学学宫闱的含蓄，这书绝对不止那点成就。借此也劝戒某些书撰，好好想想自己撰写东西到底是为了书多一些还是为了钱多一些，既然身为书撰，希望你们的文字里只有最纯粹的东西。”",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_4_moth_tip",
+            "label": "撰写《项塔兰》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 28
+            },
+            "startdescription": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_4_moth_link",
+            "label": "撰写《项塔兰》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_4_moth",
+            "label": "撰写《项塔兰》",
+            "actionId": "write_4_moth",
+            "effects": {
+                "book_4_moth": 1
+            },
+            "startdescription": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_2_moth_link",
+            "label": "撰写《《The Council》背景剧情考据》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 28,
+
+                "aspect_level": 2,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "“Big Bad Wolf”试图通过修改名称、转嫁情节等方式掩盖游戏背后的信息,但对于学者而言,“黄金教团”的指代已经被戛然而止的结局明确确定。负责剧情考证的相关工作室人员目前已经全部离职，不知所踪。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_2_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_2_moth",
+            "label": "撰写《《The Council》背景剧情考据》",
+            "actionId": "write_2_moth",
+            "effects": {
+                "book_2_moth": 1
+            },
+            "startdescription": "“Big Bad Wolf”试图通过修改名称、转嫁情节等方式掩盖游戏背后的信息,但对于学者而言,“黄金教团”的指代已经被戛然而止的结局明确确定。负责剧情考证的相关工作室人员目前已经全部离职，不知所踪。",
+            "warmup": 200,
+            "craftable": true
+        }
+    ]
+}

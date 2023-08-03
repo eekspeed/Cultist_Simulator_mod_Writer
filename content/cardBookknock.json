@@ -1,0 +1,159 @@
+{
+    "elements": [
+        {
+            "id": "book_4_knock",
+            "label": "《西游补》",
+            "description": "举世穿越，自此书始。",
+            "aspects": {
+                "aspect_original": 1,
+                "knock": 4,
+                "aspect_value": 12
+            },
+            "unique": true,
+            "icon": "book_4_knock"
+        },
+        {
+            "id": "book_4_knock_t",
+            "label": "《西游补》",
+            "description": "举世穿越，自此书始。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "knock": 4,
+                "aspect_value": 4
+            },
+            "unique": false,
+            "icon": "book_4_knock"
+        },
+        {
+            "id": "book_6_knock",
+            "label": "《夷坚志》",
+            "description": "“大禹行而见之，伯益知而名之，夷坚闻而志之”。洪迈以夷坚自谓，则书比《山海经》。",
+            "aspects": {
+                "aspect_original": 1,
+                "knock": 6,
+                "aspect_value": 18
+            },
+            "unique": true,
+            "icon": "book_6_knock"
+        },
+        {
+            "id": "book_6_knock_t",
+            "label": "《夷坚志》",
+            "description": "“大禹行而见之，伯益知而名之，夷坚闻而志之”。洪迈以夷坚自谓，则书比《山海经》。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "knock": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon": "book_6_knock"
+        },
+        {
+            "id": "book_8_knock",
+            "label": "《虞夏书》",
+            "description": "帝言行举止载于典，臣言行举止载于册，地税赋况法载于贡。",
+            "aspects": {
+                "aspect_original": 1,
+                "knock": 8,
+                "aspect_value": 24
+            },
+            "unique": true,
+            "icon": "book_8_knock"
+        },
+        {
+            "id": "book_8_knock_t",
+            "label": "《虞夏书》",
+            "description": "帝言行举止载于典，臣言行举止载于册，地税赋况法载于贡。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "knock": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon": "book_8_knock"
+        },
+        {
+            "id": "book_10_knock",
+            "label": "《周易》",
+            "description": "又《易》道广大，无所不包，旁及天文、地理、乐律、兵法、音员学、算术，以逮方外之炉火，皆可援《易》以为说，而好异者又援以入《易》，故《易》说愈繁。",
+            "aspects": {
+                "aspect_original": 1,
+                "knock": 10,
+                "aspect_value": 30
+            },
+            "unique": true,
+            "icon": "book_10_knock"
+        },
+        {
+            "id": "book_10_knock_t",
+            "label": "《周易》",
+            "description": "又《易》道广大，无所不包，旁及天文、地理、乐律、兵法、音员学、算术，以逮方外之炉火，皆可援《易》以为说，而好异者又援以入《易》，故《易》说愈繁。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "knock": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_knock"
+        },
+        {
+            "id": "book_12_knock",
+            "label": "《奇门遁甲》",
+            "description": "通奇门遁甲，上知天文、下知地理、中通万物，顺四时、善民意、辅天子、执政令，临大事沉稳不乱、谋戈先机、料事如神、运筹帷握、进则攻敌制胜、退则留后守安。",
+            "aspects": {
+                "aspect_original": 1,
+                "knock": 12,
+                "aspect_value": 36
+            },
+            "unique": true,
+            "icon": "book_12_knock"
+        },
+        {
+            "id": "book_12_knock_t",
+            "label": "《奇门遁甲》",
+            "description": "通奇门遁甲，上知天文、下知地理、中通万物，顺四时、善民意、辅天子、执政令，临大事沉稳不乱、谋戈先机、料事如神、运筹帷握、进则攻敌制胜、退则留后守安。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "knock": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon": "book_12_knock"
+        },
+        {
+            "id": "book_14_knock",
+            "label": "《连山归藏》",
+            "description": "‘连山’者，象山之出云连连不绝。‘归藏’者，万物莫不归藏于其中。周大卜掌三易之法；一曰《连山》，二曰《归藏》，三曰《周易》。其经卦皆八，其别卦皆六十有四。",
+            "aspects": {
+                "aspect_original": 1,
+                "knock": 14,
+                "aspect_value": 42
+            },
+            "unique": true,
+            "icon": "book_14_knock"
+        },
+        {
+            "id": "book_14_knock_t",
+            "label": "《连山归藏》",
+            "description": "‘连山’者，象山之出云连连不绝。‘归藏’者，万物莫不归藏于其中。周大卜掌三易之法；一曰《连山》，二曰《归藏》，三曰《周易》。其经卦皆八，其别卦皆六十有四。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "knock": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon": "book_14_knock"
+        },
+        {
+            "id": "book_15_knock",
+            "label": "《河图洛书》",
+            "description": "河出图，洛出书，圣人则之。",
+            "aspects": {
+                "aspect_original": 1,
+                "knock": 15
+            },
+            "unique": true,
+            "icon": "book_15_knock"
+        }
+    ]
+}

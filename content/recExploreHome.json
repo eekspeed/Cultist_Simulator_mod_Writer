@@ -1,0 +1,736 @@
+{
+    "recipes": [
+        {
+            "id": "place_homeofdead_begin",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "place_homeofdead": 1,
+                "funds": 1,
+                "aspect_partner": 1
+            },
+            "label": "探险开始：书撰住所之行",
+            "startdescription": "如果可能的话，最好只让最具力量者去探索这智慧曾经炽烈闪烁的地方。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explore_home",
+                    "chance": 100
+                }
+            ],
+            "craftable": true,
+            "warmup": 30
+        },
+        {
+            "id": "explore_home",
+            "label": "探险进行中",
+            "actionId": "verb_cooperate",
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "startdescription": "合作者们正在修整。我现在可以追加资金投入，或者再派一名合作者。",
+            "description": ".",
+            "warmup": 30,
+            "alt": [
+                {
+                    "id": "explorevaultfailure_nofunds",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultfailure_nofollowers",
+                    "chance": 100
+                }
+            ],
+            "effects": {
+                "funds": -1
+            },
+            "linked": [
+                {
+                    "id": "encounter_home_1",
+                    "chance": 100
+                },
+                {
+                    "id": "encounter_home_2",
+                    "chance": 100
+                },
+                {
+                    "id": "explore_home_end",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "encounter_home_1",
+            "actionId": "verb_cooperate",
+            "label": "复杂路况",
+            "startdescription": "香港城区的复杂程度在世界上首屈一指，我们需要<b>灯</b>或<b>启</b>的指引，且需浩大到突破愚蠢的GPS定位。",
+            "requirements": {
+                "lock_home_lostway": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_home_lostway_high_lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_lostway_high_konck",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_lostway_mid_lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_lostway_mid_konck",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_lostway_low_lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_lostway_low_konck",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_home_lostway_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_lostway_high_lantern",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "lantern": 10
+            },
+            "label": "我们拜请守夜人，照明驱暗之神",
+            "startdescription": "守夜人行走于世，我们谅必能追随他的目光找到正确的路。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_lostway_success",
+                    "chance": 90
+                },
+                {
+                    "id": "lock_home_lostway_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_lostway_high_konck",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "knock": 10
+            },
+            "label": "我们拜请拾滩鸦，明晓失物之神",
+            "startdescription": "拾滩鸦通晓秘密，谅必我们能走对路。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_lostway_success",
+                    "chance": 90
+                },
+                {
+                    "id": "lock_home_lostway_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_lostway_mid_lantern",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "lantern": 5
+            },
+            "label": "我们拜请守夜人，指引前路之神",
+            "startdescription": "我们的五感变得敏锐。我们应该能够找到路。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_lostway_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_home_lostway_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_lostway_mid_konck",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "knock": 5
+            },
+            "label": "我们拜请拾滩鸦，开启大地之神",
+            "startdescription": "我们擅长寻找隐藏道路，大概我们能借此抵达目的地。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_lostway_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_home_lostway_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_lostway_low_lantern",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "lantern": 1
+            },
+            "label": "我们拜请守夜人，无怜悯心之神",
+            "startdescription": "我们携带着光，或许能够找到道路。这可要费一番功夫。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_lostway_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_home_lostway_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_lostway_low_konck",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "knock": 1
+            },
+            "label": "我们拜请拾滩鸦，辖无主之物之神",
+            "startdescription": "我们对“开启”一事还有些能耐，或许能够找到道路。这可要费一番功夫。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_lostway_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_home_lostway_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_lostway_success",
+            "actionId": "verb_cooperate",
+            "label": "抵达门前",
+            "startdescription": "我们已站在一扇厚重的门之前，其背后便是昔日同僚的住处。",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_homeofdead",
+                    "mutate": "lock_home_lostway",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_home",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_home_lostway_failure",
+            "actionId": "verb_cooperate",
+            "label": "迷路",
+            "startdescription": "呢度系尖沙嘴吗？唔系，呢度系老九龙……",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_home",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_home_2",
+            "actionId": "verb_cooperate",
+            "label": "隐藏隔间",
+            "startdescription": "除非有浩大的<b>铸</b>或<b>启</b>，否则我们难以找到隐藏的房间。",
+            "requirements": {
+                "lock_home_hideroom": 1
+            },
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "助力",
+                    "description": "资金对探险来说必不可少。适合的合作者则能拿到更多东西。",
+                    "required": {
+                        "aspect_partner": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "lock_home_hideroom_high_forge",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_hideroom_high_konck",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_hideroom_mid_forge",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_hideroom_mid_konck",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_hideroom_low_forge",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_hideroom_low_konck",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_home_hideroom_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_hideroom_high_forge",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "forge": 10
+            },
+            "label": "我们拜请炉子姐，终结所有夜晚之神",
+            "startdescription": "直接喊炉子姐怎么了？虽然炉子姐既暴躁又病娇，但在座的各位谁还不认识个骄阳了？",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_hideroom_success",
+                    "chance": 90
+                },
+                {
+                    "id": "lock_home_hideroom_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_hideroom_high_konck",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "knock": 10
+            },
+            "label": "我们拜请双角斧，待于门关之神",
+            "startdescription": "我们拥有强大的洞开之力，谅必能够能打碎一切拦在我们面前的墙壁。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_hideroom_success",
+                    "chance": 90
+                },
+                {
+                    "id": "lock_home_hideroom_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_hideroom_mid_forge",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "forge": 5
+            },
+            "label": "我们拜请白日铸炉，终结不变之神",
+            "startdescription": "我们准备了工具，应该能够打穿阻隔的墙壁。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_hideroom_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_home_hideroom_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_hideroom_mid_konck",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "knock": 5
+            },
+            "label": "我们拜请双角斧， 因时允行之神",
+            "startdescription": "我们擅长打通上锁的密道，大概能打穿面前的阻碍。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_hideroom_success",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_home_hideroom_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_hideroom_low_forge",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "forge": 1
+            },
+            "label": "我们拜请白日铸炉，以火再造之神",
+            "startdescription": "我们准备好了铸炉之火，或许能够打穿墙壁。这可要费一番功夫。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_hideroom_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_home_hideroom_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_hideroom_low_konck",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "knock": 1
+            },
+            "label": "我们拜请双角斧， 两面双刃之神",
+            "startdescription": "我们对“开启”一事还有些能耐，或许能够打穿墙壁。这可要费一番功夫。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_hideroom_success",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_home_hideroom_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_hideroom_success",
+            "actionId": "verb_cooperate",
+            "label": "破壁而入——",
+            "startdescription": "钢筋混凝土的开裂，伴随着呛人的烟尘——",
+            "description": ".",
+            "mutations": [
+                {
+                    "filter": "place_homeofdead",
+                    "mutate": "lock_home_hideroom",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "encounter_home_3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "lock_home_hideroom_failure",
+            "actionId": "verb_cooperate",
+            "label": "铜墙铁壁",
+            "startdescription": "我们只是在徒劳的刨着一面坚不可摧的墙罢了。",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_home",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "encounter_home_3",
+            "actionId": "verb_cooperate",
+            "label": "突袭！",
+            "startdescription": "和略过的苍白残影！！！敌袭！！！",
+            "alt": [
+                {
+                    "id": "lock_home_spattack_high_moth",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_spattack_high_edge",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_spattack_mid_moth",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_spattack_mid_edge",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_spattack_low_moth",
+                    "chance": 100
+                },
+                {
+                    "id": "lock_home_spattack_low_edge",
+                    "chance": 100
+                }
+            ],
+            "warmup": 5,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "lock_home_spattack_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_spattack_high_moth",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "moth": 18
+            },
+            "label": "急中生智，诓骗敌人",
+            "startdescription": "既然敌人从房间内出现——其一定与那位书撰有所干系！表明我们与那位书撰亦是关系密切至少可以拖延时间！",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_spattack_success1",
+                    "chance": 90
+                },
+                {
+                    "id": "lock_home_spattack_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_spattack_high_edge",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "edge": 18
+            },
+            "label": "我们的力量无人能及",
+            "startdescription": "苍白身影的速度掀起狂风，但我们的力量足以毁灭风暴。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_spattack_success2",
+                    "chance": 90
+                },
+                {
+                    "id": "lock_home_spattack_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_spattack_mid_moth",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "moth": 10
+            },
+            "label": "临危不乱，质问敌人",
+            "startdescription": "两军交战不斩来使——质问起码能争取一丝喘息之机！",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_spattack_success1",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_home_spattack_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_spattack_mid_edge",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "edge": 10
+            },
+            "label": "我们的力量不容小觑",
+            "startdescription": "苍白身影伴随着寒光闪过——大概我们能挡住突袭。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_spattack_success2",
+                    "chance": 70
+                },
+                {
+                    "id": "lock_home_spattack_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_spattack_low_moth",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "moth": 5
+            },
+            "label": "色厉内荏，威慑敌人",
+            "startdescription": "虽然并非冷静，愤怒或许能使敌人稍显忌惮——大概吧。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_spattack_success1",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_home_spattack_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_spattack_low_edge",
+            "actionId": "verb_cooperate",
+            "requirements": {
+                "edge": 5
+            },
+            "label": "我们的力量不足",
+            "startdescription": "我们或许能阻止突袭，又或许会为贸然深入深感后悔。",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "lock_home_spattack_success2",
+                    "chance": 30
+                },
+                {
+                    "id": "lock_home_spattack_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "lock_home_spattack_success1",
+            "actionId": "verb_cooperate",
+            "label": "暂时的信任",
+            "startdescription": "无论袭击者是否真的相信我们，她至少停了下来——好吧，并不一定是‘她’，从外表印象来看姑且这么称呼吧。",
+            "description": ".",
+            "effects": {
+                "f_spirit": 1
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_home",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_home_spattack_success2",
+            "actionId": "verb_cooperate",
+            "label": "粉碎一切",
+            "startdescription": "已经没有什么袭击者了，只有满地的血肉残骸。",
+            "description": ".",
+            "effects": {
+                "spiritsheart": 1
+            },
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explore_home",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "lock_home_spattack_failure",
+            "actionId": "verb_cooperate",
+            "label": "伤亡！",
+            "startdescription": "前面的合作者倒下了！快撤！",
+            "description": ".",
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "explore_leveldown",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "aspect_partner": 1
+                        }
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "encounter_home_3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 5
+        },
+        {
+            "id": "explore_home_end",
+            "label": "刮地三尺，片缕不留",
+            "actionId": "verb_cooperate",
+            "startdescription": "花盆里的虫卵！垃圾桶里的卫生纸！还有马桶的水箱！衣柜砍成木板！冰箱拆成零件！再来一个人把地板全掀了！",
+            "description": ".",
+            "effects": {
+                "place_homeofdead": -1,
+                "book_2_edge": 1,
+                "ryukibelt": 1,
+                "heavyarmour": 1,
+                "ink_12_airgel": 2,
+                "proskeletonstab": 2,
+                "wurenmooncake": 1
+            },
+            "warmup": 60
+        }
+    ]
+}

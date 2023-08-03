@@ -1,0 +1,1127 @@
+{
+    "elements": [
+        {
+            "id": "pen_15_youxi",
+            "label": "游熙剑残片",
+            "description": "昔武安君佩剑残片，本体或藏于咸阳博物馆，或仍在骊山陵墓中。",
+            "aspects": {
+                "aspect_pen": 1,
+                "edge": 15
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_15_tianren",
+            "label": "天人笔",
+            "description": "通天彻地，唯人独尊。",
+            "aspects": {
+                "aspect_pen": 1,
+                "lantern": 15,
+                "secrethistories": 15
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_14_ziyang",
+            "label": "紫阳笔",
+            "description": "穷天理，明人伦，讲圣言，通事故。[此笔或可臻至巅峰]",
+            "aspects": {
+                "aspect_pen": 1,
+                "lantern": 14,
+                "forge": 14
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_12_jinglong",
+            "label": "惊龙笔",
+            "description": "笔出如震，龙吟微鸣。",
+            "aspects": {
+                "aspect_pen": 1,
+                "edge": 12,
+                "knock": 12
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_10_gui",
+            "label": "鬼笔",
+            "description": "子不语非不存也，通神者自有大罗。",
+            "aspects": {
+                "aspect_pen": 1,
+                "winter": 10,
+                "heart": 10
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_10_zhuge",
+            "label": "诸葛笔",
+            "description": "苏子瞻云：“诸葛笔譬如内法酒，北苑茶，纵有佳者，尙难得。”其彷佛林和靖云：“顷得宛陵葛生笔，如麾百胜之师，横行纸墨，所向如意。”",
+            "aspects": {
+                "aspect_pen": 1,
+                "lantern": 10,
+                "moth": 10
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_8_hu",
+            "label": "湖笔",
+            "description": "倘遇玉堂挥翰手，不嫌索价如珍珠。",
+            "aspects": {
+                "aspect_pen": 1,
+                "lantern": 8,
+                "forge": 8
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_8_juyan",
+            "label": "居延笔",
+            "description": "出土自额济纳土尔扈特旗破城子遗址。",
+            "aspects": {
+                "aspect_pen": 1,
+                "edge": 8,
+                "secrethistories": 8
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_6_dingxiang",
+            "label": "丁香笔",
+            "description": "捻心极圆，束颉有力。",
+            "aspects": {
+                "aspect_pen": 1,
+                "grail": 6,
+                "heart": 6
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_6_zaoxin",
+            "label": "枣心笔",
+            "description": "竹管为套，石墨作心。",
+            "aspects": {
+                "aspect_pen": 1,
+                "forge": 6,
+                "knock": 6
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "ink_14_wulong",
+            "label": "程君房制五龙墨",
+            "description": "坚而有光，黝而能润，舐笔不胶，人纸不晕。程氏称其“上掩千古”。",
+            "aspects": {
+                "aspect_ink": 1,
+                "grail": 14,
+                "forge": 14
+            }
+        },
+        {
+            "id": "ink_12_shicai",
+            "label": "汪节庵制西湖十景诗彩硃墨",
+            "description": "十景曰：“苏堤春晓”“曲院风荷”“三潭印月”“平湖秋月”“柳浪闻莺”“双峰插云”“南屏晚钟”“华港观鱼”“雷峰夕照”“断桥残雪”。",
+            "aspects": {
+                "aspect_ink": 1,
+                "grail": 12,
+                "lantern": 12,
+                "winter": 12,
+                "moth": 12,
+                "forge": 12,
+                "edge": 12,
+                "knock": 12,
+                "heart": 12,
+                "secrethistories": 12
+            }
+        },
+        {
+            "id": "ink_10_qianqiuguang",
+            "label": "曹素功制漱金千秋光墨",
+            "description": "用《周礼》制度，作“三圭二璧”，即“桓圭”、“信圭”、“躬圭”、“蒲璧”、“谷璧”。",
+            "aspects": {
+                "aspect_ink": 1,
+                "lantern": 10,
+                "knock": 10
+            }
+        },
+        {
+            "id": "ink_10_hanyujue",
+            "label": "罗小华制汉玉玦墨",
+            "description": "坚如石，纹如犀，黑如漆，一螺值万钱。",
+            "aspects": {
+                "aspect_ink": 1,
+                "edge": 10,
+                "heart": 10
+            }
+        },
+        {
+            "id": "ink_8_xuanlonghuan",
+            "label": "玄龙焕墨",
+            "description": "朱漆圆盒，盖绘一龙。墨与盒同形，正面中间篆书“玄龙焕”三字，以栏框之，填金；右肩隶书“顺治乙酉年制”六字，填蓝，俱阴识。背镂一龙。一侧“青麟髓”三字，一侧“三韩龙门氏藏”六字，俱楷书阳识。",
+            "aspects": {
+                "aspect_ink": 1,
+                "moth": 8,
+                "forge": 8
+            }
+        },
+        {
+            "id": "ink_6_dandingfang",
+            "label": "霞城丹鼎方墨",
+            "description": "方氏墨谱所载。",
+            "aspects": {
+                "aspect_ink": 1,
+                "grail": 6,
+                "heart": 6
+            }
+        },
+        {
+            "id": "ink_6_xirujin",
+            "label": "汪近圣制惜如金墨",
+            "description": "时人称今之近圣，即昔之廷珪。",
+            "aspects": {
+                "aspect_ink": 1,
+                "winter": 6,
+                "forge": 6
+            }
+        },
+        {
+            "id": "paper_14_xuetaojian",
+            "label": "薛涛笺",
+            "description": "浣花溪上如花客，绿阁深藏人不识。留得溪头瑟瑟波，泼成纸上猩猩色。",
+            "aspects": {
+                "aspect_paper": 1,
+                "lantern": 14,
+                "heart": 14
+            }
+        },
+        {
+            "id": "paper_14_ningshuang",
+            "label": "凝霜纸",
+            "description": "江宁县有官署,齐高帝造纸所也。尝造银光纸以赐王僧虔。",
+            "aspects": {
+                "aspect_paper": 1,
+                "winter": 14,
+                "forge": 14
+            }
+        },
+        {
+            "id": "paper_12_xiegong",
+            "label": "谢公笺",
+            "description": "十样蛮笺山益州，寄来新自浣花头。",
+            "aspects": {
+                "aspect_paper": 1,
+                "grail": 12,
+                "lantern": 12,
+                "winter": 12,
+                "moth": 12,
+                "forge": 12,
+                "edge": 12,
+                "knock": 12,
+                "heart": 12,
+                "secrethistories": 12
+            }
+        },
+        {
+            "id": "paper_10_yanteng",
+            "label": "剡藤纸",
+            "description": "光色透于金版、性不蠹而耐久。",
+            "aspects": {
+                "aspect_paper": 1,
+                "forge": 10,
+                "edge": 10
+            }
+        },
+        {
+            "id": "paper_10_jinsu",
+            "label": "金粟笺",
+            "description": "纸厚重，纹理粗，精细莹滑，久存不朽。",
+            "aspects": {
+                "aspect_paper": 1,
+                "lantern": 10,
+                "edge": 10
+            }
+        },
+        {
+            "id": "paper_8_celi",
+            "label": "侧理纸",
+            "description": "竹，而孙，而龙钟，而斧，而沤，而粉泽，凡经三十五手而成侧理，始可供印。",
+            "aspects": {
+                "aspect_paper": 1,
+                "grail": 8,
+                "knock": 8
+            }
+        },
+        {
+            "id": "paper_6_shuiwen",
+            "label": "水纹纸",
+            "description": "一者缝线帘面，二者阳刻压印。",
+            "aspects": {
+                "aspect_paper": 1,
+                "moth": 6,
+                "heart": 6
+            }
+        },
+        {
+            "id": "paper_6_ciqing",
+            "label": "瓷青纸",
+            "description": "为染溪藤三百固，待渠湔拂一床书。",
+            "aspects": {
+                "aspect_paper": 1,
+                "winter": 6,
+                "forge": 6
+            }
+        }
+    ]
+}

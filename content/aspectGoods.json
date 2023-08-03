@@ -1,0 +1,34 @@
+{
+    "elements": [
+        {
+            "id": "aspect_ink",
+            "label": "墨",
+            "isAspect": true,
+            "description": "寄托之物。"
+        },
+        {
+            "id": "aspect_pen",
+            "label": "笔",
+            "isAspect": true,
+            "description": "书写之物。"
+        },
+        {
+            "id": "aspect_paper",
+            "label": "纸",
+            "isAspect": true,
+            "description": "承载之物。"
+        },
+        {
+            "id": "aspect_memory",
+            "label": "记忆",
+            "isAspect": true,
+            "description": "人活着的三分之一。"
+        },
+        {
+            "id": "aspect_weapon",
+            "label": "武器",
+            "isAspect": true,
+            "description": "杀伐之延伸。"
+        }
+    ]
+}

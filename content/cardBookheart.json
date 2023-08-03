@@ -1,0 +1,190 @@
+{
+    "elements": [
+        {
+            "id": "book_2_heart",
+            "label": "《罗叉摩那伐底穿刺之林》",
+            "description": "旁伽罗将梵子河视为应许，以最原始的方式向“天界”献祭，以寻求“来自高山的庇佑”……",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 2,
+                "aspect_value": 6,
+                "aspect_mine": 1
+            },
+            "unique": true,
+            "icon": "book_2_heart"
+        },
+        {
+            "id": "book_2_heart_t",
+            "label": "《罗叉摩那伐底穿刺之林》",
+            "description": "旁伽罗将梵子河视为应许，以最原始的方式向“天界”献祭，以寻求“来自高山的庇佑”……\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "heart": 2,
+                "aspect_value": 2,
+                "aspect_mine": 1
+            },
+            "unique": false,
+            "icon": "book_2_heart"
+        },
+        {
+            "id": "book_4_heart",
+            "label": "《论身体各部分的功能》",
+            "description": "盖文于公元170年左右在罗马写成。",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 4,
+                "aspect_value": 12
+            },
+            "unique": true,
+            "icon": "book_4_heart"
+        },
+        {
+            "id": "book_4_heart_t",
+            "label": "《论身体各部分的功能》",
+            "description": "盖文于公元170年左右在罗马写成。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "heart": 4,
+                "aspect_value": 4
+            },
+            "unique": false,
+            "icon": "book_4_heart"
+        },
+        {
+            "id": "book_6_heart",
+            "label": "《源氏物语》",
+            "description": "生前诚可憎，死后皆可爱。哀此东篱菊，当年共护持。今秋花上露，只湿一人衣。一花一木，故人相植。一思一念，令人成痴。",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 6,
+                "aspect_value": 18,
+                "aspect_japan": 1
+            },
+            "unique": true,
+            "icon": "book_6_heart"
+        },
+        {
+            "id": "book_6_heart_t",
+            "label": "《源氏物语》",
+            "description": "书撰注：各位都读过“先锋文学”吧，那种东西适合普罗大众读吗？然而物哀的表现形式无处不在，甚至渗透到儿童读物和青少年读物中，此所谓霓虹文化之天坑。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "heart": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon": "book_6_heart"
+        },
+        {
+            "id": "book_8_heart",
+            "label": "《乐律全书》",
+            "description": "汇编著作一十五：律学新说、乐学新说、算学新说、历学新说、律吕精义、操缦古乐谱、旋宫合乐谱、乡饮诗乐谱、六代小舞谱、小舞乡乐谱、二佾缀兆图、灵星小舞谱、圣寿万年历、万年历备考、律历融通。",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 8,
+                "aspect_value": 24,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_8_heart"
+        },
+        {
+            "id": "book_8_heart_t",
+            "label": "《乐律全书》",
+            "description": "汇编著作一十五：律学新说、乐学新说、算学新说、历学新说、律吕精义、操缦古乐谱、旋宫合乐谱、乡饮诗乐谱、六代小舞谱、小舞乡乐谱、二佾缀兆图、灵星小舞谱、圣寿万年历、万年历备考、律历融通。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "heart": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon": "book_8_heart"
+        },
+        {
+            "id": "book_10_heart",
+            "label": "《华严经》",
+            "description": "《大方广佛华严经》系‘法喻因果’并举，‘理智人法’兼备之名称，一经之要旨，皆在此中。大，即包含之义；方，即轨范之义；广，即周遍之义。亦即总说一心法界之体用，广大而无边，称为大方广。",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 10,
+                "aspect_value": 30,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_10_heart"
+        },
+        {
+            "id": "book_10_heart_t",
+            "label": "《华严经》",
+            "description": "《大方广佛华严经》系‘法喻因果’并举，‘理智人法’兼备之名称，一经之要旨，皆在此中。大，即包含之义；方，即轨范之义；广，即周遍之义。亦即总说一心法界之体用，广大而无边，称为大方广。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "heart": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_heart"
+        },
+        {
+            "id": "book_12_heart",
+            "label": "《荀子》",
+            "description": "天行有常，而天人相分，故制天命而用之；人之性恶，当化性起伪，明分使群，虚一而静，学至于行之而止。",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 12,
+                "aspect_value": 36,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_12_heart"
+        },
+        {
+            "id": "book_12_heart_t",
+            "label": "《荀子》",
+            "description": "天行有常，而天人相分，故制天命而用之；人之性恶，当化性起伪，明分使群，虚一而静，学至于行之而止。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "heart": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon": "book_12_heart"
+        },
+        {
+            "id": "book_14_heart",
+            "label": "《乐经》",
+            "description": "此蔡邕始修撰，后成书于蔡琰。",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 14,
+                "aspect_value": 42,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_14_heart"
+        },
+        {
+            "id": "book_14_heart_t",
+            "label": "《乐经》",
+            "description": "此蔡邕始修撰，后成书于蔡琰。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "heart": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon": "book_14_heart"
+        },
+        {
+            "id": "book_15_heart",
+            "label": "《共产党宣言》",
+            "description": "资产阶级在它已经取得了统治的地方把一切非理性的关系都破坏了。它无情地斩断了形形色色的羁绊，它把宗教虔诚、骑士热忱、小市民伤感等一切情感的发作淹没在冰水之中。总而言之，它用公开的、直接的剥削代替了由一切幻想掩盖着的剥削。",
+            "aspects": {
+                "aspect_original": 1,
+                "heart": 15
+            },
+            "unique": true,
+            "icon": "book_15_heart"
+        }
+    ]
+}

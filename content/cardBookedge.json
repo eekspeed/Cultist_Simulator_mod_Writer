@@ -1,0 +1,140 @@
+{
+    "elements": [
+        {
+            "id": "book_6_edge",
+            "label": "《刀剑神域》",
+            "description": "描写了如何在“通过入梦抵达的更高之处”将“守护的意志”转化为“破坏的力量”。很是畅销。",
+            "aspects": {
+                "aspect_original": 1,
+                "edge": 6,
+                "aspect_value": 18,
+                "aspect_japan": 1
+            },
+            "unique": true,
+            "icon":"book_6_edge"
+        },
+        {
+            "id": "book_6_edge_t",
+            "label": "《刀剑神域》",
+            "description": "描写了如何在“通过入梦抵达的更高之处”将“守护的意志”转化为“破坏的力量”。很是畅销。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "edge": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon":"book_6_edge"
+        },
+        {
+            "id": "book_8_edge",
+            "label": "《伊戈尔远征记》",
+            "description": "雅罗斯拉夫和全斯拉夫的所有子孙团结起来！为祖国和民族！",
+            "aspects": {
+                "aspect_original": 1,
+                "edge": 8,
+                "aspect_value": 24,
+                "aspect_russian": 1
+            },
+            "unique": true,
+            "icon":"book_8_edge"
+        },
+        {
+            "id": "book_8_edge_t",
+            "label": "《伊戈尔远征记》",
+            "description": "雅罗斯拉夫和全斯拉夫的所有子孙团结起来！为祖国和民族！\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "edge": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon":"book_8_edge"
+        },
+        {
+            "id": "book_10_edge",
+            "label": "《神策军碑》",
+            "description": "……诚悬笔锋未至，碑石崩解，四面开张，文未过半全碑尽碎，换十余奇石乃成。碑成而不可拓，印则纸作飞灰。",
+            "aspects": {
+                "aspect_original": 1,
+                "edge": 10,
+                "aspect_value": 30,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon":"book_10_edge"
+        },
+        {
+            "id": "book_10_edge_t",
+            "label": "《神策军碑》",
+            "description": "……诚悬笔锋未至，碑石崩解，四面开张，文未过半全碑尽碎，换十余奇石乃成。碑成而不可拓，印则纸作飞灰。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "edge": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon":"book_10_edge"
+        },
+        {
+            "id": "book_12_edge",
+            "label": "《八阵图》",
+            "description": "上下四方曰宇，古往今来曰宙。八阵图中不分天涯海角，不论过去未来，逆转阴阳，变换乾坤，定虚实，成真假，无所不包，无所不能。",
+            "aspects": {
+                "aspect_original": 1,
+                "edge": 12,
+                "knock": 12,
+                "aspect_value": 36
+            },
+            "unique": true,
+            "icon":"book_12_edge"
+        },
+        {
+            "id": "book_12_edge_t",
+            "label": "《八阵图》",
+            "description": "上下四方曰宇，古往今来曰宙。八阵图中不分天涯海角，不论过去未来，逆转阴阳，变换乾坤，定虚实，成真假，无所不包，无所不能。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "edge": 12,
+                "knock": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon":"book_12_edge"
+        },
+        {
+            "id": "book_14_edge",
+            "label": "《纪效新书》",
+            "description": "据一书撰称，近来扬纪效新书之力者李小龙也，以拳经篇第十四所载‘倒插式’大破天下，遂慨叹兵击衰微至此。另据一书撰称，习学此书可成军团指挥，虽难入武庙，亦少逢敌手。",
+            "aspects": {
+                "aspect_original": 1,
+                "edge": 14,
+                "aspect_value": 42
+            },
+            "unique": true,
+            "icon":"book_14_edge"
+        },
+        {
+            "id": "book_14_edge_t",
+            "label": "《纪效新书》",
+            "description": "据一书撰称，近来扬纪效新书之力者李小龙也，以拳经篇第十四所载‘倒插式’大破天下，遂慨叹兵击衰微至此。另据一书撰称，习学此书可成军团指挥，虽难入武庙，亦少逢敌手。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "edge": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon":"book_14_edge"
+        },
+        {
+            "id": "book_15_edge",
+            "label": "《孙子兵法》",
+            "description": "兵者，国之大事，死生之地，存亡之道，不可不察也。故经之以五事，校之以计而索其情：一曰道，二曰天，三曰地，四曰将，五曰法。凡此五者，将莫不闻，知之者胜，不知者不胜。",
+            "aspects": {
+                "aspect_original": 1,
+                "edge": 15
+            },
+            "unique": true,
+            "icon":"book_15_edge"
+        }
+    ]
+}

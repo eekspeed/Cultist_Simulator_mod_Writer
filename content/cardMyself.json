@@ -1,0 +1,204 @@
+{
+    "elements": [
+        {
+            "id": "myself",
+            "label": "书撰",
+            "description": "列司书监书撰位。",
+            "aspects": {
+                "aspect_myself": 1,
+                "aspect_bookwriter": 1,
+                "aspect_level": 2
+            },
+            "slots": [
+                {
+                    "id": "read",
+                    "required": {
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "study",
+                    "label": "书籍",
+                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
+                    "cosumes": true
+                }
+            ],
+            "xtriggers": {
+                "aspect_levelup": "myself_4"
+            }
+        },
+        {
+            "id": "myself_4",
+            "label": "书撰",
+            "description": "列司书监书撰位，符契准入三仓。",
+            "aspects": {
+                "aspect_myself": 1,
+                "aspect_bookwriter": 1,
+                "aspect_level": 4
+            },
+            "slots": [
+                {
+                    "id": "read",
+                    "required": {
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "study",
+                    "label": "书籍",
+                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
+                    "cosumes": true
+                }
+            ],
+            "xtriggers": {
+                "aspect_levelup": "myself_6"
+            }
+        },
+        {
+            "id": "myself_6",
+            "label": "书撰",
+            "description": "列司书监书撰位。符契准入三仓，领从事秘书驻司书监事务院。",
+            "aspects": {
+                "aspect_myself": 1,
+                "aspect_bookwriter": 1,
+                "aspect_level": 6
+            },
+            "induces": [
+                {
+                    "id": "newverb_write",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "slots": [
+                {
+                    "id": "read",
+                    "required": {
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "study",
+                    "label": "书籍",
+                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
+                    "cosumes": true
+                }
+            ],
+            "xtriggers": {
+                "aspect_levelup": "myself_8"
+            }
+        },
+        {
+            "id": "myself_8",
+            "label": "书撰",
+            "description": "列司书监书撰位。符契准入三仓，领从事秘书驻司书监事务院，开府仪同外司。",
+            "aspects": {
+                "aspect_myself": 1,
+                "aspect_bookwriter": 1,
+                "aspect_level": 8
+            },
+            "induces": [
+                {
+                    "id": "newverb_coop",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "slots": [
+                {
+                    "id": "read",
+                    "required": {
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "study",
+                    "label": "书籍",
+                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
+                    "cosumes": true
+                }
+            ],
+            "xtriggers": {
+                "aspect_levelup": "myself_10"
+            }
+        },
+        {
+            "id": "myself_10",
+            "label": "书撰",
+            "description": "列司书监书撰位。符契准入三仓，开府仪同外司，府令兼司书监别驾衔，司马兼司书监治中衔。",
+            "aspects": {
+                "aspect_myself": 1,
+                "aspect_bookwriter": 1,
+                "aspect_level": 10
+            },
+            "induces": [
+                {
+                    "id": "newverb_write",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "slots": [
+                {
+                    "id": "read",
+                    "required": {
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "study",
+                    "label": "书籍",
+                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
+                    "cosumes": true
+                }
+            ],
+            "xtriggers": {
+                "aspect_levelup": "myself_12"
+            }
+        },
+        {
+            "id": "myself_12",
+            "label": "书撰",
+            "description": "列司书监大书撰位。",
+            "aspects": {
+                "aspect_myself": 1,
+                "aspect_bookwriter": 1,
+                "aspect_level": 12
+            },
+            "induces": [
+                {
+                    "id": "newverb_coop",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "slots": [
+                {
+                    "id": "read",
+                    "required": {
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "study",
+                    "label": "书籍",
+                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
+                    "cosumes": true
+                }
+            ],
+            "xtriggers": {
+                "aspect_levelup": "myself_15"
+            }
+        },
+        {
+            "id": "myself_14",
+            "label": "书撰",
+            "description": "列司书监大书撰位，任天枢部司战。",
+            "aspects": {
+                "aspect_myself": 1,
+                "aspect_bookwriter": 1,
+                "aspect_level": 15
+            },
+            "slots": [
+                {
+                    "id": "read",
+                    "required": {
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "study",
+                    "label": "书籍",
+                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
+                    "cosumes": true
+                }
+            ]
+        }
+    ]
+}

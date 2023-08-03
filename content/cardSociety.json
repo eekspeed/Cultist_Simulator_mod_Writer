@@ -1,0 +1,103 @@
+{
+    "elements": [
+        {
+            "id": "card_booksupervisor",
+            "label": "司书监",
+            "description": "自文字诞生时起，司书监无人知晓，恒存不休。[这是我所属的传承，也是书撰寻求助力时挥舞的旗帜。]",
+            "icon": "booksupervisor",
+            "unique": true,
+            "slots": [
+                {
+                    "id": "bs_myself",
+                    "required": {
+                        "aspect_myself": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "书撰",
+                    "description": "我之位阶。"
+                },
+                {
+                    "id": "bs_partner",
+                    "required": {
+                        "acquaintance": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "歃血",
+                    "description": "歃血为盟，指河为誓，唯人之辉光长耀。"
+                },
+                {
+                    "id": "bs_levelup",
+                    "required": {
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "晋升",
+                    "description": "上计司书监更新我之籍册。"
+                }
+            ]
+        },
+        {
+            "id": "treasury_pen",
+            "label": "笔府",
+            "description": "这里没有笔灵笔仙笔老之类的东西，把看小说看魔怔的书撰扔出去！",
+            "aspects": {
+                "location": 1
+            },
+            "icon": "treasury_pen",
+            "unique": true,
+            "slots": [
+                {
+                    "id": "money",
+                    "required": {
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_cooperate",
+                    "label": "资财",
+                    "description": "“埏埴以为器，当其无，有器之用。”    ——老子"
+                }
+            ]
+        },
+        {
+            "id": "treasury_ink",
+            "label": "墨库",
+            "description": "胭脂珍珠妇人泪，墨玉古松心头血。冰凿炎灼穷造化，五岩七材尽入来。",
+            "aspects": {
+                "location": 1
+            },
+            "icon": "treasury_ink",
+            "unique": true,
+            "slots": [
+                {
+                    "id": "money",
+                    "required": {
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_cooperate",
+                    "label": "资财",
+                    "description": "“埏埴以为器，当其无，有器之用。”    ——老子"
+                }
+            ]
+        },
+        {
+            "id": "treasury_paper",
+            "label": "纸仓",
+            "description": "宣纸寿者，数以千年。",
+            "aspects": {
+                "location": 1
+            },
+            "icon": "treasury_paper",
+            "unique": true,
+            "slots": [
+                {
+                    "id": "money",
+                    "required": {
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_cooperate",
+                    "label": "资财",
+                    "description": "“埏埴以为器，当其无，有器之用。”    ——老子"
+                }
+            ]
+        }
+    ]
+}

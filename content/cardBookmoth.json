@@ -1,0 +1,164 @@
+{
+    "elements": [
+        {
+            "id": "book_2_moth",
+            "label": "《《The Council》背景剧情考据》",
+            "description": "“Big Bad Wolf”试图通过修改名称、转嫁情节等方式掩盖游戏背后的信息,但对于学者而言,“黄金教团”的指代已经被戛然而止的结局明确确定。负责剧情考证的相关工作室人员目前已经全部离职，不知所踪。",
+            "aspects": {
+                "aspect_original": 1,
+                "moth": 2,
+                "aspect_value": 6,
+                "aspect_mine": 1
+            },
+            "unique": true,
+            "icon": "book_2_moth"
+        },
+        {
+            "id": "book_2_moth_t",
+            "label": "《《The Council》背景剧情考据》",
+            "description": "“Big Bad Wolf”试图通过修改名称、转嫁情节等方式掩盖游戏背后的信息,但对于学者而言,“黄金教团”的指代已经被戛然而止的结局明确确定。负责剧情考证的相关工作室人员目前已经全部离职，不知所踪。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "moth": 2,
+                "aspect_value": 2,
+                "aspect_mine": 1
+            },
+            "unique": false,
+            "icon": "book_2_moth"
+        },
+        {
+            "id": "book_4_moth",
+            "label": "《项塔兰》",
+            "description": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。",
+            "aspects": {
+                "aspect_original": 1,
+                "moth": 4,
+                "aspect_value": 12
+            },
+            "unique": true,
+            "icon": "book_4_moth"
+        },
+        {
+            "id": "book_4_moth_t",
+            "label": "《项塔兰》",
+            "description": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "moth": 4,
+                "aspect_value": 4
+            },
+            "unique": false,
+            "icon": "book_4_moth"
+        },
+        {
+            "id": "book_6_moth",
+            "label": "《神仙戏术》",
+            "description": "“讲到这里我们就要批评一下某位编剧了，把《魔术师》的男女情爱压下去，哪怕学学宫闱的含蓄，这书绝对不止那点成就。借此也劝戒某些书撰，好好想想自己撰写东西到底是为了书多一些还是为了钱多一些，既然身为书撰，希望你们的文字里只有最纯粹的东西。”",
+            "aspects": {
+                "aspect_original": 1,
+                "moth": 6,
+                "aspect_value": 18,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_6_moth"
+        },
+        {
+            "id": "book_6_moth_t",
+            "label": "《神仙戏术》",
+            "description": "“讲到这里我们就要批评一下某位编剧了，把《魔术师》的男女情爱压下去，哪怕学学宫闱的含蓄，这书绝对不止那点成就。借此也劝戒某些书撰，好好想想自己撰写东西到底是为了书多一些还是为了钱多一些，既然身为书撰，希望你们的文字里只有最纯粹的东西。”\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "moth": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon": "book_6_moth"
+        },
+        {
+            "id": "book_10_moth",
+            "label": "《边城》",
+            "description": "一篇或许只属于文学的文字。",
+            "aspects": {
+                "aspect_original": 1,
+                "moth": 10,
+                "aspect_value": 30
+            },
+            "unique": true,
+            "icon": "book_10_moth"
+        },
+        {
+            "id": "book_10_moth_t",
+            "label": "《边城》",
+            "description": "一篇或许只属于文学的文字。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "moth": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_moth"
+        },
+        {
+            "id": "book_12_moth",
+            "label": "《世说新语》",
+            "description": "苟欲爱奇而不详事理。",
+            "aspects": {
+                "aspect_original": 1,
+                "moth": 12,
+                "aspect_value": 36,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_12_moth"
+        },
+        {
+            "id": "book_12_moth_t",
+            "label": "《世说新语》",
+            "description": "苟欲爱奇而不详事理。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "moth": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon": "book_12_moth"
+        },
+        {
+            "id": "book_14_moth",
+            "label": "《鲁班书》",
+            "description": "习学此书，少而无父，老而无子，成而无妻，长而无夫，四体残损，有一者入门，齐具者大成。",
+            "aspects": {
+                "aspect_original": 1,
+                "moth": 14,
+                "aspect_value": 42,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_14_moth"
+        },
+        {
+            "id": "book_14_moth_t",
+            "label": "《鲁班书》",
+            "description": "习学此书，少而无父，老而无子，成而无妻，长而无夫，四体残损，有一者入门，齐具者大成。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "moth": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon": "book_14_moth"
+        },
+        {
+            "id": "book_15_moth",
+            "label": "《道诡异仙》",
+            "description": "如何评价？只能度过一个相对失败的人生，速速下跪！正确的，直接的，形而上学的，一针见血的，神中神典中典，噫，道爷我成了！一眼丁真，普信男真下头，哪有什么坐忘道，娃，你着相了，怎么说话呢，没有米线的东西！感觉不如……嘿嘿嘿小小的，香香的，玉玉了，兄弟们打个郊县，开了就是挂？差不多得了（流汗黄豆），互联网真是太精彩了。",
+            "aspects": {
+                "aspect_original": 1,
+                "moth": 15
+            },
+            "unique": true,
+            "icon": "book_15_moth"
+        }
+    ]
+}

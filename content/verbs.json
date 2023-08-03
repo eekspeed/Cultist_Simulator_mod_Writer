@@ -1,0 +1,85 @@
+{
+    "verbs": [
+        {
+            "id": "study",
+            "label": "研究",
+            "description": "解锁书籍和其他宝物。",
+            "atStart": true,
+            "slot": {
+                "id": "study",
+                "label": "研究",
+                "description": "研究无形之术足够耗尽十世人生。",
+                "required": {
+                    "text": 1,
+                    "lore": 1,
+                    "ability": 1,
+                    "influence": 1,
+                    "tutor": 1,
+                    "language": 1,
+                    "legacyplotitem": 1,
+                    "aspect_scholar_edge": 1,
+                    "aspect_scholar_forge": 1,
+                    "aspect_scholar_grail": 1,
+                    "aspect_scholar_heart": 1,
+                    "aspect_scholar_history": 1,
+                    "aspect_scholar_knock": 1,
+                    "aspect_scholar_lantern": 1,
+                    "aspect_scholar_moth": 1,
+                    "aspect_scholar_winter": 1,
+                    "aspect_myself": 1
+                }
+            }
+        },
+        {
+            "id": "verb_cooperate",
+            "label": "合作",
+            "description": "书撰明堂经划，行者开天辟地。",
+            "atStart": true,
+            "slot": {
+                "id": "cooperate",
+                "label": "合作",
+                "description": "虽然并非同伴，却不仅仅是雇佣。",
+                "required": {
+                    "soldplace": 1,
+                    "location": 1,
+                    "vault": 1
+                }
+            }
+        },
+        {
+            "id": "verb_talk",
+            "label": "谈话",
+            "description": "逼问，威胁，诱骗，教导，招募。",
+            "atStart": true,
+            "slot": {
+                "id": "verb_talk",
+                "label": "谈话",
+                "description": "盟友，仇敌，或者敌友难辨之人。",
+                "required": {
+                    "card_booksupervisor": 1,
+                    "acquaintance": 1,
+                    "aspect_partner": 1,
+                    "aspect_friend": 1,
+                    "aspect_us": 1
+                },
+                "forbidden": {
+                    "wary": 1
+                }
+            }
+        },
+        {
+            "id": "verb_write",
+            "label": "撰写",
+            "description": "行进在司书监最伟大之征程上。",
+            "atStart": true,
+            "slot": {
+                "id": "verb_write",
+                "label": "撰写",
+                "description": "撰写之人，文房四宝，气意神志。",
+                "required": {
+                    "aspect_pen": 1
+                }
+            }
+        }
+    ]
+}

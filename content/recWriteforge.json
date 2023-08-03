@@ -1,0 +1,359 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_forge_tip",
+            "label": "撰写《天工开物》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 105
+            },
+            "startdescription": "天行健……[撰者健如天行，笔力劲逾山海(待补充）]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_forge_link",
+            "label": "撰写《天工开物》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 105,
+
+                "aspect_level": 15
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "天行健，君子以自强不息。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_forge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_forge",
+            "label": "撰写《天工开物》",
+            "actionId": "write_15_forge",
+            "effects": {
+                "book_15_forge": 1
+            },
+            "startdescription": "天行健，君子以自强不息。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_14_forge_tip",
+            "label": "撰写《考工记》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 98
+            },
+            "startdescription": "知得创物，巧者述之，守之世，谓之工。百工之事，皆圣人之作也。[欲撰此书，另需理性，激情，秘史性相]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_14_forge_link",
+            "label": "撰写《考工记》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 98,
+
+                "aspect_level": 14,
+
+                "reason": 1,
+                "passion": 1,
+                "secrethistories":14
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "知得创物，巧者述之，守之世，谓之工。百工之事，皆圣人之作也。烁金以为刃，凝土以为器，作车以行陆，作舟行水，此皆圣人之所作也。天有时，地有气，材有美，工有巧，合此四者，然后可以为良。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_forge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_14_forge",
+            "label": "撰写《考工记》",
+            "actionId": "write_14_forge",
+            "effects": {
+                "book_14_forge": 1
+            },
+            "startdescription": "知得创物，巧者述之，守之世，谓之工。百工之事，皆圣人之作也。烁金以为刃，凝土以为器，作车以行陆，作舟行水，此皆圣人之所作也。天有时，地有气，材有美，工有巧，合此四者，然后可以为良。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_forge_tip",
+            "label": "撰写《铁冶志》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 70
+            },
+            "startdescription": "其抄本藏于圣彼得堡国立大学东方系图书馆。[欲撰此书，另需二激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_forge_link",
+            "label": "撰写《铁冶志》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 70,
+
+                "aspect_level": 10,
+
+                "passion": 2
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "其抄本藏于圣彼得堡国立大学东方系图书馆，系曹寅旧藏。",
+            "description": "需千锤百炼，血气焚炎。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_forge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_forge",
+            "label": "撰写《铁冶志》",
+            "actionId": "write_10_forge",
+            "effects": {
+                "book_10_forge": 1
+            },
+            "startdescription": "其抄本藏于圣彼得堡国立大学东方系图书馆，系曹寅旧藏。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_8_forge_tip",
+            "label": "撰写《陶说》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 56
+            },
+            "startdescription": "草野编氓，目不睹先生礼器法物。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_8_forge_link",
+            "label": "撰写《陶说》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 56,
+
+                "aspect_level": 8,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "草野编氓，目不睹先生礼器法物，而瓦盆上缶，无人不资为饮食之用。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_8_forge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_8_forge",
+            "label": "撰写《陶说》",
+            "actionId": "write_8_forge",
+            "effects": {
+                "book_8_forge": 1
+            },
+            "startdescription": "草野编氓，目不睹先生礼器法物，而瓦盆上缶，无人不资为饮食之用。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_6_forge_tip",
+            "label": "撰写《竹人录》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 42
+            },
+            "startdescription": "金元钰编著。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_6_forge_link",
+            "label": "撰写《竹人录》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 42,
+
+                "aspect_level": 6,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "金元钰编著。嘉庆十二年刊行。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_6_forge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_6_forge",
+            "label": "撰写《竹人录》",
+            "actionId": "write_6_forge",
+            "effects": {
+                "book_6_forge": 1
+            },
+            "startdescription": "金元钰编著。嘉庆十二年刊行。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_4_forge_tip",
+            "label": "撰写《抱朴子》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 28
+            },
+            "startdescription": "夫金丹之为物，烧之愈久，变化愈妙。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_4_forge_link",
+            "label": "撰写《抱朴子》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "forge": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "夫金丹之为物，烧之愈久，变化愈妙。黄金入火，二百炼不消，埋之，毕天不朽。服此二药，炼人身体，故能令人不老不死。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_forge",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_4_forge",
+            "label": "撰写《抱朴子》",
+            "actionId": "write_4_forge",
+            "effects": {
+                "book_4_forge": 1
+            },
+            "startdescription": "夫金丹之为物，烧之愈久，变化愈妙。黄金入火，二百炼不消，埋之，毕天不朽。服此二药，炼人身体，故能令人不老不死。",
+            "warmup": 200,
+            "craftable": true
+        }
+        
+    ]
+}

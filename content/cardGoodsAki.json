@@ -1,0 +1,474 @@
+{
+    "elements": [
+        {
+            "id": "pen_2_bailered",
+            "label": "百乐纤扬红色款",
+            "description": "时代洪流将这款速写钢笔推向潮头，再将其沉入浪底。墨囊中流淌着批改作业的红色墨水。",
+            "aspects": {
+                "aspect_pen": 1,
+                "lantern": 2,
+                "heart": 2
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_4_baijin3776",
+            "label": "白金3776世纪教堂蓝",
+            "description": "在文具少女中以对新衣服和腊肠的痴迷而著称，倒数第二位持有者为折木奉太郎。",
+            "aspects": {
+                "aspect_pen": 1,
+                "winter": 4
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_4_lamy",
+            "label": "LAMY自动铅笔",
+            "description": "田井中律的铅笔，LAMY狩猎黄色款。其德式严谨风格甚至渗透到使用者身上，极少见的需要磨合才能开始动用的笔。",
+            "aspects": {
+                "aspect_pen": 1,
+                "knock": 4
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "pen_4_mikimoto",
+            "label": "御木本圆珠笔",
+            "description": "琴吹䌷的圆珠笔，型号NPV-5862F，实体由黄铜制，曲别针由锌白铜制(金加工)，akoya珍珠约3.50mm。",
+            "aspects": {
+                "aspect_pen": 1,
+                "moth": 4
+            },
+            "unique": true,
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ink",
+                    "required": {
+                        "aspect_ink": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "墨",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_paper",
+                    "required": {
+                        "aspect_paper": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "纸",
+                    "description": "撰写之物。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient2",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient3",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                },
+                {
+                    "id": "write_ingredient4",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "ink_4_tomato",
+            "label": "樱之宫莓香的番茄酱",
+            "description": "在其恐怖的气场和杀意的目光中，任何鲜红色的浓稠物都带有置人于死地的味道。",
+            "aspects": {
+                "aspect_ink": 1,
+                "winter": 4,
+                "heart": 4
+            }
+        },
+        {
+            "id": "ink_6_meizhi",
+            "label": "妹汁",
+            "description": "如果这是美汁源果粒奶优，神威或许不会被暴打。",
+            "aspects": {
+                "aspect_ink": 1,
+                "grail": 6
+            }
+        },
+        {
+            "id": "ink_10_lcl",
+            "label": "LCL",
+            "description": "深海液，溶氧四氯化碳，原始汤……用基因飞升的思路搞机械飞升是不是搞错了什么。",
+            "aspects": {
+                "aspect_ink": 1,
+                "grail": 10,
+                "winter":10
+            }
+        },
+        {
+            "id": "ink_15_666",
+            "label": "此世全部之恶",
+            "description": "如将一切恶降临，一切善亦将诞生。如将一切善抛弃，一切恶亦将消逝。",
+            "aspects": {
+                "aspect_ink": 1,
+                "secrethistories": 15,
+                "winter":15
+            }
+        },
+        {
+            "id": "paper_2_kente",
+            "label": "肯特纸",
+            "description": "原产自英国肯特。",
+            "aspects": {
+                "aspect_paper": 1,
+                "lantern":2,
+                "knock": 2
+            }
+        },
+        {
+            "id": "paper_4_feigaozhi",
+            "label": "真城最高的废稿纸",
+            "description": "感觉到了一些……一些……一些很相似的东西，如果有另一个漫画家的话……",
+            "aspects": {
+                "aspect_paper": 1,
+                "lantern":4,
+                "edge": 4
+            }
+        },
+        {
+            "id": "paper_6_tanzhi",
+            "label": "檀纸",
+            "description": "无心裁剪，有心系结。",
+            "aspects": {
+                "aspect_paper": 1,
+                "heart":6
+            }
+        },
+        {
+            "id": "paper_10_bijiben",
+            "label": "笔记本纸张",
+            "description": "来源于一本绿色封皮，名为“理想”的笔记本，据说由卡莱尔制作，现由国木田独步持有。",
+            "aspects": {
+                "aspect_paper": 1,
+                "knock":10
+            }
+        },
+        {
+            "id": "good_guitar8x",
+            "label": "Ibanez 8弦电吉他",
+            "description": "以制琴师的名字命名的品牌，古老，新潮，重型。",
+            "aspects": {
+                "aspect_weapon": 1
+            }
+        }
+    ]
+}

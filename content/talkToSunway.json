@@ -1,0 +1,52 @@
+{
+    "recipes": [
+        {
+            "id": "sunway_akihabara_1",
+            "label": "时代印记",
+            "actionId": "verb_talk",
+            "requirements": {
+                "p_sunway_b": 1,
+                "p_kirby_b": 1
+            },
+            "startdescription": "让神威与星之卡比畅谈。通常会让卡比先找一位工具人以实现语言功能。",
+            "description": "“不可思议，只能这么说。”神威弹了一下烟灰，“如果星之卡比都能出现在这里，那我们很有必要去那里看看。”",
+            "effects": {
+                "place_akihabara": 1
+            },
+            "craftable": true,
+            "warmup": 30
+        },
+        {
+            "id": "sunway_akihabara_2",
+            "label": "时代印记",
+            "actionId": "verb_talk",
+            "requirements": {
+                "p_sunway_b": 1,
+                "book_2_edge": 1
+            },
+            "startdescription": "和神威聊聊假面骑士空我什么的。龙骑也行。",
+            "description": "“你妈的，为什么？两边的特摄厨看见这张盘非得群体沉默不可，我们去买张正版回来。”",
+            "effects": {
+                "place_akihabara": 1
+            },
+            "craftable": true,
+            "warmup": 30
+        },
+        {
+            "id": "sunway_akihabara_3",
+            "label": "时代印记",
+            "actionId": "verb_talk",
+            "requirements": {
+                "p_sunway_b": 1,
+                "book_6_edge_t": 1
+            },
+            "startdescription": "和神威聊聊刀剑神域。这是否有点……",
+            "description": "“有点意思。本子见过不少，原著确实第一次看。”神威看了一下坐在旁边的少女，“她貌似看轻小说看的多，对东京也更熟悉。”",
+            "effects": {
+                "place_akihabara": 1
+            },
+            "craftable": true,
+            "warmup": 30
+        }
+    ]
+}

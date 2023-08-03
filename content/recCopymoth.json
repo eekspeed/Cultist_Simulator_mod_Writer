@@ -1,0 +1,359 @@
+{
+    "recipes": [
+        {
+            "id": "copy_2_moth_link",
+            "label": "抄写《《The Council》背景剧情考据》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 6,
+                "book_2_moth": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需按图索骥，一丝不苟。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_2_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_2_moth",
+            "label": "抄写《《The Council》背景剧情考据》",
+            "actionId": "copy_2_moth",
+            "effects": {
+                "book_2_moth_t": 1
+            },
+            "startdescription": "需按图索骥，一丝不苟。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_4_moth_link",
+            "label": "抄写《项塔兰》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 12,
+                "book_4_moth": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需尽弃外物，通达人心。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_4_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_4_moth",
+            "label": "抄写《项塔兰》",
+            "actionId": "copy_4_moth",
+            "effects": {
+                "book_4_moth_t": 1
+            },
+            "startdescription": "需尽弃外物，通达人心。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_6_moth_tip",
+            "label": "抄写《神仙戏术》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 18,
+                "book_6_moth": 1
+            },
+            "startdescription": "如若抄写，尚需投入理性。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "copy_6_moth_link",
+            "label": "抄写《神仙戏术》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 18,
+                "reason":1,
+                "book_6_moth": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_6_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_6_moth",
+            "label": "抄写《神仙戏术》",
+            "actionId": "copy_6_moth",
+            "effects": {
+                "book_6_moth_t": 1
+            },
+            "startdescription": "需精研其理，亲身实测。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_10_moth_tip",
+            "label": "抄写《边城》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 30,
+                "book_10_moth": 1
+            },
+            "startdescription": "如若抄写，尚需投入两份理性。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "copy_10_moth_link",
+            "label": "抄写《边城》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 20,
+                "reason":2,
+                "book_10_moth": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需尽弃外物，通达人心。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_10_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_10_moth",
+            "label": "抄写《边城》",
+            "actionId": "copy_10_moth",
+            "effects": {
+                "book_10_moth_t": 1
+            },
+            "startdescription": "需尽弃外物，通达人心。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_12_moth_tip",
+            "label": "抄写《世说新语》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 36,
+                "book_12_moth": 1
+            },
+            "startdescription": "如若抄写，尚需投入两份理性。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "copy_12_moth_link",
+            "label": "抄写《世说新语》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 36,
+                "reason":2,
+                "book_12_moth": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需情思空玄，字斟句酌。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_12_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_12_moth",
+            "label": "抄写《世说新语》",
+            "actionId": "copy_12_moth",
+            "effects": {
+                "book_12_moth_t": 1
+            },
+            "startdescription": "需情思空玄，字斟句酌。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_14_moth_tip",
+            "label": "抄写《鲁班书》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 42,
+                "book_14_moth": 1
+            },
+            "startdescription": "如若抄写，尚需投入两份理性和一份激情。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "copy_14_moth_link",
+            "label": "抄写《鲁班书》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 28,
+                "reason":2,
+                "passion":1,
+                "book_14_moth": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_14_moth",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_14_moth",
+            "label": "抄写《鲁班书》",
+            "actionId": "copy_14_moth",
+            "effects": {
+                "book_14_moth_t": 1
+            },
+            "startdescription": "需精研其理，亲身实测。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_15_moth_tip",
+            "label": "抄写《道诡异仙》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "moth": 45,
+                "book_15_moth": 1
+            },
+            "startdescription": "非不愿也，实无能为。[臻至巅峰之册诸史唯一]",
+            "craftable": false,
+            "hintonly": true
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "recipes": [
+        {
+            "id": "work_salebook_1",
+            "label": "开始一天的工作",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook_1": 1
+            },
+            "effects": {
+                "funds": 1,
+                "card_saleBook_1": -1,
+                "card_saleBook_2": 1
+            },
+            "startdescription": "这并非第一次，但心情始终如一。",
+            "description": "熟悉的人流来去，正如昨日，与昨日的昨日。同样的书籍在无边的深海中进进出出，偶尔有大部头文学著作摆在收银台前，便是又一位迷途羔羊。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_2",
+            "label": "开始一天的工作",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook_2": 1
+            },
+            "effects": {
+                "funds": 1,
+                "card_saleBook_2": -1,
+                "card_saleBook_3": 1
+            },
+            "startdescription": "没什么不同。电子书，开学季，签售会，大促销。附近的书店使劲浑身解数，而我目送他们挂上“转租”的牌子。",
+            "description": "这当然意义非凡，但那是对我的顾客而言。对我呢？至少现在我不知道。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_3",
+            "label": "开始一天的工作",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook_3": 1
+            },
+            "effects": {
+                "funds": 1,
+                "card_saleBook_3": -1,
+                "card_saleBook": 1
+            },
+            "startdescription": "我有些预感。或许今天不该开门，但我不能跟顾客过不去。",
+            "description": "日虽西斜，心境不宁。速速入眠。",
+            "warmup": 40,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "rec_dream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "rec_dream",
+            "label": "梦境有异",
+            "actionId": "dream",
+            "effects": {
+                "reason": 4
+            },
+            "startdescription": "果不其然，通过漫宿直达我处的一份通知，和一份遗存。通常不会这么粗暴，一定是事发突然。",
+            "description": "大事不妙，一位书撰身入虚界，我将继任其位。",
+            "warmup": 30,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "rec_research",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "rec_research",
+            "label": "灵感触变",
+            "actionId": "study",
+            "effects": {
+                "passion": 2,
+                "place_homeofdead": 1
+            },
+            "startdescription": "借助遗存中的蛛丝马迹，我已得知那位书撰发生何事。",
+            "description": "如果没有其他意外，他们的下一个目标就是我。当然，如果我不掺和此事，自然也就没有麻烦上身，具体如何还需从长计议。",
+            "warmup": 30,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "rec_talk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "rec_talk",
+            "label": "书籍抵达",
+            "actionId": "verb_talk",
+            "effects": {
+                "funds": 10,
+                "book_2_grail": 1,
+                "book_2_moth_t": 1,
+                "book_4_history_t": 1,
+                "book_4_lantern_t": 1,
+                "book_4_grail_t": 1,
+                "book_4_winter": 1,
+                "book_4_moth_t": 1,
+                "book_6_history": 1,
+                "book_6_edge_t": 1
+            },
+            "startdescription": "尚未凌晨，一位资深书撰遣使而来，带着遗存的另一部分。",
+            "description": "“保持镇定，尽力而为。我们会帮忙，但被指定继任者必须面对。”",
+            "warmup": 30,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "rec_cooperate",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "rec_cooperate",
+            "label": "筹谋大业",
+            "actionId": "verb_cooperate",
+            "effects": {
+                "health": 1,
+                "card_booksupervisor": 1
+            },
+            "deckeffects": {
+                "deck_partner_1": 1,
+                "deck_scholar_1": 1
+            },
+            "startdescription": "大业非一人之功，书撰居其轨中。",
+            "description": "对书撰来说社交毫无意义。但每个书撰都有些朋友，真正意义上的那种。",
+            "warmup": 30,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "rec_write",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "rec_write",
+            "label": "笔锋再试",
+            "actionId": "verb_write",
+            "startdescription": "我已多年未曾动笔。需得习练如初。",
+            "description": "如今水平几何仅我自己知晓，应当尽快发书上计司书监以更新籍册。",
+            "effects": {
+                "place_smallshop": 1,
+                "book_2_heart": 1
+            },
+            "mutations": [
+                {
+                    "filter": "book_2_heart",
+                    "mutate": "aspect_mine",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 30,
+            "craftable": false
+        }
+    ]
+}

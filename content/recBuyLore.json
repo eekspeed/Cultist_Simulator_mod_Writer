@@ -1,0 +1,2359 @@
+{
+    "recipes": [
+        {
+            "id": "buylore_edge_14link",
+            "label": "求教刃之终末",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_edge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最终秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_edge_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_edge_14",
+            "label": "等候回信",
+            "actionId": "buylore_edge_14",
+            "effects": {
+                "fragmentedgeg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_edge_12link",
+            "label": "求教刃之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_edge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教终结之技，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_edge_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_edge_12",
+            "label": "等候回信",
+            "actionId": "buylore_edge_12",
+            "effects": {
+                "fragmentedgef": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_edge_10link",
+            "label": "求教刃之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_edge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教狮子匠及其追随者的信息，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_edge_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_edge_10",
+            "label": "等候回信",
+            "actionId": "buylore_edge_10",
+            "effects": {
+                "fragmentedgee": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_edge_8link",
+            "label": "求教刃之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_edge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教上校及其追随者的信息，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_edge_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_edge_8",
+            "label": "等候回信",
+            "actionId": "buylore_edge_8",
+            "effects": {
+                "fragmentedged": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_edge_6link",
+            "label": "求教高阶刃之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_edge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教苦痛与背叛的典仪，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_edge_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_edge_6",
+            "label": "等候回信",
+            "actionId": "buylore_edge_6",
+            "effects": {
+                "fragmentedgec": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_edge_4link",
+            "label": "求教中阶刃之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_edge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教百战老兵的经验之谈，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_edge_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_edge_4",
+            "label": "等候回信",
+            "actionId": "buylore_edge_4",
+            "effects": {
+                "fragmentedgeb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_edge_2link",
+            "label": "求教低阶刃之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_edge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教简单的武艺与杀伐之术，通常花不了什么钱。当然，宰外行就另当别论。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_edge_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_edge_2",
+            "label": "等候回信",
+            "actionId": "buylore_edge_2",
+            "effects": {
+                "fragmentedge": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_forge_14link",
+            "label": "求教铸之终末",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_forge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最终秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_forge_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_forge_14",
+            "label": "等候回信",
+            "actionId": "buylore_forge_14",
+            "effects": {
+                "fragmentforgeg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_forge_12link",
+            "label": "求教铸之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_forge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教熔炉之颂，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_forge_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_forge_12",
+            "label": "等候回信",
+            "actionId": "buylore_forge_12",
+            "effects": {
+                "fragmentforgef": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_forge_10link",
+            "label": "求教铸之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_forge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教破碎以重铸的核心要领，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_forge_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_forge_10",
+            "label": "等候回信",
+            "actionId": "buylore_forge_10",
+            "effects": {
+                "fragmentforgee": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_forge_8link",
+            "label": "求教铸之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_forge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教锻造以成就的核心要领，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_forge_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_forge_8",
+            "label": "等候回信",
+            "actionId": "buylore_forge_8",
+            "effects": {
+                "fragmentforged": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_forge_6link",
+            "label": "求教高阶铸之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_forge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教促使剧变的知识，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_forge_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_forge_6",
+            "label": "等候回信",
+            "actionId": "buylore_forge_6",
+            "effects": {
+                "fragmentforgec": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_forge_4link",
+            "label": "求教中阶铸之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_forge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教使烈火燃烧之法，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_forge_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_forge_4",
+            "label": "等候回信",
+            "actionId": "buylore_forge_4",
+            "effects": {
+                "fragmentforgeb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_forge_2link",
+            "label": "求教低阶铸之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_forge": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教简单的改变之术，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_forge_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_forge_2",
+            "label": "等候回信",
+            "actionId": "buylore_forge_2",
+            "effects": {
+                "fragmentforge": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_grail_14link",
+            "label": "求教杯之终末",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_grail": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最终秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_grail_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_grail_14",
+            "label": "等候回信",
+            "actionId": "buylore_grail_14",
+            "effects": {
+                "fragmentgrailg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_grail_12link",
+            "label": "求教杯之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_grail": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教制花人及其作品的信息，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_grail_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_grail_12",
+            "label": "等候回信",
+            "actionId": "buylore_grail_12",
+            "effects": {
+                "fragmentgrailf": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_grail_10link",
+            "label": "求教杯之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_grail": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教极致快感的知识，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_grail_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_grail_10",
+            "label": "等候回信",
+            "actionId": "buylore_grail_10",
+            "effects": {
+                "fragmentgraile": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_grail_8link",
+            "label": "求教杯之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_grail": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教杯之典仪的知识，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_grail_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_grail_8",
+            "label": "等候回信",
+            "actionId": "buylore_grail_8",
+            "effects": {
+                "fragmentgraild": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_grail_6link",
+            "label": "求教高阶杯之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_grail": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教使话语甘甜诱人的知识，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_grail_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_grail_6",
+            "label": "等候回信",
+            "actionId": "buylore_grail_6",
+            "effects": {
+                "fragmentgrailc": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_grail_4link",
+            "label": "求教中阶杯之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_grail": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教咒语，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_grail_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_grail_4",
+            "label": "等候回信",
+            "actionId": "buylore_grail_4",
+            "effects": {
+                "fragmentgrailb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_grail_2link",
+            "label": "求教低阶杯之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_grail": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教简单的诱惑之术，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_grail_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_grail_2",
+            "label": "等候回信",
+            "actionId": "buylore_grail_2",
+            "effects": {
+                "fragmentgrail": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_heart_14link",
+            "label": "求教心之起始",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_heart": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最初秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_heart_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_heart_14",
+            "label": "等候回信",
+            "actionId": "buylore_heart_14",
+            "effects": {
+                "fragmentheartg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_heart_12link",
+            "label": "求教心之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_heart": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教丝绒及其庇护之法，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_heart_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_heart_12",
+            "label": "等候回信",
+            "actionId": "buylore_heart_12",
+            "effects": {
+                "fragmentheartf": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_heart_10link",
+            "label": "求教心之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_heart": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教不止不休之术，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_heart_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_heart_10",
+            "label": "等候回信",
+            "actionId": "buylore_heart_10",
+            "effects": {
+                "fragmenthearte": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_heart_8link",
+            "label": "求教心之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_heart": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教双生女巫的庇护之法，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_heart_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_heart_8",
+            "label": "等候回信",
+            "actionId": "buylore_heart_8",
+            "effects": {
+                "fragmentheartd": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_heart_6link",
+            "label": "求教高阶心之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_heart": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教唤醒一切的知识，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_heart_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_heart_6",
+            "label": "等候回信",
+            "actionId": "buylore_heart_6",
+            "effects": {
+                "fragmentheartc": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_heart_4link",
+            "label": "求教中阶心之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_heart": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教音乐与节奏，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_heart_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_heart_4",
+            "label": "等候回信",
+            "actionId": "buylore_heart_4",
+            "effects": {
+                "fragmentheartb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_heart_2link",
+            "label": "求教低阶心之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_heart": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教雷天大壮之意，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_heart_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_heart_2",
+            "label": "等候回信",
+            "actionId": "buylore_heart_2",
+            "effects": {
+                "fragmentheart": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_history_14link",
+            "label": "求教历史之起始",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_history": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向史官请教最初秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_history_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_history_14",
+            "label": "等候回信",
+            "actionId": "buylore_history_14",
+            "effects": {
+                "fragmentsecrethistoriesg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_history_12link",
+            "label": "求教历史之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_history": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向史官请教核心机密，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_history_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_history_12",
+            "label": "等候回信",
+            "actionId": "buylore_history_12",
+            "effects": {
+                "fragmentsecrethistoriesf": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_history_10link",
+            "label": "求教历史之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_history": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教精深机密，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_history_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_history_10",
+            "label": "等候回信",
+            "actionId": "buylore_history_10",
+            "effects": {
+                "fragmentsecrethistoriese": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_history_8link",
+            "label": "求教历史之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_history": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教基础机密，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_history_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_history_8",
+            "label": "等候回信",
+            "actionId": "buylore_history_8",
+            "effects": {
+                "fragmentsecrethistoriesd": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_history_6link",
+            "label": "求教高阶历史之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_history": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教高阶知识，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_history_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_history_6",
+            "label": "等候回信",
+            "actionId": "buylore_history_6",
+            "effects": {
+                "fragmentsecrethistoriesc": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_history_4link",
+            "label": "求教中阶历史之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_history": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教中阶知识，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_history_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_history_4",
+            "label": "等候回信",
+            "actionId": "buylore_history_4",
+            "effects": {
+                "fragmentsecrethistoriesb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_history_2link",
+            "label": "求教低阶历史之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_history": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教低阶知识，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_history_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_history_2",
+            "label": "等候回信",
+            "actionId": "buylore_history_2",
+            "effects": {
+                "fragmentsecrethistories": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_knock_14link",
+            "label": "求教启之终末",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_knock": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最终秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_knock_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_knock_14",
+            "label": "等候回信",
+            "actionId": "buylore_knock_14",
+            "effects": {
+                "fragmentknockg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_knock_12link",
+            "label": "求教启之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_knock": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向史官请教双角斧之信息，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_knock_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_knock_12",
+            "label": "等候回信",
+            "actionId": "buylore_knock_12",
+            "effects": {
+                "fragmentknockf": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_knock_10link",
+            "label": "求教启之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_knock": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教蚁母之信息，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_knock_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_knock_10",
+            "label": "等候回信",
+            "actionId": "buylore_knock_10",
+            "effects": {
+                "fragmentknocke": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_knock_8link",
+            "label": "求教启之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_knock": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教弧月之信息，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_knock_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_knock_8",
+            "label": "等候回信",
+            "actionId": "buylore_knock_8",
+            "effects": {
+                "fragmentknockd": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_knock_6link",
+            "label": "求教高阶启之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_knock": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教伤口与开启之术，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_knock_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_knock_6",
+            "label": "等候回信",
+            "actionId": "buylore_knock_6",
+            "effects": {
+                "fragmentknockc": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_knock_4link",
+            "label": "求教中阶启之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_knock": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教开启门的仪式，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_knock_4",
+                    "chance": 100,
+                    "additional":true,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_knock_4",
+            "label": "等候回信",
+            "actionId": "buylore_knock_4",
+            "effects": {
+                "fragmentknockb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_knock_2link",
+            "label": "求教低阶启之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_knock": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教开启的阶段，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_knock_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_knock_2",
+            "label": "等候回信",
+            "actionId": "buylore_knock_2",
+            "effects": {
+                "fragmentknock": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_lantern_14link",
+            "label": "求教灯之终末",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_lantern": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最终秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_lantern_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_lantern_14",
+            "label": "等候回信",
+            "actionId": "buylore_lantern_14",
+            "effects": {
+                "fragmentlanterng": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_lantern_12link",
+            "label": "求教灯之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_lantern": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教攀登刀刃阶梯之法，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_lantern_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_lantern_12",
+            "label": "等候回信",
+            "actionId": "buylore_lantern_12",
+            "effects": {
+                "fragmentlanternf": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_lantern_10link",
+            "label": "求教灯之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_lantern": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教聚点之知识，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_lantern_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_lantern_10",
+            "label": "等候回信",
+            "actionId": "buylore_lantern_10",
+            "effects": {
+                "fragmentlanterne": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_lantern_8link",
+            "label": "求教灯之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_lantern": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教守夜人之术，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_lantern_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_lantern_8",
+            "label": "等候回信",
+            "actionId": "buylore_lantern_8",
+            "effects": {
+                "fragmentlanternd": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_lantern_6link",
+            "label": "求教高阶灯之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_lantern": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教守夜人之教诲，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_lantern_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_lantern_6",
+            "label": "等候回信",
+            "actionId": "buylore_lantern_6",
+            "effects": {
+                "fragmentlanternc": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_lantern_4link",
+            "label": "求教中阶灯之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_lantern": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教漫宿冰山一角的本质，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_lantern_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_lantern_4",
+            "label": "等候回信",
+            "actionId": "buylore_lantern_4",
+            "effects": {
+                "fragmentlanternb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_lantern_2link",
+            "label": "求教低阶灯之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_lantern": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教光的基础，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_lantern_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_lantern_2",
+            "label": "等候回信",
+            "actionId": "buylore_lantern_2",
+            "effects": {
+                "fragmentlantern": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_moth_14link",
+            "label": "求教蛾之终末",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_moth": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最终秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_moth_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_moth_14",
+            "label": "等候回信",
+            "actionId": "buylore_moth_14",
+            "effects": {
+                "fragmentmothg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_moth_12link",
+            "label": "求教蛾之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_moth": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教飞蛾的诞生，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_moth_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_moth_12",
+            "label": "等候回信",
+            "actionId": "buylore_moth_12",
+            "effects": {
+                "fragmentmothf": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_moth_10link",
+            "label": "求教蛾之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_moth": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教蜈蚣之知识，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_moth_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_moth_10",
+            "label": "等候回信",
+            "actionId": "buylore_moth_10",
+            "effects": {
+                "fragmentmothe": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_moth_8link",
+            "label": "求教蛾之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_moth": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教鼹鼠之知识，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_moth_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_moth_8",
+            "label": "等候回信",
+            "actionId": "buylore_moth_8",
+            "effects": {
+                "fragmentmothd": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_moth_6link",
+            "label": "求教高阶蛾之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_moth": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教蜕衣舞者之教诲，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_moth_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_moth_6",
+            "label": "等候回信",
+            "actionId": "buylore_moth_6",
+            "effects": {
+                "fragmentmothc": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_moth_4link",
+            "label": "求教中阶蛾之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_moth": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教林地冰山一角的本质，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_moth_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_moth_4",
+            "label": "等候回信",
+            "actionId": "buylore_moth_4",
+            "effects": {
+                "fragmentmothb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_moth_2link",
+            "label": "求教低阶蛾之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_moth": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教抛却的基础，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_moth_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_moth_2",
+            "label": "等候回信",
+            "actionId": "buylore_moth_2",
+            "effects": {
+                "fragmentmoth": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "buylore_winter_14link",
+            "label": "求教冬之终末",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_winter": 1,
+                "aspect_partner": 1,
+                "aspect_level": 14,
+                "compensationvalue": 16
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教最终秘密，价比古金币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_winter_14",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_winter_14",
+            "label": "等候回信",
+            "actionId": "buylore_winter_14",
+            "effects": {
+                "fragmentwinterg": 1
+            },
+            "startdescription": "我不能期待这一封回信。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 240,
+            "craftable": false
+        },
+        {
+            "id": "buylore_winter_12link",
+            "label": "求教冬之秘诀——核心",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_winter": 1,
+                "aspect_partner": 1,
+                "aspect_level": 12,
+                "compensationvalue": 8
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教骄阳的分裂，价比古银币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_winter_12",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_winter_12",
+            "label": "等候回信",
+            "actionId": "buylore_winter_12",
+            "effects": {
+                "fragmentwinterf": 1
+            },
+            "startdescription": "非入长生之门不可撰写此等密传，任何等待都是应有之义。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 160,
+            "craftable": false
+        },
+        {
+            "id": "buylore_winter_10link",
+            "label": "求教冬之秘诀——精深",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_winter": 1,
+                "aspect_partner": 1,
+                "aspect_level": 10,
+                "compensationvalue": 4
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教虚界之司辰的知识，价比古铜币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_winter_10",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_winter_10",
+            "label": "等候回信",
+            "actionId": "buylore_winter_10",
+            "effects": {
+                "fragmentwintere": 1
+            },
+            "startdescription": "撰写精深的秘诀要花很多时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 120,
+            "craftable": false
+        },
+        {
+            "id": "buylore_winter_8link",
+            "label": "求教冬之秘诀——基础",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_winter": 1,
+                "aspect_partner": 1,
+                "aspect_level": 8,
+                "compensationvalue": 2
+            },
+            "effects": {
+                "compensationvalue": -99
+            },
+            "startdescription": "向学者请教骨白鸽之知识，价比古铁币。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_winter_8",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_winter_8",
+            "label": "等候回信",
+            "actionId": "buylore_winter_8",
+            "effects": {
+                "fragmentwinterd": 1
+            },
+            "startdescription": "撰写基础的秘诀要花不少时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 80,
+            "craftable": false
+        },
+        {
+            "id": "buylore_winter_6link",
+            "label": "求教高阶冬之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_winter": 1,
+                "aspect_partner": 1,
+                "aspect_level": 6,
+                "funds": 5
+            },
+            "effects": {
+                "funds": -5
+            },
+            "startdescription": "向学者请教通往沉默之仪式，价格不菲。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_winter_6",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_winter_6",
+            "label": "等候回信",
+            "actionId": "buylore_winter_6",
+            "effects": {
+                "fragmentwinterc": 1
+            },
+            "startdescription": "撰写复杂的论述要花一些时间。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "buylore_winter_4link",
+            "label": "求教中阶冬之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_winter": 1,
+                "aspect_partner": 1,
+                "aspect_level": 4,
+                "funds": 3
+            },
+            "effects": {
+                "funds": -3
+            },
+            "startdescription": "向学者请教冰冷之语，价格尚可。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_winter_4",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_winter_4",
+            "label": "等候回信",
+            "actionId": "buylore_winter_4",
+            "effects": {
+                "fragmentwinterb": 1
+            },
+            "startdescription": "撰写详细的论述应该花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 50,
+            "craftable": false
+        },
+        {
+            "id": "buylore_winter_2link",
+            "label": "求教低阶冬之知识",
+            "actionId": "study",
+            "requirements": {
+                "aspect_scholar_winter": 1,
+                "aspect_partner": 1,
+                "aspect_level": 2,
+                "funds": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "startdescription": "向学者请教沉默的基础，通常花不了什么钱。",
+            "description": "信已寄出，静待回音。",
+            "alt":[
+                {
+                    "id": "buylore_winter_2",
+                    "chance": 100,
+                    "additional":true
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "buylore_winter_2",
+            "label": "等候回信",
+            "actionId": "buylore_winter_2",
+            "effects": {
+                "fragmentwinter": 1
+            },
+            "startdescription": "撰写简单的论述花不了多久。",
+            "description": "门铃作响，书信在门缝中飘落。",
+            "warmup": 40,
+            "craftable": false
+        },
+        {
+            "id": "rec_buyloretip1",
+            "actionId": "study",
+            "label": "求教？",
+            "startdescription": "教师值得尊重，我不能贸然如此。[你需要先将熟人变为合作者]",
+            "craftable": false,
+            "requirements": {
+                "acquaintance": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "rec_buyloretip2",
+            "actionId": "study",
+            "label": "求教……",
+            "startdescription": "求学问道，岂无束脩？",
+            "craftable": false,
+            "requirements": {
+                "aspect_partner": 1
+            },
+            "hintonly": true
+        }
+
+    ]
+}

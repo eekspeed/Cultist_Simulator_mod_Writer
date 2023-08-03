@@ -1,0 +1,53 @@
+{
+    "elements": [
+        {
+            "id": "card_salebook",
+            "label": "经营书店",
+            "description": "知识将从我手赋予未来。",
+            "aspects": {
+                "job": 1
+            },
+            "icon": "card_salebook",
+            "slots": [
+                {
+                    "id": "morebooks",
+                    "label": "书籍",
+                    "description": "被抽屉、橱柜和私人书架封存之物。",
+                    "required": {
+                        "aspect_original": 1,
+                        "aspect_transcript": 1
+                    },
+                    "actionId": "work",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "card_salebook_1",
+            "label": "经营书店",
+            "description": "知识将从我手赋予未来。",
+            "aspects": {
+                "job": 1
+            },
+            "icon": "card_salebook"
+        },
+        {
+            "id": "card_salebook_2",
+            "label": "经营书店",
+            "description": "知识将从我手赋予未来。",
+            "aspects": {
+                "job": 1
+            },
+            "icon": "card_salebook"
+        },
+        {
+            "id": "card_salebook_3",
+            "label": "经营书店",
+            "description": "知识将从我手赋予未来。",
+            "aspects": {
+                "job": 1
+            },
+            "icon": "card_salebook"
+        }
+    ]
+}

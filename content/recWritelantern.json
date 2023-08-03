@@ -1,0 +1,417 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_lantern_tip",
+            "label": "撰写《太玄》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 105
+            },
+            "startdescription": "玄者，神之魁也。天以不见为玄，地以不形为玄，人以心腹为玄。[待补充]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_lantern_link",
+            "label": "撰写《太玄》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 105,
+
+                "aspect_level": 15
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "玄者，神之魁也。天以不见为玄，地以不形为玄，人以心腹为玄。天浑行无穹不可见也，地不可形也，人心不可测也。故玄，深广远大矣。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_lantern",
+            "label": "撰写《太玄》",
+            "actionId": "write_15_lantern",
+            "effects": {
+                "book_15_lantern": 1
+            },
+            "startdescription": "玄者，神之魁也。天以不见为玄，地以不形为玄，人以心腹为玄。天浑行无穹不可见也，地不可形也，人心不可测也。故玄，深广远大矣。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_14_lantern_tip",
+            "label": "撰写《菜根谭》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 98
+            },
+            "startdescription": "学儒破礼、入世求真；学佛破空、入禅求俗；学道破己、入心求外。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_14_lantern_link",
+            "label": "撰写《菜根谭》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 98,
+
+                "aspect_level": 14,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "学儒破礼、入世求真；学佛破空、入禅求俗；学道破己、入心求外。论人书如兵法，学者生，像者死。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_14_lantern",
+            "label": "撰写《菜根谭》",
+            "actionId": "write_14_lantern",
+            "effects": {
+                "book_14_lantern": 1
+            },
+            "startdescription": "学儒破礼、入世求真；学佛破空、入禅求俗；学道破己、入心求外。论人书如兵法，学者生，像者死。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_12_lantern_1_tip",
+            "label": "撰写《梦溪笔谈》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 84
+            },
+            "startdescription": "纵览千法，自天文地理至经国理政；熔炼百科，纳数术物化包匠法工艺。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_12_lantern_1_link",
+            "label": "撰写《梦溪笔谈》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 84,
+
+                "aspect_level": 12,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "纵览千法，自天文地理至经国理政；熔炼百科，纳数术物化包匠法工艺。万古精粹，一书格致。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_12_lantern_1",
+            "label": "撰写《梦溪笔谈》",
+            "actionId": "write_14_lantern",
+            "effects": {
+                "book_14_lantern": 1
+            },
+            "startdescription": "纵览千法，自天文地理至经国理政；熔炼百科，纳数术物化包匠法工艺。万古精粹，一书格致。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_lantern_tip",
+            "label": "撰写《灵宪》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 70
+            },
+            "startdescription": "昔在先王，将步天路，用之定灵轨。[欲撰此书，另需二激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_lantern_link",
+            "label": "撰写《灵宪》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 70,
+
+                "aspect_level": 10,
+
+                "passion": 2
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "昔在先王，将步天路，用之定灵轨。寻绪本元，先准之于浑体，是为正仪立度，而皇极有所建也，枢运有所稽也。乃建乃稽，斯经天常。圣人无心，因兹以生心，故灵宪作兴。",
+            "description": "需千锤百炼，血气焚炎。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_lantern",
+            "label": "撰写《灵宪》",
+            "actionId": "write_10_lantern",
+            "effects": {
+                "book_10_lantern": 1
+            },
+            "startdescription": "昔在先王，将步天路，用之定灵轨。寻绪本元，先准之于浑体，是为正仪立度，而皇极有所建也，枢运有所稽也。乃建乃稽，斯经天常。圣人无心，因兹以生心，故灵宪作兴。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_8_lantern_tip",
+            "label": "撰写《千字文》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 56
+            },
+            "startdescription": "局于有限之字而能条理贯穿，毫无舛错，如舞霓裳于寸木，抽长绪于乱丝。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_8_lantern_link",
+            "label": "撰写《千字文》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 56,
+
+                "aspect_level": 8,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "局于有限之字而能条理贯穿，毫无舛错，如舞霓裳于寸木，抽长绪于乱丝。至今为小学家恒用之书。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_8_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_8_lantern",
+            "label": "撰写《千字文》",
+            "actionId": "write_8_lantern",
+            "effects": {
+                "book_8_lantern": 1
+            },
+            "startdescription": "局于有限之字而能条理贯穿，毫无舛错，如舞霓裳于寸木，抽长绪于乱丝。至今为小学家恒用之书。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_6_lantern_tip",
+            "label": "撰写《周易参同契》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 42
+            },
+            "startdescription": "托易象而炼丹，以乾坤铸鼎器，转阴阳作堤防，置水火求化机，定五行镇中辅，成玄精为丹基。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_6_lantern_link",
+            "label": "撰写《周易参同契》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 42,
+
+                "aspect_level": 6,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "托易象而炼丹，以乾坤铸鼎器，转阴阳作堤防，置水火求化机，定五行镇中辅，成玄精为丹基。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_6_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_6_lantern",
+            "label": "撰写《周易参同契》",
+            "actionId": "write_6_lantern",
+            "effects": {
+                "book_6_lantern": 1
+            },
+            "startdescription": "托易象而炼丹，以乾坤铸鼎器，转阴阳作堤防，置水火求化机，定五行镇中辅，成玄精为丹基。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_4_lantern_tip",
+            "label": "撰写《甘石星经》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 28
+            },
+            "startdescription": "甘经八卷以浑天定轨，石经八卷自日月相移。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_4_lantern_link",
+            "label": "撰写《甘石星经》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "lantern": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "甘经八卷以浑天定轨，石经八卷自日月相移。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_4_lantern",
+            "label": "撰写《甘石星经》",
+            "actionId": "write_4_lantern",
+            "effects": {
+                "book_4_lantern": 1
+            },
+            "startdescription": "甘经八卷以浑天定轨，石经八卷自日月相移。",
+            "warmup": 200,
+            "craftable": true
+        }
+    ]
+}

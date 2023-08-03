@@ -1,0 +1,1471 @@
+{
+    "recipes": [
+        {
+            "id": "read_edge_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的刃之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "edge": 2
+            },
+            "linked": [
+                {
+                    "id": "read_edge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_edge_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的刃之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "edge": 4
+            },
+            "linked": [
+                {
+                    "id": "read_edge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_edge_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的刃之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "edge": 6
+            },
+            "linked": [
+                {
+                    "id": "read_edge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_edge_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的刃之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "edge": 8
+            },
+            "linked": [
+                {
+                    "id": "read_edge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_edge_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的刃之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "edge": 10
+            },
+            "linked": [
+                {
+                    "id": "read_edge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_edge_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的刃之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "edge": 12
+            },
+            "linked": [
+                {
+                    "id": "read_edge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_edge_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的刃之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "edge": 14
+            },
+            "linked": [
+                {
+                    "id": "read_edge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_edge_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "edge",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_forge_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的铸之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "forge": 2
+            },
+            "linked": [
+                {
+                    "id": "read_forge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_forge_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的铸之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "forge": 4
+            },
+            "linked": [
+                {
+                    "id": "read_forge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_forge_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的铸之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "forge": 6
+            },
+            "linked": [
+                {
+                    "id": "read_forge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_forge_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的铸之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "forge": 8
+            },
+            "linked": [
+                {
+                    "id": "read_forge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_forge_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的铸之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "forge": 10
+            },
+            "linked": [
+                {
+                    "id": "read_forge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_forge_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的铸之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "forge": 12
+            },
+            "linked": [
+                {
+                    "id": "read_forge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_forge_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的铸之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "forge": 14
+            },
+            "linked": [
+                {
+                    "id": "read_forge_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_forge_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "forge",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_grail_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的杯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "grail": 2
+            },
+            "linked": [
+                {
+                    "id": "read_grail_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_grail_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的杯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "grail": 4
+            },
+            "linked": [
+                {
+                    "id": "read_grail_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_grail_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的杯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "grail": 6
+            },
+            "linked": [
+                {
+                    "id": "read_grail_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_grail_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的杯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "grail": 8
+            },
+            "linked": [
+                {
+                    "id": "read_grail_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_grail_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的杯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "grail": 10
+            },
+            "linked": [
+                {
+                    "id": "read_grail_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_grail_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的杯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "grail": 12
+            },
+            "linked": [
+                {
+                    "id": "read_grail_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_grail_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的杯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "grail": 14
+            },
+            "linked": [
+                {
+                    "id": "read_grail_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_grail_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "grail",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_heart_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的心之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "heart": 2
+            },
+            "linked": [
+                {
+                    "id": "read_heart_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_heart_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的心之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "heart": 4
+            },
+            "linked": [
+                {
+                    "id": "read_heart_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_heart_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的心之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "heart": 6
+            },
+            "linked": [
+                {
+                    "id": "read_heart_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_heart_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的心之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "heart": 8
+            },
+            "linked": [
+                {
+                    "id": "read_heart_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_heart_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的心之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "heart": 10
+            },
+            "linked": [
+                {
+                    "id": "read_heart_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_heart_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的心之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "heart": 12
+            },
+            "linked": [
+                {
+                    "id": "read_heart_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_heart_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的心之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "heart": 14
+            },
+            "linked": [
+                {
+                    "id": "read_heart_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_heart_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "heart",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_history_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的历史书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "secrethistories": 2
+            },
+            "linked": [
+                {
+                    "id": "read_history_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_history_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的历史书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "secrethistories": 4
+            },
+            "linked": [
+                {
+                    "id": "read_history_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_history_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的历史书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "secrethistories": 6
+            },
+            "linked": [
+                {
+                    "id": "read_history_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_history_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的历史书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "secrethistories": 8
+            },
+            "linked": [
+                {
+                    "id": "read_history_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_history_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的历史书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "secrethistories": 10
+            },
+            "linked": [
+                {
+                    "id": "read_history_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_history_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的历史书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "secrethistories": 12
+            },
+            "linked": [
+                {
+                    "id": "read_history_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_history_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的历史书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "secrethistories": 14
+            },
+            "linked": [
+                {
+                    "id": "read_history_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_history_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "secrethistories",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_knock_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的启之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "knock": 2
+            },
+            "linked": [
+                {
+                    "id": "read_knock_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_knock_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的启之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "knock": 4
+            },
+            "linked": [
+                {
+                    "id": "read_knock_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_knock_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的启之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "knock": 6
+            },
+            "linked": [
+                {
+                    "id": "read_knock_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_knock_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的启之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "knock": 8
+            },
+            "linked": [
+                {
+                    "id": "read_knock_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_knock_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的启之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "knock": 10
+            },
+            "linked": [
+                {
+                    "id": "read_knock_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_knock_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的启之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "knock": 12
+            },
+            "linked": [
+                {
+                    "id": "read_knock_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_knock_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的启之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "knock": 14
+            },
+            "linked": [
+                {
+                    "id": "read_knock_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_knock_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "knock",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_lantern_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的灯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "lantern": 2
+            },
+            "linked": [
+                {
+                    "id": "read_lantern_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_lantern_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的灯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "lantern": 4
+            },
+            "linked": [
+                {
+                    "id": "read_lantern_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_lantern_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的灯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "lantern": 6
+            },
+            "linked": [
+                {
+                    "id": "read_lantern_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_lantern_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的灯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "lantern": 8
+            },
+            "linked": [
+                {
+                    "id": "read_lantern_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_lantern_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的灯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "lantern": 10
+            },
+            "linked": [
+                {
+                    "id": "read_lantern_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_lantern_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的灯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "lantern": 12
+            },
+            "linked": [
+                {
+                    "id": "read_lantern_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_lantern_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的灯之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "lantern": 14
+            },
+            "linked": [
+                {
+                    "id": "read_lantern_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_lantern_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "lantern",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_moth_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "moth": 2
+            },
+            "linked": [
+                {
+                    "id": "read_moth_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_moth_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "moth": 4
+            },
+            "linked": [
+                {
+                    "id": "read_moth_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_moth_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "moth": 6
+            },
+            "linked": [
+                {
+                    "id": "read_moth_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_moth_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "moth": 8
+            },
+            "linked": [
+                {
+                    "id": "read_moth_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_moth_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "moth": 10
+            },
+            "linked": [
+                {
+                    "id": "read_moth_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_moth_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "moth": 12
+            },
+            "linked": [
+                {
+                    "id": "read_moth_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_moth_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "moth": 14
+            },
+            "linked": [
+                {
+                    "id": "read_moth_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_moth_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "moth",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "read_winter_2",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 2,
+                "winter": 2
+            },
+            "linked": [
+                {
+                    "id": "read_winter_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_winter_4",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 4,
+                "winter": 4
+            },
+            "linked": [
+                {
+                    "id": "read_winter_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_winter_6",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 6,
+                "winter": 6
+            },
+            "linked": [
+                {
+                    "id": "read_winter_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_winter_8",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 8,
+                "winter": 8
+            },
+            "linked": [
+                {
+                    "id": "read_winter_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_winter_10",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 10,
+                "winter": 10
+            },
+            "linked": [
+                {
+                    "id": "read_winter_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_winter_12",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 12,
+                "winter": 12
+            },
+            "linked": [
+                {
+                    "id": "read_winter_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_winter_14",
+            "actionId": "study",
+            "label": "读书",
+            "startdescription": "研修更高阶的蛾之书籍。",
+            "description": "书读百遍，其义自见。",
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_value": 14,
+                "winter": 14
+            },
+            "linked": [
+                {
+                    "id": "read_winter_add",
+                    "chance": 100
+                }
+            ],
+            "warmup": 50,
+            "craftable": true,
+            "maxexecutions": 1
+        },
+        {
+            "id": "read_winter_add",
+            "actionId": "study",
+            "label": "成果",
+            "startdescription": "书读百遍，其义自见。",
+            "description": "融会贯通，运用自如。",
+            "mutations": [
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "winter",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        }
+    ]
+}

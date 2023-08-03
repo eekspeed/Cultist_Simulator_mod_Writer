@@ -1,0 +1,53 @@
+{
+    "elements": [
+        {
+            "id": "aspect_original",
+            "label": "原本",
+            "isAspect": true,
+            "description": "文以载道，物以书文。道一以贯，意气相通。（读之如撰者亲至）"
+        },
+        {
+            "id": "aspect_transcript",
+            "label": "抄本",
+            "isAspect": true,
+            "description": "笔墨形销骨立，唯内容尚可一观（莫得灵魂的手抄本）"
+        },
+        {
+            "id": "aspect_mine",
+            "label": "亲笔作",
+            "isAspect": true,
+            "description": "由今日书撰所写就。"
+        },
+        {
+            "id": "aspect_regular",
+            "label": "以真书写就",
+            "isAspect": true,
+            "description": "真书者形体方正，横平竖直，可做模范。"
+        },
+        {
+            "id": "aspect_ancient",
+            "label": "以古文写就",
+            "isAspect": true,
+            "description": "……西土文字也。至许书所出古文，即孔子壁中书，其体与旁文颇不相近，六国遗器亦然。"
+        },
+        {
+            "id": "aspect_russian",
+            "label": "以俄语写就",
+            "isAspect": true,
+            "description": "一种可以无限延伸的文字。颇有知识的自解读性。"
+        },
+        {
+            "id": "aspect_japan",
+            "label": "以日语写就",
+            "isAspect": true,
+            "description": "诞生于中文。现兼收并蓄至难以理解的境界。"
+        },
+        {
+            "id": "aspect_value",
+            "label": "价值",
+            "isAspect": true,
+            "description": "此物价值几何。"
+        }
+    ]
+    
+}

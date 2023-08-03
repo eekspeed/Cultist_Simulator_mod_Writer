@@ -1,0 +1,161 @@
+{
+    "elements": [
+        {
+            "id": "book_4_history",
+            "label": "《查尔斯·迪克斯特·瓦德事件》",
+            "description": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。如果不是某位不可分离者的强烈要求，此书将会在某些地方公开发行。",
+            "aspects": {
+                "aspect_original": 1,
+                "secrethistories": 4,
+                "aspect_value": 12,
+                "aspect_mine": 1
+            },
+            "unique": true,
+            "icon": "book_4_history"
+        },
+        {
+            "id": "book_4_history_t",
+            "label": "《查尔斯·迪克斯特·瓦德事件》",
+            "description": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。如果不是某位不可分离者的强烈要求，此书将会在某些地方公开发行。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "secrethistories": 4,
+                "aspect_value": 4,
+                "aspect_mine": 1
+            },
+            "unique": false,
+            "icon": "book_4_history"
+        },
+        {
+            "id": "book_6_history",
+            "label": "《帝都物语》",
+            "description": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！等等，没有什么邪恶的阴阳师嘛。",
+            "aspects": {
+                "aspect_original": 1,
+                "secrethistories": 6,
+                "aspect_value": 18
+            },
+            "unique": true,
+            "icon": "book_6_history"
+        },
+        {
+            "id": "book_6_history_t",
+            "label": "《帝都物语》",
+            "description": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！等等，没有什么邪恶的阴阳师嘛。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "secrethistories": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon": "book_6_history"
+        },
+        {
+            "id": "book_8_history",
+            "label": "《七略》",
+            "description": "此书辨章学术，考镜源流，分辑略、六艺略、诸子略、诗赋略、兵书略、数术略、方技略七部。",
+            "aspects": {
+                "aspect_original": 1,
+                "secrethistories": 8,
+                "aspect_value": 24
+            },
+            "unique": true,
+            "icon": "book_8_history"
+        },
+        {
+            "id": "book_8_history_t",
+            "label": "《七略》",
+            "description": "此书辨章学术，考镜源流，分辑略、六艺略、诸子略、诗赋略、兵书略、数术略、方技略七部。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "secrethistories": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon": "book_8_history"
+        },
+        {
+            "id": "book_10_history",
+            "label": "《水经注》",
+            "description": "郦道元以桑钦所撰《水经》为纲，考证天下水系所成。",
+            "aspects": {
+                "aspect_original": 1,
+                "secrethistories": 10,
+                "aspect_value": 30
+            },
+            "unique": true,
+            "icon": "book_10_history"
+        },
+        {
+            "id": "book_10_history_t",
+            "label": "《水经注》",
+            "description": "郦道元以桑钦所撰《水经》为纲，考证天下水系所成。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "secrethistories": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_history"
+        },
+        {
+            "id": "book_12_history",
+            "label": "《太平广记》",
+            "description": "撰者十余人，名者李明远，吕子藏，赵亚之，王守节，张师黯，殷德川，李孟雍，扈日用，宋太素，徐鼎臣，吴正仪等。",
+            "aspects": {
+                "aspect_original": 1,
+                "secrethistories": 12,
+                "aspect_value": 36
+            },
+            "unique": true,
+            "icon": "book_12_history"
+        },
+        {
+            "id": "book_12_history_t",
+            "label": "《太平广记》",
+            "description": "撰者十余人，名者李明远，吕子藏，赵亚之，王守节，张师黯，殷德川，李孟雍，扈日用，宋太素，徐鼎臣，吴正仪等。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "secrethistories": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon": "book_12_history"
+        },
+        {
+            "id": "book_14_history",
+            "label": "《摩诃婆罗多》",
+            "description": "法、利、欲和解脱，婆罗多族雄牛。这里有，别处有，这里无，别处无。",
+            "aspects": {
+                "aspect_original": 1,
+                "secrethistories": 14,
+                "aspect_value": 42
+            },
+            "unique": true,
+            "icon": "book_14_history"
+        },
+        {
+            "id": "book_14_history_t",
+            "label": "《摩诃婆罗多》",
+            "description": "法、利、欲和解脱，婆罗多族雄牛。这里有，别处有，这里无，别处无。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "secrethistories": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon": "book_14_history"
+        },
+        {
+            "id": "book_15_history",
+            "label": "《三坟》",
+            "description": "伏羲、神农、黄帝之书，谓之《三坟》，言大道也。",
+            "aspects": {
+                "aspect_original": 1,
+                "secrethistories": 15
+            },
+            "unique": true,
+            "icon": "book_15_history"
+        }
+    ]
+}

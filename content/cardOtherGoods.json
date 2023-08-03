@@ -1,0 +1,64 @@
+{
+    "elements": [
+        {
+            "id": "good_stationery",
+            "label": "文具",
+            "description": "一套写作用品，足以日常使用。",
+            "aspects": {
+                "aspect_ink": 1,
+                "aspect_pen": 1,
+                "aspect_paper": 1
+            },
+            "slots": [
+                {
+                    "id": "write_lore",
+                    "required": {
+                        "lore": 1,
+                        "aspect_original": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "知识",
+                    "description": "奠基之石。"
+                },
+                {
+                    "id": "write_person",
+                    "required": {
+                        "aspect_bookwriter": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "书撰",
+                    "description": "撰写之人。"
+                },
+                {
+                    "id": "write_ingredient1",
+                    "required": {
+                        "influence": 1,
+                        "ingredient": 1
+                    },
+                    "actionId": "verb_write",
+                    "label": "影响",
+                    "description": "撰写之力。",
+                    "cosumes": true
+                }
+            ]
+        },
+        {
+            "id": "good_gaolujie",
+            "label": "高露洁牙膏",
+            "description": "一盒儿童装香橙口味高露洁牙膏，带有梦幻般的清甜气息，触之使万般思绪涌来。",
+            "aspects": {
+                "aspect_memory": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "good_feizifen",
+            "label": "痱子粉",
+            "description": "一盒牌子未知的痱子粉，带有悠久的沉香气息，涂抹在身可溶于夏风。",
+            "aspects": {
+                "aspect_memory": 1
+            },
+            "unique": true
+        }
+    ]
+}

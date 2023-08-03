@@ -1,0 +1,127 @@
+{
+    "recipes": [
+        {
+            "id": "work_salebook",
+            "label": "开始一天的工作",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_value": -1
+            },
+            "effects": {
+                "funds": 1
+            },
+            "startdescription": "报以生育般的虔诚。",
+            "description": "人流穿行，书亦如是。",
+            "warmup": 40,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "rec_money1",
+                    "chance": 60
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "rec_money1",
+            "label": "更多的顾客",
+            "actionId": "work",
+            "effects": {
+                "funds": 1
+            },
+            "startdescription": "周末、家长或有所卓识的人。",
+            "warmup": 5,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "rec_money2",
+                    "chance": 50
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "rec_money2",
+            "label": "更多的顾客",
+            "actionId": "work",
+            "effects": {
+                "funds": 1
+            },
+            "startdescription": "周末、家长或有所卓识的人。",
+            "warmup": 5,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "rec_money3",
+                    "chance": 40
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "rec_money3",
+            "label": "更多的顾客",
+            "actionId": "work",
+            "effects": {
+                "funds": 1
+            },
+            "startdescription": "周末、家长或有所卓识的人。",
+            "warmup": 5,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "rec_money4",
+                    "chance": 20
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "rec_money4",
+            "label": "更多的顾客",
+            "actionId": "work",
+            "effects": {
+                "funds": 1
+            },
+            "startdescription": "周末、家长或有所卓识的人。",
+            "warmup": 5,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "rec_money4",
+                    "chance": 10
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "workend",
+            "label": "工作结束",
+            "actionId": "work",
+            "description": "书已经售出,希望得其所用。",
+            "effects": {
+                "aspect_transcript": -1,
+                "aspect_original": -1,
+                "aspect_value": -99
+            },
+            "warmup": 5,
+            "craftable": false
+        }
+    ]
+}

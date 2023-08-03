@@ -1,0 +1,570 @@
+{
+    "recipes": [
+        {
+            "id": "work_salebook_o_14",
+            "label": "售卖原本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_original": 1,
+                "aspect_value": 42
+            },
+            "effects": {
+                "aspect_original": -1,
+                "compensationd": 2
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_3",
+                    "chance": 50
+                },
+                {
+                    "id": "scholar_givemore_3",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "没有书撰会这么做，除非关乎甚大。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_o_12",
+            "label": "售卖原本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_original": 1,
+                "aspect_value": 36
+            },
+            "effects": {
+                "aspect_original": -1,
+                "compensationd": 1
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_3",
+                    "chance": 30
+                },
+                {
+                    "id": "scholar_givemore_3",
+                    "chance": 30
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "有人戏称将这样的书籍公开展览就足以动乱俗世——而书撰已经得到过深刻的教训。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_o_10",
+            "label": "售卖原本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_original": 1,
+                "aspect_value": 30
+            },
+            "effects": {
+                "aspect_original": -1,
+                "compensationc": 2
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_3",
+                    "chance": 20
+                },
+                {
+                    "id": "scholar_givemore_3",
+                    "chance": 20
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "或许会引起长生者的厮杀。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_t_14",
+            "label": "售卖抄本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_transcript": 1,
+                "aspect_value": 14
+            },
+            "effects": {
+                "aspect_transcript": -1,
+                "compensationc": 1
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_3",
+                    "chance": 50
+                },
+                {
+                    "id": "scholar_givemore_3",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "此物何来？",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_o_8",
+            "label": "售卖原本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_original": 1,
+                "aspect_value": 24
+            },
+            "effects": {
+                "aspect_original": -1,
+                "compensationb": 2
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_2",
+                    "chance": 10
+                },
+                {
+                    "id": "scholar_givemore_2",
+                    "chance": 10
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "大匠手笔，超凡绝伦。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_t_12",
+            "label": "售卖抄本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_transcript": 1,
+                "aspect_value": 12
+            },
+            "effects": {
+                "aspect_transcript": -1,
+                "compensationb": 1
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_2",
+                    "chance": 30
+                },
+                {
+                    "id": "scholar_givemore_2",
+                    "chance": 30
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "只能被解释为原作者私藏的副本。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_o_6",
+            "label": "售卖原本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_original": 1,
+                "aspect_value": 18
+            },
+            "effects": {
+                "aspect_original": -1,
+                "compensation": 2
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_2",
+                    "chance": 30
+                },
+                {
+                    "id": "scholar_givemore_2",
+                    "chance": 30
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "完美的原本，可遇不可求。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_t_10",
+            "label": "售卖抄本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_transcript": 1,
+                "aspect_value": 10
+            },
+            "effects": {
+                "aspect_transcript": -1,
+                "compensation": 1
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_2",
+                    "chance": 20
+                },
+                {
+                    "id": "scholar_givemore_2",
+                    "chance": 20
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "以假乱真，几无破绽。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_o_4",
+            "label": "售卖原本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_original": 1,
+                "aspect_value": 12
+            },
+            "effects": {
+                "aspect_original": -1,
+                "funds": 12
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_1",
+                    "chance": 20
+                },
+                {
+                    "id": "scholar_givemore_1",
+                    "chance": 20
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "精致的原本，可谓杰作。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_t_8",
+            "label": "售卖抄本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_transcript": 1,
+                "aspect_value": 8
+            },
+            "effects": {
+                "aspect_transcript": -1,
+                "funds": 12
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_1",
+                    "chance": 10
+                },
+                {
+                    "id": "scholar_givemore_1",
+                    "chance": 10
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "惊人的抄本，已登大雅之堂。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_o_2",
+            "label": "售卖原本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_original": 1,
+                "aspect_value": 6
+            },
+            "effects": {
+                "aspect_original": -1,
+                "funds": 6
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_1",
+                    "chance": 10
+                },
+                {
+                    "id": "scholar_givemore_1",
+                    "chance": 10
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "最常见的原本，但仍倾注心血。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_t_6",
+            "label": "售卖抄本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_transcript": 1,
+                "aspect_value": 6
+            },
+            "effects": {
+                "aspect_transcript": -1,
+                "funds": 9
+            },
+            "linked": [
+                {
+                    "id": "person_givemore_1",
+                    "chance": 30
+                },
+                {
+                    "id": "scholar_givemore_1",
+                    "chance": 30
+                },
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "优质的抄本，不输名家碑帖。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_t_4",
+            "label": "售卖抄本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_transcript": 1,
+                "aspect_value": 4
+            },
+            "effects": {
+                "aspect_transcript": -1,
+                "funds": 6
+            },
+            "linked": [
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "还不错的抄本，有资格摆在艺术作品当中。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "work_salebook_t_2",
+            "label": "售卖抄本书籍",
+            "actionId": "work",
+            "requirements": {
+                "card_saleBook": 1,
+                "aspect_transcript": 1,
+                "aspect_value": 2
+            },
+            "effects": {
+                "aspect_transcript": -1,
+                "funds": 3
+            },
+            "linked": [
+                {
+                    "id": "workend",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "很便宜的抄本，凭借手抄的优势与精装印刷书分庭抗礼。",
+            "warmup": 40,
+            "craftable": true
+        },
+        {
+            "id": "person_givemore_3",
+            "label": "意料之外的收入",
+            "actionId": "work",
+            "startdescription": "一份惊人的礼物……",
+            "effects": {
+                "compensationd": 1
+            },
+            "linked": [
+                {
+                    "id": "partner_3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "person_givemore_2",
+            "label": "意料之外的收入",
+            "actionId": "work",
+            "startdescription": "一份稀有的礼物……",
+            "effects": {
+                "compensationc": 1
+            },
+            "linked": [
+                {
+                    "id": "partner_2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "person_givemore_1",
+            "label": "意料之外的收入",
+            "actionId": "work",
+            "startdescription": "一份珍贵的礼物……",
+            "effects": {
+                "compensationb": 1
+            },
+            "linked": [
+                {
+                    "id": "partner_1",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "partner_3",
+            "label": "是谁？",
+            "actionId": "work",
+            "startdescription": "……和一个联系方式。",
+            "deckeffects": {
+                "deck_partner_3": 1
+            },
+            "warmup": 0
+        },
+        {
+            "id": "partner_2",
+            "label": "是谁？",
+            "actionId": "work",
+            "startdescription": "……和一个联系方式。",
+            "deckeffects": {
+                "deck_partner_2": 1
+            },
+            "warmup": 0
+        },
+        {
+            "id": "partner_1",
+            "label": "是谁？",
+            "actionId": "work",
+            "startdescription": "……和一个联系方式。",
+            "deckeffects": {
+                "deck_partner_1": 1
+            },
+            "warmup": 0
+        },
+        {
+            "id": "scholar_givemore_3",
+            "label": "意料之外的收获",
+            "actionId": "work",
+            "startdescription": "一份惊人的力量……",
+            "deckeffects": {
+                "deck_Influence3": 1
+            },
+            "linked": [
+                {
+                    "id": "scholar_3",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "scholar_givemore_2",
+            "label": "意料之外的收获",
+            "actionId": "work",
+            "startdescription": "一份稀有的力量……",
+            "deckeffects": {
+                "deck_Influence2": 1
+            },
+            "linked": [
+                {
+                    "id": "scholar_2",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "scholar_givemore_1",
+            "label": "意料之外的收获",
+            "actionId": "work",
+            "startdescription": "一份珍贵的力量……",
+            "deckeffects": {
+                "deck_Influence1": 1
+            },
+            "linked": [
+                {
+                    "id": "scholar_1",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "scholar_3",
+            "label": "是谁？",
+            "actionId": "work",
+            "startdescription": "……和一个联系方式。",
+            "deckeffects": {
+                "deck_scholar_3": 1
+            },
+            "warmup": 0
+        },
+        {
+            "id": "scholar_2",
+            "label": "是谁？",
+            "actionId": "work",
+            "startdescription": "……和一个联系方式。",
+            "deckeffects": {
+                "deck_scholar_2": 1
+            },
+            "warmup": 0
+        },
+        {
+            "id": "scholar_1",
+            "label": "是谁？",
+            "actionId": "work",
+            "startdescription": "……和一个联系方式。",
+            "deckeffects": {
+                "deck_scholar_1": 1
+            },
+            "warmup": 0
+        }
+    ]
+}

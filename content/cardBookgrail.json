@@ -1,0 +1,218 @@
+{
+    "elements": [
+        {
+            "id": "book_2_grail",
+            "label": "《易牙遗意》",
+            "description": "韩奕托易牙仿古之作。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 2,
+                "aspect_value": 6,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_2_grail"
+        },
+        {
+            "id": "book_2_grail_t",
+            "label": "《易牙遗意》",
+            "description": "韩奕托易牙仿古之作。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 2,
+                "aspect_value": 2
+            },
+            "unique": false,
+            "icon": "book_2_grail"
+        },
+        {
+            "id": "book_4_grail",
+            "label": "《金瓶梅》",
+            "description": "兰陵郡望其文才超拔，可称巨公者唯其而已，知者皆知而讳言，不知者亦以不知为极妙之处。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 4,
+                "aspect_value": 12,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_4_grail"
+        },
+        {
+            "id": "book_4_grail_t",
+            "label": "《金瓶梅》",
+            "description": "兰陵郡望其文才超拔，可称巨公者唯其而已，知者皆知而讳言，不知者亦以不知为极妙之处。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 4,
+                "aspect_value": 4
+            },
+            "unique": false,
+            "icon": "book_4_grail"
+        },
+        {
+            "id": "book_6_grail",
+            "label": "《罗织经》",
+            "description": "周兴临刑看过，自叹弗如，甘愿受死；狄仁怀英阅罢，汗出如浆，战战兢兢；武后翻阅来回，骇其机心，杀机遂生。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 6,
+                "winter": 6,
+                "aspect_value": 18,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_6_grail"
+        },
+        {
+            "id": "book_6_grail_t",
+            "label": "《罗织经》",
+            "description": "周兴临刑看过，自叹弗如，甘愿受死；狄仁怀英阅罢，汗出如浆，战战兢兢；武后翻阅来回，骇其机心，杀机遂生。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 6,
+                "winter": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon": "book_6_grail"
+        },
+        {
+            "id": "book_8_grail",
+            "label": "《东京梦华录》",
+            "description": "幽兰居士没有采用一贯的深入之法，反而以量试图成就伟力。此等做法最终是否得到青睐今已不得而知，但元朝在大陆上流下的痕迹令人深思。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 8,
+                "aspect_value": 24,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_8_grail"
+        },
+        {
+            "id": "book_8_grail_t",
+            "label": "《东京梦华录》",
+            "description": "幽兰居士没有采用一贯的深入之法，反而以量试图成就伟力。此等做法最终是否得到青睐今已不得而知，但元朝在大陆上流下的痕迹令人深思。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon": "book_8_grail"
+        },
+        {
+            "id": "book_10_grail",
+            "label": "《茶经》",
+            "description": "圣者开道，茶亦惊伦。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 10,
+                "aspect_value": 30,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_10_grail"
+        },
+        {
+            "id": "book_10_grail_t",
+            "label": "《茶经》",
+            "description": "圣者开道，茶亦惊伦。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_grail"
+        },
+        {
+            "id": "book_12_grail_1",
+            "label": "《天竺外经》",
+            "description": "房中术御外之法，气力沉降以筋控骨，大成者可使其具如鞭指使，力可举一丈车轮。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 12,
+                "aspect_value": 36,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_12_grail_1"
+        },
+        {
+            "id": "book_12_grail_1t",
+            "label": "《天竺外经》",
+            "description": "房中术御外之法，气力沉降以筋控骨，大成者可使其具如鞭指使，力可举一丈车轮。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon": "book_12_grail_1"
+        },
+        {
+            "id": "book_12_grail_2",
+            "label": "《黄帝内经》",
+            "description": "房中术御内之法，气血轮转周天不息，精元化生如川入海，大成者百战不殆，金枪不倒。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 12,
+                "aspect_value": 36,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_12_grail_2"
+        },
+        {
+            "id": "book_12_grail_2t",
+            "label": "《黄帝内经》",
+            "description": "房中术御内之法，气血轮转周天不息，精元化生如川入海，大成者百战不殆，金枪不倒。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon": "book_12_grail_2"
+        },
+        {
+            "id": "book_14_grail",
+            "label": "《齐民要术》",
+            "description": "益国利民，不朽之术。",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 14,
+                "aspect_value": 42,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_14_grail"
+        },
+        {
+            "id": "book_14_grail_t",
+            "label": "《齐民要术》",
+            "description": "益国利民，不朽之术。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "grail": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon": "book_14_grail"
+        },
+        {
+            "id": "book_15_grail",
+            "label": "《起居注》",
+            "description": "书撰世仇者三人，一曰太史公，二曰唐太宗，三者已抹去名姓。此李世民之起居注，每读恨不能越千古诛之！",
+            "aspects": {
+                "aspect_original": 1,
+                "grail": 15,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_15_grail"
+        }
+    ]
+}

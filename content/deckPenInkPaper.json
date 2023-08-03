@@ -1,0 +1,123 @@
+{
+    "decks": [
+        {
+            "id": "deck_pen_4",
+            "label": "造化之笔",
+            "description": "笔主横亘宙宇，行文再造乾坤。",
+            "spec": [
+                "pen_14_ziyang",
+                "pen_12_jinglong"
+            ],
+            "resetonexhaustion":false
+        },
+        {
+            "id": "deck_pen_3",
+            "label": "稀世之笔",
+            "description": "用此笔书写如同拿历史在世界上雕刻。",
+            "spec": [
+                "pen_10_gui",
+                "pen_10_zhuge"
+            ],
+            "resetonexhaustion":false
+        },
+        {
+            "id": "deck_pen_2",
+            "label": "精良之笔",
+            "description": "非笔成人，乃人成笔。",
+            "spec": [
+                "pen_8_hu",
+                "pen_8_juyan"
+            ],
+            "resetonexhaustion":false
+        },
+        {
+            "id": "deck_pen_1",
+            "label": "寻常之笔",
+            "description": "名家匠作。",
+            "spec": [
+                "pen_6_dingxiang",
+                "pen_6_zaoxin"
+            ],
+            "resetonexhaustion":false
+        },
+        {
+            "id": "deck_ink_4",
+            "label": "造化之墨",
+            "description": "天坠研墨，呕血炼精。",
+            "spec": [
+                "ink_14_wulong",
+                "ink_12_shicai"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_ink_3",
+            "label": "稀世之墨",
+            "description": "天赐匠法，精心锤炼。",
+            "spec": [
+                "ink_10_qianqiuguang",
+                "ink_10_hanyujue"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_ink_2",
+            "label": "精良之墨",
+            "description": "天行有常，顺势而为。",
+            "spec": [
+                "ink_8_xuanlonghuan",
+                "ink_6_dandingfang"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_ink_1",
+            "label": "寻常之墨",
+            "description": "名家匠作。",
+            "spec": [
+                "ink_6_xirujin"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_paper_4",
+            "label": "造化之纸",
+            "description": "下笔排山，提笔倒海。",
+            "spec": [
+                "paper_14_xuetaojian",
+                "paper_14_ningshuang",
+                "paper_12_xiegong"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_paper_3",
+            "label": "稀世之纸",
+            "description": "墨分五色，层映七彩。",
+            "spec": [
+                "paper_10_jinsu",
+                "paper_10_yanteng"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_paper_2",
+            "label": "精良之纸",
+            "description": "轻似蝉翼白如雪，抖似细绸不闻声。",
+            "spec": [
+                "paper_8_celi"
+            ],
+            "resetonexhaustion":true
+        },
+        {
+            "id": "deck_paper_1",
+            "label": "寻常之纸",
+            "description": "名家匠作",
+            "spec": [
+                "paper_6_shuiwen",
+                "paper_6_ciqing"
+            ],
+            "resetonexhaustion":true
+        }
+    ]
+}

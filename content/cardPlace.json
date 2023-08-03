@@ -1,0 +1,148 @@
+{
+    "elements": [
+        {
+            "id": "place_smallshop",
+            "label": "文具店",
+            "description": "我通常在这里买寻常文具，店主因我对质量的苛刻追求对我印象颇深。",
+            "aspects": {
+                "location": 1
+            },
+            "icon": "place_smallshop",
+            "slots": [
+                {
+                    "id": "money",
+                    "label": "资金",
+                    "description": "稍微好些的文具都不便宜。",
+                    "required": {
+                        "funds": 1
+                    },
+                    "actionId": "verb_cooperate"
+                }
+            ]
+        },
+        {
+            "id": "place_homeofdead",
+            "label": "已故书撰的住所",
+            "description": "拜访此处虽然稍显不敬——而且危险，但我应当能找到一些不适合出现在司书监的东西。毕竟只有书撰最了解书撰。",
+            "aspects": {
+                "location": 1,
+                "vault": 1,
+                "lock_home_lostway": 1,
+                "lock_home_hideroom": 1
+            },
+            "icon": "place_homeofdead",
+            "slots": [
+                {
+                    "id": "slot_a",
+                    "label": "领队",
+                    "description": "至少有一人前往。",
+                    "required": {
+                        "aspect_partner": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_b",
+                    "label": "援手",
+                    "description": "合作者们即使未能精诚团结，更复杂的系统总能抵抗更多的冲击。",
+                    "required": {
+                        "aspect_partner": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_c",
+                    "label": "资金",
+                    "description": "合作者们的后勤由书撰提供。",
+                    "required": {
+                        "funds": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_d",
+                    "label": "追加资金",
+                    "description": "而后勤总不嫌多。",
+                    "required": {
+                        "funds": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_e",
+                    "label": "追加资金",
+                    "description": "摩多~摩多~",
+                    "required": {
+                        "funds": 1
+                    },
+                    "actionId": "verb_cooperate"
+                }
+            ]
+        },
+        {
+            "id": "place_akihabara",
+            "label": "秋叶原",
+            "description": "位于日本东京市区东北部千代田区。以JR秋叶原车站西侧的中央大道和神田明神大道为中心。",
+            "aspects": {
+                "location": 1,
+                "vault": 1,
+                "lock_aki_loveforkon": 1,
+                "lock_aki_shrine": 1,
+                "lock_aki_battleofwits": 1,
+                "lock_aki_sex": 1,
+                "lock_aki_fgo": 1,
+                "lock_aki_crossroad": 1,
+                "lock_aki_cartoon": 1,
+                "lock_aki_maidcafe": 1
+            },
+            "icon": "place_akihabara",
+            "slots": [
+                {
+                    "id": "slot_a",
+                    "label": "领队",
+                    "description": "至少有一人前往。",
+                    "required": {
+                        "aspect_partner": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_b",
+                    "label": "援手",
+                    "description": "合作者们即使未能精诚团结，更复杂的系统总能抵抗更多的冲击。",
+                    "required": {
+                        "aspect_partner": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_c",
+                    "label": "资金",
+                    "description": "合作者们的后勤由书撰提供。",
+                    "required": {
+                        "funds": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_d",
+                    "label": "追加资金",
+                    "description": "而后勤总不嫌多。",
+                    "required": {
+                        "funds": 1
+                    },
+                    "actionId": "verb_cooperate"
+                },
+                {
+                    "id": "slot_e",
+                    "label": "追加资金",
+                    "description": "摩多~摩多~",
+                    "required": {
+                        "funds": 1
+                    },
+                    "actionId": "verb_cooperate"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "elements": [
+        {
+            "id": "f_zhanchangyuanyaojing",
+            "label": "战场原妖精",
+            "description": "以博丽灵梦为本命的V家P主、独立音乐制作人、鼓手、吉他手。",
+            "aspects": {
+                "aspect_friend": 1
+            }
+        },
+        {
+            "id": "f_jileniao",
+            "label": "极乐鸟",
+            "description": "知名漫画家，现任职于A-SOUL工作室。",
+            "aspects": {
+                "aspect_friend": 1
+            }
+        },
+        {
+            "id": "f_spirit",
+            "label": "精灵少女",
+            "description": "几乎可以称作那位无止境的抗争者与那位不可触碰的明珠的血脉结合，即使只有最末端的交叉，也诞生了这不可思议的造物。",
+            "aspects": {
+                "aspect_friend": 1
+            }
+        }
+    ]
+}

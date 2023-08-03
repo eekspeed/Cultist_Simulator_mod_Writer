@@ -1,0 +1,342 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_winter_tip",
+            "label": "撰写《静静的顿河》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 105
+            },
+            "startdescription": "战争，和平，幸福，苦难，意义，虚无。[待补充]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_winter_link",
+            "label": "撰写《静静的顿河》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 105,
+
+                "aspect_level": 15
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "战争，和平，幸福，苦难，意义，虚无，最初始于静默，最终终于静默。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_winter",
+            "label": "撰写《静静的顿河》",
+            "actionId": "write_15_winter",
+            "effects": {
+                "book_15_winter": 1
+            },
+            "startdescription": "战争，和平，幸福，苦难，意义，虚无，最初始于静默，最终终于静默。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_12_winter_1_tip",
+            "label": "撰写《搜神记》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 84
+            },
+            "startdescription": "及其著述，亦足以发明神道之不诬也。群言百家，不可胜览；耳目所受，不可胜载。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_12_winter_1_link",
+            "label": "撰写《搜神记》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 84,
+
+                "aspect_level": 12,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "及其著述，亦足以发明神道之不诬也。群言百家，不可胜览；耳目所受，不可胜载。亦粗取足以演八略之旨，成其微说而已。幸将来好事之士，录其根体，有以游心寓目，而无尤焉。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_12_winter_1",
+            "label": "撰写《搜神记》",
+            "actionId": "write_14_winter",
+            "effects": {
+                "book_14_winter": 1
+            },
+            "startdescription": "及其著述，亦足以发明神道之不诬也。群言百家，不可胜览；耳目所受，不可胜载。亦粗取足以演八略之旨，成其微说而已。幸将来好事之士，录其根体，有以游心寓目，而无尤焉。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_winter_tip",
+            "label": "撰写《聊斋志异》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 70
+            },
+            "startdescription": "写鬼写妖高人一等，刺贪刺虐入骨三分。[欲撰此书，另需二激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_winter_link",
+            "label": "撰写《聊斋志异》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 70,
+
+                "aspect_level": 10,
+
+                "passion": 2
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "写鬼写妖高人一等，刺贪刺虐入骨三分。",
+            "description": "需千锤百炼，血气焚炎。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_winter",
+            "label": "撰写《聊斋志异》",
+            "actionId": "write_10_winter",
+            "effects": {
+                "book_10_winter": 1
+            },
+            "startdescription": "写鬼写妖高人一等，刺贪刺虐入骨三分。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_8_winter_tip",
+            "label": "撰写《西游记》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 56
+            },
+            "startdescription": "勇者读其争天斗地，智者读其伏脉千里，奸者读其上下谋算，空者读其赤诚干净。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_8_winter_link",
+            "label": "撰写《西游记》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 56,
+
+                "aspect_level": 8,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "勇者读其争天斗地，智者读其伏脉千里，奸者读其上下谋算，空者读其赤诚干净。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_8_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_8_winter",
+            "label": "撰写《西游记》",
+            "actionId": "write_8_winter",
+            "effects": {
+                "book_8_winter": 1
+            },
+            "startdescription": "勇者读其争天斗地，智者读其伏脉千里，奸者读其上下谋算，空者读其赤诚干净。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_4_winter_tip",
+            "label": "撰写《被侮辱与被损害的人》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 28
+            },
+            "startdescription": "陀思妥耶夫斯基将更大的分裂投射到某种社会现象上……[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_4_winter_link",
+            "label": "撰写《被侮辱与被损害的人》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "陀思妥耶夫斯基将更大的分裂投射到某种社会现象上……我们并不知道他是否预言了后来震撼世人的斗争，但分裂确实是那片土地上笼罩的黄昏之色。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id" : "write_4_winter",
+            "label" : "撰写《被侮辱与被损害的人》",
+            "actionId" : "write_4_winter",
+            "effects" : {
+                "book_4_winter" : 1
+            },
+            "startdescription" : "陀思妥耶夫斯基将更大的分裂投射到某种社会现象上……我们并不知道他是否预言了后来震撼世人的斗争，但分裂确实是那片土地上笼罩的黄昏之色。",
+            "warmup" : 200,
+            "craftable" : true
+        },
+        {
+            "id": "write_2_winter_link",
+            "label": "撰写《反叛的大魔王》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 14,
+
+                "aspect_level": 2,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "绝不承认此书之阶位。绝不否认此书之阶位。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_2_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_2_winter",
+            "label": "撰写《反叛的大魔王》",
+            "actionId": "write_2_winter",
+            "effects": {
+                "book_2_winter": 1
+            },
+            "startdescription": "绝不承认此书之阶位。绝不否认此书之阶位。",
+            "warmup": 200,
+            "craftable": true
+        }
+    ]
+}

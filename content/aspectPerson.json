@@ -1,0 +1,136 @@
+{
+    "elements": [
+        {
+            "id": "aspect_myself",
+            "label": "我",
+            "isAspect": true,
+            "description": "我。"
+        },
+        {
+            "id": "aspect_level",
+            "label": "阶位",
+            "isAspect": true,
+            "description": "衡量其力的粗略方式。"
+        },
+        {
+            "id": "aspect_supernatural",
+            "label": "超凡",
+            "isAspect": true,
+            "description": "归于自身之——人？也不一定。"
+        },
+        {
+            "id": "aspect_partner",
+            "label": "合作者",
+            "isAspect": true,
+            "description": "行者的归行者，书撰的归书撰。"
+        },
+        {
+            "id": "aspect_experience",
+            "label": "经验",
+            "isAspect": true,
+            "description": "一回生，二回熟。[达到10之后可晋升其阶位。]"
+        },
+        {
+            "id": "aspect_scholar_edge",
+            "label": "刃之学者",
+            "isAspect": true,
+            "description": "习学精修力量，狡诈，痛苦之学问。"
+        },
+        {
+            "id": "aspect_scholar_forge",
+            "label": "铸之学者",
+            "isAspect": true,
+            "description": "习学精修转变，塑形，力量之学问。"
+        },
+        {
+            "id": "aspect_scholar_grail",
+            "label": "杯之学者",
+            "isAspect": true,
+            "description": "习学精修苦痛，欲望，生育之学问。"
+        },
+        {
+            "id": "aspect_scholar_heart",
+            "label": "心之学者",
+            "isAspect": true,
+            "description": "习学精修生命、存续、保护之学问。"
+        },
+        {
+            "id": "aspect_scholar_history",
+            "label": "史官",
+            "isAspect": true,
+            "description": "此官位同世爵，自夏以来百代不易，非史家不可知其人。"
+        },
+        {
+            "id": "aspect_scholar_knock",
+            "label": "启之学者",
+            "isAspect": true,
+            "description": "习学精修揭示，开启、拆解之学问。"
+        },
+        {
+            "id": "aspect_scholar_lantern",
+            "label": "灯之学者",
+            "isAspect": true,
+            "description": "习学精修辉光、启明、理性之学问。"
+        },
+        {
+            "id": "aspect_scholar_moth",
+            "label": "蛾之学者",
+            "isAspect": true,
+            "description": "习学精修混沌、渴慕、激情之学问。"
+        },
+        {
+            "id": "aspect_scholar_winter",
+            "label": "冬之学者",
+            "isAspect": true,
+            "description": "习学精修静默、消逝、铭记之学问。"
+        },
+        {
+            "id": "aspect_bookwriter",
+            "label": "书撰",
+            "isAspect": true,
+            "description": "以文心雕龙。"
+        },
+        {
+            "id": "aspect_great",
+            "label": "巨匠",
+            "isAspect": true,
+            "description": "青史仅能为此人作微不足道的注解。"
+        },
+        {
+            "id": "aspect_us",
+            "label": "同志",
+            "isAspect": true,
+            "description": "自己人。"
+        },
+        {
+            "id": "aspect_talent",
+            "label": "天赋",
+            "isAspect": true,
+            "description": "天赋卓绝，习学神速，可入大家之列。"
+        },
+        {
+            "id": "aspect_tough",
+            "label": "坚韧",
+            "isAspect": true,
+            "description": "心性极佳，无坚不摧，可达自身极限。"
+        },
+        {
+            "id": "aspect_potential",
+            "label": "潜力",
+            "isAspect": true,
+            "description": "尚有更高处可及。[你可以送出书籍以使此人更进一步]"
+        },
+        {
+            "id": "aspect_friend",
+            "label": "朋友",
+            "isAspect": true,
+            "description": "虽为萍水相逢，亦是人间珍贵。"
+        },
+        {
+            "id": "aspect_addp",
+            "label": ".",
+            "isAspect": true,
+            "description": "此性相控制熟人卡变为合作者卡"
+        }
+    ]
+}

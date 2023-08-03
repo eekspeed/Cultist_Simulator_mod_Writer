@@ -1,0 +1,296 @@
+{
+    "recipes": [
+        {
+            "id": "copy_2_winter_link",
+            "label": "抄写《反叛的大魔王》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 6,
+                "book_2_winter": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需尽弃外物，通达人心。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_2_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_2_winter",
+            "label": "抄写《反叛的大魔王》",
+            "actionId": "copy_2_winter",
+            "effects": {
+                "book_2_winter_t": 1
+            },
+            "startdescription": "需尽弃外物，通达人心。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_4_winter_link",
+            "label": "抄写《被侮辱与被损害的人》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 12,
+                "book_4_winter": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需尽弃外物，通达人心。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_4_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_4_winter",
+            "label": "抄写《被侮辱与被损害的人》",
+            "actionId": "copy_4_winter",
+            "effects": {
+                "book_4_winter_t": 1
+            },
+            "startdescription": "需尽弃外物，通达人心。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_8_winter_tip",
+            "label": "抄写《西游记》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 24,
+                "book_8_winter": 1
+            },
+            "startdescription": "如若抄写，尚需投入理性。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "copy_8_winter_link",
+            "label": "抄写《西游记》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 16,
+                "reason":1,
+                "book_8_winter": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需安坐长街，超拔入世。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_8_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_8_winter",
+            "label": "抄写《西游记》",
+            "actionId": "copy_8_winter",
+            "effects": {
+                "book_8_winter_t": 1
+            },
+            "startdescription": "需安坐长街，超拔入世。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_10_winter_tip",
+            "label": "抄写《聊斋志异》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 30,
+                "book_10_winter": 1
+            },
+            "startdescription": "如若抄写，尚需投入两份理性。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "copy_10_winter_link",
+            "label": "抄写《聊斋志异》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 30,
+                "reason":2,
+                "book_10_winter": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需神游物外，灵思直感。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_10_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_10_winter",
+            "label": "抄写《聊斋志异》",
+            "actionId": "copy_10_winter",
+            "effects": {
+                "book_10_winter_t": 1
+            },
+            "startdescription": "需神游物外，灵思直感。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_12_winter_tip",
+            "label": "抄写《搜神记》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 36,
+                "book_12_winter": 1
+            },
+            "startdescription": "如若抄写，尚需投入两份理性。",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "copy_12_winter_link",
+            "label": "抄写《搜神记》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 36,
+                "reason":2,
+                "book_12_winter": 1
+            },
+            "aspects": {
+                "job": 1
+            },
+            "effects": {
+                "aspect_ink":-1,
+                "aspect_paper":-1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "抄写此书。",
+            "description": "需神游物外，灵思直感。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "copy_12_winter",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "copy_12_winter",
+            "label": "抄写《搜神记》",
+            "actionId": "copy_12_winter",
+            "effects": {
+                "book_12_winter_t": 1
+            },
+            "startdescription": "需神游物外，灵思直感。",
+            "description": "笔墨殆尽，书已抄毕。",
+            "warmup": 200,
+            "craftable": false
+        },
+        {
+            "id": "copy_15_winter_tip",
+            "label": "抄写《静静的顿河》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "winter": 45,
+                "book_15_winter": 1
+            },
+            "startdescription": "非不愿也，实无能为。[臻至巅峰之册诸史唯一]",
+            "craftable": false,
+            "hintonly": true
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "elements": [
+        {
+            "id": "book_4_lantern",
+            "label": "《甘石星经》",
+            "description": "甘经八卷以浑天定轨，石经八卷自日月相移。",
+            "aspects": {
+                "aspect_original": 1,
+                "lantern": 4,
+                "aspect_value": 12,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_4_lantern"
+        },
+        {
+            "id": "book_4_lantern_t",
+            "label": "《甘石星经》",
+            "description": "甘经八卷以浑天定轨，石经八卷自日月相移。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "lantern": 4,
+                "aspect_value": 4
+            },
+            "unique": false,
+            "icon": "book_4_lantern"
+        },
+        {
+            "id": "book_6_lantern",
+            "label": "《周易参同契》",
+            "description": "托易象而炼丹，以乾坤铸鼎器，转阴阳作堤防，置水火求化机，定五行镇中辅，成玄精为丹基。",
+            "aspects": {
+                "aspect_original": 1,
+                "lantern": 6,
+                "aspect_value": 18,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_6_lantern"
+        },
+        {
+            "id": "book_6_lantern_t",
+            "label": "《周易参同契》",
+            "description": "托易象而炼丹，以乾坤铸鼎器，转阴阳作堤防，置水火求化机，定五行镇中辅，成玄精为丹基。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "lantern": 6,
+                "aspect_value": 6
+            },
+            "unique": false,
+            "icon": "book_6_lantern"
+        },
+        {
+            "id": "book_8_lantern",
+            "label": "《千字文》",
+            "description": "局于有限之字而能条理贯穿，毫无舛错，如舞霓裳于寸木，抽长绪于乱丝。至今为小学家恒用之书。",
+            "aspects": {
+                "aspect_original": 1,
+                "lantern": 8,
+                "aspect_value": 24,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_8_lantern"
+        },
+        {
+            "id": "book_8_lantern_t",
+            "label": "《千字文》",
+            "description": "局于有限之字而能条理贯穿，毫无舛错，如舞霓裳于寸木，抽长绪于乱丝。至今为小学家恒用之书。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "lantern": 8,
+                "aspect_value": 8
+            },
+            "unique": false,
+            "icon": "book_8_lantern"
+        },
+        {
+            "id": "book_10_lantern",
+            "label": "《灵宪》",
+            "description": "昔在先王，将步天路，用之定灵轨。寻绪本元，先准之于浑体，是为正仪立度，而皇极有所建也，枢运有所稽也。乃建乃稽，斯经天常。圣人无心，因兹以生心，故灵宪作兴。",
+            "aspects": {
+                "aspect_original": 1,
+                "lantern": 10,
+                "aspect_value": 30,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_10_lantern"
+        },
+        {
+            "id": "book_10_lantern_t",
+            "label": "《灵宪》",
+            "description": "昔在先王，将步天路，用之定灵轨。寻绪本元，先准之于浑体，是为正仪立度，而皇极有所建也，枢运有所稽也。乃建乃稽，斯经天常。圣人无心，因兹以生心，故灵宪作兴。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "lantern": 10,
+                "aspect_value": 10
+            },
+            "unique": false,
+            "icon": "book_10_lantern"
+        },
+        {
+            "id": "book_12_lantern",
+            "label": "《梦溪笔谈》",
+            "description": "纵览千法，自天文地理至经国理政；熔炼百科，纳数术物化包匠法工艺。万古精粹，一书格致。",
+            "aspects": {
+                "aspect_original": 1,
+                "lantern": 12,
+                "forge": 12,
+                "aspect_value": 36,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_12_lantern"
+        },
+        {
+            "id": "book_12_lantern_t",
+            "label": "《梦溪笔谈》",
+            "description": "纵览千法，自天文地理至经国理政；熔炼百科，纳数术物化包匠法工艺。万古精粹，一书格致。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "lantern": 12,
+                "forge": 12,
+                "aspect_value": 12
+            },
+            "unique": false,
+            "icon": "book_12_lantern"
+        },
+        {
+            "id": "book_14_lantern",
+            "label": "《菜根谭》",
+            "description": "学儒破礼、入世求真；学佛破空、入禅求俗；学道破己、入心求外。论人书如兵法，学者生，像者死。",
+            "aspects": {
+                "aspect_original": 1,
+                "lantern": 14,
+                "aspect_value": 42,
+                "aspect_regular": 1
+            },
+            "unique": true,
+            "icon": "book_14_lantern"
+        },
+        {
+            "id": "book_14_lantern_t",
+            "label": "《菜根谭》",
+            "description": "学儒破礼、入世求真；学佛破空、入禅求俗；学道破己、入心求外。论人书如兵法，学者生，像者死。\n[此为抄本。]",
+            "aspects": {
+                "aspect_transcript": 1,
+                "lantern": 14,
+                "aspect_value": 14
+            },
+            "unique": false,
+            "icon": "book_14_lantern"
+        },
+        {
+            "id": "book_15_lantern",
+            "label": "《太玄》",
+            "description": "玄者，神之魁也。天以不见为玄，地以不形为玄，人以心腹为玄。天浑行无穹不可见也，地不可形也，人心不可测也。故玄，深广远大矣。",
+            "aspects": {
+                "aspect_original": 1,
+                "lantern": 15,
+                "aspect_ancient": 1
+            },
+            "unique": true,
+            "icon": "book_15_lantern"
+        }
+    ]
+}

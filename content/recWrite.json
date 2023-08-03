@@ -1,0 +1,74 @@
+{
+    "recipes": [
+        
+        {
+            "id": "write_15_lantern_link",
+            "label": "撰写《太玄》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_level": 15,
+                "lantern": 90,
+                "secrethistories": 15,
+                "reason": 3,
+                "influencelanterng": 1
+            },
+            "startdescription": "玄者，神之魁也。天以不见为玄，地以不形为玄，人以心腹为玄。天浑行无穹不可见也，地不可形也，人心不可测也。故玄，深广远大矣。",
+            "description": "需平心静气，久久为功。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_lantern",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_lantern",
+            "label": "撰写《太玄》",
+            "actionId": "write_15_lantern",
+            "effects": {
+                "book_15_lantern": 1
+            },
+            "startdescription": "玄者，神之魁也。天以不见为玄，地以不形为玄，人以心腹为玄。天浑行无穹不可见也，地不可形也，人心不可测也。故玄，深广远大矣。",
+            "warmup": 20,
+            "craftable": true
+        },
+        {
+            "id": "wirte_tip3",
+            "actionId": "verb_write",
+            "label": "抄写原本？",
+            "startdescription": "以躬行体悟真意，也当谋生之用。性相三倍其位阶即可。",
+            "craftable": false,
+            "requirements": {
+                "aspect_pen": 1,
+                "aspect_original":1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "wirte_tip2",
+            "actionId": "verb_write",
+            "label": "撰写新篇？",
+            "startdescription": "道可道，非常道。名可名，非常名。纸，笔，墨，密传，书撰，原料，影响均配其位，得位阶七倍性相方成一书。",
+            "craftable": false,
+            "requirements": {
+                "aspect_pen": 1,
+                "lore":1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "wirte_tip1",
+            "actionId": "verb_write",
+            "label": "撰写……",
+            "startdescription": "今将提笔，呈纸于何？",
+            "craftable": false,
+            "requirements": {
+                "aspect_pen": 1
+            },
+            "hintonly": true
+        }
+    ]
+}

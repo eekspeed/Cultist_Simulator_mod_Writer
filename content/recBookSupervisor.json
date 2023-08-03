@@ -1,0 +1,373 @@
+{
+    "recipes": [
+        {
+            "id": "rec_pen_4",
+            "actionId": "verb_cooperate",
+            "label": "请笔",
+            "startdescription": "请出一支造化之笔",
+            "description": "笔主横亘宙宇，行文再造乾坤。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_pen": 1,
+                "compensationvalue": 16
+            },
+            "deckeffects": {
+                "deck_pen_4": 1
+            }
+        },
+        {
+            "id": "rec_pen_3",
+            "actionId": "verb_cooperate",
+            "label": "请笔",
+            "startdescription": "请出一支稀世之笔",
+            "description": "用此笔书写如同拿历史在世界上雕刻。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_pen": 1,
+                "compensationvalue": 8
+            },
+            "deckeffects": {
+                "deck_pen_3": 1
+            }
+        },
+        {
+            "id": "rec_pen_2",
+            "actionId": "verb_cooperate",
+            "label": "请笔",
+            "startdescription": "请出一支精良之笔",
+            "description": "非笔成人，乃人成笔。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_pen": 1,
+                "compensationvalue": 4
+            },
+            "deckeffects": {
+                "deck_pen_2": 1
+            }
+        },
+        {
+            "id": "rec_pen_1",
+            "actionId": "verb_cooperate",
+            "label": "请笔",
+            "startdescription": "请出一支寻常之笔",
+            "description": "名家匠作。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_pen": 1,
+                "compensationvalue": 2
+            },
+            "deckeffects": {
+                "deck_pen_1": 1
+            }
+        },
+        {
+            "id": "rec_ink_4",
+            "actionId": "verb_cooperate",
+            "label": "请墨",
+            "startdescription": "请出一锭造化之墨",
+            "description": "天坠研墨，呕血炼精。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_ink": 1,
+                "compensationvalue": 16
+            },
+            "deckeffects": {
+                "deck_ink_4": 1
+            }
+        },
+        {
+            "id": "rec_ink_3",
+            "actionId": "verb_cooperate",
+            "label": "请墨",
+            "startdescription": "请出一锭稀世之墨",
+            "description": "天赐匠法，精心锤炼。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_ink": 1,
+                "compensationvalue": 8
+            },
+            "deckeffects": {
+                "deck_ink_3": 1
+            }
+        },
+        {
+            "id": "rec_ink_2",
+            "actionId": "verb_cooperate",
+            "label": "请墨",
+            "startdescription": "请出一锭精良之墨",
+            "description": "天行有常，顺势而为。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_ink": 1,
+                "compensationvalue": 4
+            },
+            "deckeffects": {
+                "deck_ink_2": 1
+            }
+        },
+        {
+            "id": "rec_ink_1",
+            "actionId": "verb_cooperate",
+            "label": "请墨",
+            "startdescription": "请出一锭寻常之墨",
+            "description": "名家匠作。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_ink": 1,
+                "compensationvalue": 2
+            },
+            "deckeffects": {
+                "deck_ink_1": 1
+            }
+        },
+        {
+            "id": "rec_paper_4",
+            "actionId": "verb_cooperate",
+            "label": "请纸",
+            "startdescription": "请出一张造化之纸",
+            "description": "下笔排山，提笔倒海。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_paper": 1,
+                "compensationvalue": 16
+            },
+            "deckeffects": {
+                "deck_paper_4": 1
+            }
+        },
+        {
+            "id": "rec_paper_3",
+            "actionId": "verb_cooperate",
+            "label": "请纸",
+            "startdescription": "请出一张稀世之纸",
+            "description": "墨分五色，层映七彩。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_paper": 1,
+                "compensationvalue": 8
+            },
+            "deckeffects": {
+                "deck_paper_3": 1
+            }
+        },
+        {
+            "id": "rec_paper_2",
+            "actionId": "verb_cooperate",
+            "label": "请纸",
+            "startdescription": "请出一张精良之纸",
+            "description": "轻似蝉翼白如雪，抖似细绸不闻声。",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_paper": 1,
+                "compensationvalue": 4
+            },
+            "deckeffects": {
+                "deck_paper_2": 1
+            }
+        },
+        {
+            "id": "rec_paper_1",
+            "actionId": "verb_cooperate",
+            "label": "请纸",
+            "startdescription": "请出一张寻常之纸",
+            "description": "名家匠作",
+            "warmup": 10,
+            "craftable": true,
+            "requirements": {
+                "treasury_paper": 1,
+                "compensationvalue": 2
+            },
+            "deckeffects": {
+                "deck_paper_1": 1
+            }
+        },
+        {
+            "id": "rec_partner",
+            "actionId": "verb_talk",
+            "label": "同伍",
+            "startdescription": "大道之行，非独吾功。",
+            "description": "我们并非同伴，却又不止为雇佣。",
+            "warmup": 30,
+            "craftable": true,
+            "requirements": {
+                "aspect_myself": 1,
+                "card_booksupervisor": 1,
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 1
+            },
+            "aspects": {
+                "aspect_addp": 1
+            }
+        },
+        {
+            "id": "rec_levelup_1215",
+            "actionId": "verb_talk",
+            "label": "晋升",
+            "startdescription": "此即明证。书破万卷，智识通天，封赐战袍，亲往战线。",
+            "craftable": true,
+            "warmup": 10,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself_12": 1,
+                "aspect_mine": 1,
+                "aspect_value": 36
+            },
+            "aspects": {
+                "aspect_levelup": 1
+            }
+        },
+        {
+            "id": "rec_levelup_1012",
+            "actionId": "verb_talk",
+            "label": "晋升",
+            "startdescription": "此即明证。自此位列司书监大书撰位，加司书监事务院中庭行走。",
+            "craftable": true,
+            "warmup": 10,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself_10": 1,
+                "aspect_mine": 1,
+                "aspect_value": 30
+            },
+            "aspects": {
+                "aspect_levelup": 1
+            }
+        },
+        {
+            "id": "rec_levelup_810",
+            "actionId": "verb_talk",
+            "label": "晋升",
+            "startdescription": "此即明证。外府得司书监印，其要者兼司书监虚职。",
+            "craftable": true,
+            "warmup": 10,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself_8": 1,
+                "aspect_mine": 1,
+                "aspect_value": 24
+            },
+            "aspects": {
+                "aspect_levelup": 1
+            }
+        },
+        {
+            "id": "rec_levelup_68",
+            "actionId": "verb_talk",
+            "label": "晋升",
+            "startdescription": "此即明证。得以开府建衙权仪，募门下以理事。",
+            "craftable": true,
+            "warmup": 10,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself_6": 1,
+                "aspect_mine": 1,
+                "aspect_value": 18
+            },
+            "aspects": {
+                "aspect_levelup": 1
+            }
+        },
+        {
+            "id": "rec_levelup_46",
+            "actionId": "verb_talk",
+            "label": "晋升",
+            "startdescription": "此即明证。得领从事秘书，可托以撰书之事。",
+            "craftable": true,
+            "warmup": 10,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself_4": 1,
+                "aspect_mine": 1,
+                "aspect_value": 12
+            },
+            "aspects": {
+                "aspect_levelup": 1
+            }
+        },
+        {
+            "id": "rec_levelup_24",
+            "actionId": "verb_talk",
+            "label": "晋升",
+            "startdescription": "此即明证。得领司书监三仓符契。",
+            "craftable": true,
+            "warmup": 10,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself": 1,
+                "aspect_mine": 1,
+                "aspect_value": 6
+            },
+            "aspects": {
+                "aspect_levelup": 1
+            },
+            "effects": {
+                "treasury_pen": 1,
+                "treasury_ink": 1,
+                "treasury_paper": 1
+            }
+        },
+        {
+            "id": "rec_booksupertip4",
+            "actionId": "verb_talk",
+            "label": "晋升——错误的作品",
+            "startdescription": "这不是我亲笔写成。",
+            "craftable": false,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself": 1,
+                "aspect_mine": -1,
+                "aspect_value": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "rec_booksupertip3",
+            "actionId": "verb_talk",
+            "label": "晋升——笔力未及",
+            "startdescription": "虽为亲作，难入法眼。",
+            "craftable": false,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "myself": 1,
+                "aspect_mine": 1,
+                "aspect_value": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "rec_booksupertip2",
+            "actionId": "verb_talk",
+            "label": "我",
+            "startdescription": "我已于此处署名。如发书上计，需附拙作为证；如歃血盟誓，则问吾谁与归。",
+            "craftable": false,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "aspect_myself": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "rec_booksupertip1",
+            "actionId": "verb_talk",
+            "label": "谈及司书监？",
+            "startdescription": "以书撰之名上书陈事，或为晋身，或为朋党。",
+            "craftable": false,
+            "requirements": {
+                "card_booksupervisor": 1
+            },
+            "hintonly": true
+        }
+    ]
+}

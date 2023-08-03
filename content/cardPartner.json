@@ -1,0 +1,310 @@
+{
+    "elements": [
+        {
+            "id": "p_chuancigong_a",
+            "label": "熟人弗拉德三世",
+            "description": "弗拉德三世本人对某些传说和基于传说诞生的文艺作品很感兴趣，这就好比在片尾看到“戈尔巴乔夫 饰 戈尔巴乔夫”。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6
+            },
+            "uniquenessgroup": "uqchuancigong",
+            "icon": "chuancigong",
+            "xtriggers": {
+                "aspect_addp": "p_chuancigong_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_chuancigong_b",
+            "label": "合作者弗拉德三世",
+            "description": "弗拉德三世已经学会了匹配血型和静脉注射。这让他靠谱多了。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6,
+                "grail": 6,
+                "edge": 6,
+                "knock": 4,
+                "winter": 4
+            },
+            "uniquenessgroup": "uqchuancigong",
+            "icon": "chuancigong",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id":"uqchuancigong",
+            "label":"穿刺公的集组。为什么一定要写出来？",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
+        },
+        {
+            "id": "p_karman_a",
+            "label": "熟人卡门",
+            "description": "不要追究卡门是谁的子嗣，除非你想亲身体验被清算的滋味。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 14
+            },
+            "uniquenessgroup": "uqkarman",
+            "icon": "karman",
+            "xtriggers": {
+                "aspect_addp": "p_karman_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_karman_b",
+            "label": "合作者卡门",
+            "description": "通常情况之下卡门不会计较，卡门计较起来历史为之倒转。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 14,
+                "edge": 14,
+                "lantern": 12,
+                "winter": 12
+            },
+            "uniquenessgroup": "uqkarman",
+            "icon": "karman",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id":"uqkarman",
+            "label":"卡门的集组。",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
+        },
+        {
+            "id": "p_heinrich_a",
+            "label": "熟人海因里希",
+            "description": "“如果莫德尔愿意，”海因里希带着缓慢而悠长的怀念说，“我们会成为朋友，一直到现在。”",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 8
+            },
+            "uniquenessgroup": "uqheinrich",
+            "icon": "heinrich",
+            "xtriggers": {
+                "aspect_addp": "p_heinrich_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_heinrich_b",
+            "label": "合作者海因里希",
+            "description": "海因里希不求胜利，因此他从未失败。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 8,
+                "edge": 6,
+                "moth": 8,
+                "heart": 6
+            },
+            "uniquenessgroup": "uqheinrich",
+            "icon": "heinrich",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id":"uqheinrich",
+            "label":"海因里希的集组。",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
+        },
+        {
+            "id": "p_rahul_a",
+            "label": "熟人拉胡尔",
+            "description": "拉胡尔像是无所不能，熟悉他的人则知晓拉胡尔各司其职。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4
+            },
+            "uniquenessgroup": "uqrahul",
+            "icon": "rahul",
+            "xtriggers": {
+                "aspect_addp": "p_rahul_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_rahul_b",
+            "label": "合作者拉胡尔",
+            "description": "拉胡尔就是拉胡尔，但拉胡尔的数量是未知数。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4,
+                "heart": 8
+            },
+            "uniquenessgroup": "uqrahul",
+            "icon": "rahul",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id":"uqrahul",
+            "label":"拉胡尔的集组。",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
+        },
+        {
+            "id": "p_sunway_a",
+            "label": "熟人神威",
+            "description": "神威以前是孤身一人，后来一直带着位援气少女。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4
+            },
+            "uniquenessgroup": "uqsunway",
+            "icon": "sunway",
+            "xtriggers": {
+                "aspect_addp": "p_sunway_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_sunway_b",
+            "label": "合作者神威",
+            "description": "神威总是尽其所能打听“爱亦无疆mod”的消息。哪个上层叙事者告诉他的？",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4,
+                "heart": 4,
+                "grail": 4,
+                "knock": 4
+            },
+            "uniquenessgroup": "uqsunway",
+            "icon": "sunway",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id":"uqsunway",
+            "label":"神威的集组。",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
+        },
+        {
+            "id": "p_kirby_a",
+            "label": "熟人星之卡比",
+            "description": "要想知道星之卡比是什么可以使用排除法。首先，这不是苹果。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 12
+            },
+            "uniquenessgroup": "uqkirby",
+            "icon": "kirby",
+            "xtriggers": {
+                "aspect_addp": "p_kirby_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_kirby_b",
+            "label": "合作者星之卡比",
+            "description": "所以说星之卡比到底是什么？",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 12,
+                "forge": 12,
+                "knock": 12,
+                "edge": 10
+            },
+            "uniquenessgroup": "uqkirby",
+            "icon": "kirby",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id":"uqkirby",
+            "label":"星之卡比的集组。",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
+        },
+        {
+            "id": "p_500x_a",
+            "label": "熟人五百城入姬",
+            "description": "五百城入姬姓五百城而非五百，这简直是和不知火舞姓不知一样愚蠢的错误。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 10
+            },
+            "uniquenessgroup": "uq500x",
+            "icon": "500x",
+            "xtriggers": {
+                "aspect_addp": "p_500x_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_500x_b",
+            "label": "合作者五百城入姬",
+            "description": "很难跟五百城入姬解释她手里的实心球为什么不能把星之卡比装进去。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 10,
+                "lantern": 12,
+                "secrethistories": 10
+            },
+            "uniquenessgroup": "uq500x",
+            "icon": "500x",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id":"uq500x",
+            "label":"五百城入姬的集组。",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
+        }
+    ]
+}

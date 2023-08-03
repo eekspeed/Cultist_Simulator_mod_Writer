@@ -1,0 +1,417 @@
+{
+    "recipes": [
+        {
+            "id": "write_15_knock_tip",
+            "label": "撰写《河图洛书》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 105
+            },
+            "startdescription": "河出图，洛出书，圣人则之。[待补充]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_15_knock_link",
+            "label": "撰写《河图洛书》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 105,
+
+                "aspect_level": 15
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "河出图，洛出书，圣人则之。",
+            "description": "境界至此，不知如何。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_15_knock",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_15_knock",
+            "label": "撰写《河图洛书》",
+            "actionId": "write_15_knock",
+            "effects": {
+                "book_15_knock": 1
+            },
+            "startdescription": "河出图，洛出书，圣人则之。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_14_knock_tip",
+            "label": "撰写《连山归藏》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 98
+            },
+            "startdescription": "‘连山’者，象山之出云连连不绝。‘归藏’者，万物莫不归藏于其中。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_14_knock_link",
+            "label": "撰写《连山归藏》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 98,
+
+                "aspect_level": 14,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "‘连山’者，象山之出云连连不绝。‘归藏’者，万物莫不归藏于其中。周大卜掌三易之法；一曰《连山》，二曰《归藏》，三曰《周易》。其经卦皆八，其别卦皆六十有四。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_knock",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_14_knock",
+            "label": "撰写《连山归藏》",
+            "actionId": "write_14_knock",
+            "effects": {
+                "book_14_knock": 1
+            },
+            "startdescription": "‘连山’者，象山之出云连连不绝。‘归藏’者，万物莫不归藏于其中。周大卜掌三易之法；一曰《连山》，二曰《归藏》，三曰《周易》。其经卦皆八，其别卦皆六十有四。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_12_knock_1_tip",
+            "label": "撰写《奇门遁甲》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 84
+            },
+            "startdescription": "通奇门遁甲，上知天文、下知地理、中通万物。[欲撰此书，另需理性，激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_12_knock_1_link",
+            "label": "撰写《奇门遁甲》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 84,
+
+                "aspect_level": 12,
+
+                "reason": 1,
+                "passion": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "通奇门遁甲，上知天文、下知地理、中通万物，顺四时、善民意、辅天子、执政令，临大事沉稳不乱、谋戈先机、料事如神、运筹帷握、进则攻敌制胜、退则留后守安。",
+            "description": "需巧夺天工，超凡入圣。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_14_knock",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_12_knock_1",
+            "label": "撰写《奇门遁甲》",
+            "actionId": "write_14_knock",
+            "effects": {
+                "book_14_knock": 1
+            },
+            "startdescription": "通奇门遁甲，上知天文、下知地理、中通万物，顺四时、善民意、辅天子、执政令，临大事沉稳不乱、谋戈先机、料事如神、运筹帷握、进则攻敌制胜、退则留后守安。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_10_knock_tip",
+            "label": "撰写《周易》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 70
+            },
+            "startdescription": "又《易》道广大，无所不包，旁及天文、地理、乐律、兵法、音员学、算术……[欲撰此书，另需二激情]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_10_knock_link",
+            "label": "撰写《周易》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 70,
+
+                "aspect_level": 10,
+
+                "passion": 2
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "又《易》道广大，无所不包，旁及天文、地理、乐律、兵法、音员学、算术，以逮方外之炉火，皆可援《易》以为说，而好异者又援以入《易》，故《易》说愈繁。",
+            "description": "需千锤百炼，血气焚炎。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_10_knock",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_10_knock",
+            "label": "撰写《周易》",
+            "actionId": "write_10_knock",
+            "effects": {
+                "book_10_knock": 1
+            },
+            "startdescription": "又《易》道广大，无所不包，旁及天文、地理、乐律、兵法、音员学、算术，以逮方外之炉火，皆可援《易》以为说，而好异者又援以入《易》，故《易》说愈繁。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_8_knock_tip",
+            "label": "撰写《虞夏书》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 56
+            },
+            "startdescription": "帝言行举止载于典，臣言行举止载于册，地税赋况法载于贡。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_8_knock_link",
+            "label": "撰写《虞夏书》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 56,
+
+                "aspect_level": 8,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "帝言行举止载于典，臣言行举止载于册，地税赋况法载于贡。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_8_knock",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_8_knock",
+            "label": "撰写《虞夏书》",
+            "actionId": "write_8_knock",
+            "effects": {
+                "book_8_knock": 1
+            },
+            "startdescription": "帝言行举止载于典，臣言行举止载于册，地税赋况法载于贡。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_6_knock_tip",
+            "label": "撰写《夷坚志》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 42
+            },
+            "startdescription": "“大禹行而见之，伯益知而名之，夷坚闻而志之”。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_6_knock_link",
+            "label": "撰写《夷坚志》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 42,
+
+                "aspect_level": 6,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "“大禹行而见之，伯益知而名之，夷坚闻而志之”。洪迈以夷坚自谓，则书比《山海经》。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_6_knock",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_6_knock",
+            "label": "撰写《夷坚志》",
+            "actionId": "write_6_knock",
+            "effects": {
+                "book_6_knock": 1
+            },
+            "startdescription": "“大禹行而见之，伯益知而名之，夷坚闻而志之”。洪迈以夷坚自谓，则书比《山海经》。",
+            "warmup": 200,
+            "craftable": true
+        },
+        {
+            "id": "write_4_knock_tip",
+            "label": "撰写《西游补》？",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 28
+            },
+            "startdescription": "举世穿越，自此书始。[欲撰此书，另需理性]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "write_4_knock_link",
+            "label": "撰写《西游补》",
+            "actionId": "verb_write",
+            "requirements": {
+                "aspect_bookwriter": 1,
+                "aspect_pen":1,
+                "aspect_ink":1,
+                "aspect_paper":1,
+                "knock": 28,
+
+                "aspect_level": 4,
+
+                "reason": 1
+            },
+            "effects": {
+                "aspect_ink": -1,
+                "aspect_paper": -1,
+                "influence": -99,
+                "ingredient": -99
+            },
+            "startdescription": "举世穿越，自此书始。",
+            "description": "需精研其理，亲身实测。",
+            "warmup": 5,
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "write_4_knock",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "write_4_knock",
+            "label": "撰写《西游补》",
+            "actionId": "write_4_knock",
+            "effects": {
+                "book_4_knock": 1
+            },
+            "startdescription": "举世穿越，自此书始。",
+            "warmup": 200,
+            "craftable": true
+        }
+    ]
+}

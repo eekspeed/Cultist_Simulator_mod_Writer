@@ -1,0 +1,21 @@
+{
+    "recipes": [
+        {
+            "id": "newverb_write",
+            "actionId": "verb_write",
+            "label": "助力",
+            "startdescription": "更多的书撰加入，写书效率进一步提升。",
+            "description": "更多的书撰加入，写书效率进一步提升。",
+            "warmup": 30
+        },
+        {
+            "id": "newverb_coop",
+            "actionId": "verb_cooperate",
+            "label": "助力",
+            "startdescription": "更多的合作者加入，探索效率进一步提升。",
+            "description": "更多的合作者加入，探索效率进一步提升。",
+            "warmup": 30
+        }
+
+    ]
+}

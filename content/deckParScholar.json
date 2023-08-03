@@ -1,0 +1,43 @@
+{
+    "decks": [
+        {
+            "id": "deck_scholar_1",
+            "label": "熟人",
+            "description": "或可为腹心之手足。",
+            "spec": [
+                "p_firesky_a",
+                "p_redline_a",
+                "p_calvin_a",
+                "p_ganying_a",
+                "p_anna_a"
+            ],
+            "defaultcard": "mistakenidentity"
+        },
+        {
+            "id": "deck_scholar_2",
+            "label": "熟人",
+            "description": "或可为腹心之手足。",
+            "spec": [
+
+                "p_maxim_a",
+                "p_rasputin_a",
+                "p_rameses_a",
+                "p_lihanguang_a"
+            ],
+            "defaultcard": "mistakenidentity"
+        },
+        {
+            "id": "deck_scholar_3",
+            "label": "熟人",
+            "description": "或可为腹心之手足。",
+            "spec": [
+
+                "p_qiandaxin_a",
+                "p_jike_a",
+                "p_zhangheng_a"
+            ],
+            "defaultcard": "mistakenidentity"
+        }
+    ]
+}
+

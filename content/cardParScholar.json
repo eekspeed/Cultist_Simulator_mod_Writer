@@ -1,0 +1,1168 @@
+{
+    "elements": [
+        {
+            "id": "p_firesky_a",
+            "label": "熟人烛天",
+            "description": "据说是B型血的特性综合体，热血程度与离谱程度并驾齐驱于常人之前。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4,
+                "aspect_scholar_moth": 1
+            },
+            "uniquenessgroup": "uqfiresky",
+            "icon": "firesky",
+            "xtriggers": {
+                "aspect_addp": "p_firesky_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_firesky_b",
+            "label": "合作者烛天",
+            "description": "通常情况下需要特意遣人将其从家中拖出参与司书监例行体检。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4,
+                "moth": 4,
+                "heart": 4,
+                "aspect_scholar_moth": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqfiresky",
+            "icon": "firesky",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqfiresky",
+            "label": "烛天的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_redline_a",
+            "label": "熟人红线",
+            "description": "独去向江湖，天涯泛兰舟。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4,
+                "aspect_scholar_edge": 1
+            },
+            "uniquenessgroup": "uqredline",
+            "icon": "redline",
+            "xtriggers": {
+                "aspect_addp": "p_redline_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_redline_b",
+            "label": "合作者红线",
+            "description": "杯酒辞长歌，天阙执青锋。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 4,
+                "edge": 4,
+                "knock": 4,
+                "aspect_scholar_edge": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqredline",
+            "icon": "redline",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqredline",
+            "label": "红线的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_calvin_a",
+            "label": "熟人加尔文",
+            "description": "人的得救与否由上帝决定，但世俗的得救由人决定。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6,
+                "aspect_scholar_lantern": 1
+            },
+            "uniquenessgroup": "uqcalvin",
+            "icon": "calvin",
+            "xtriggers": {
+                "aspect_addp": "p_calvin_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_calvin_b",
+            "label": "合作者加尔文",
+            "description": "归义者循义，义者人定，不义者上帝代之。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6,
+                "lantern": 6,
+                "secrethistories": 4,
+                "aspect_scholar_lantern": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqcalvin",
+            "icon": "calvin",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqcalvin",
+            "label": "加尔文的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_ganying_a",
+            "label": "熟人甘英",
+            "description": "“定远侯遣某使大秦，岂可止于安息？某虽未至，使者达之。只惜其人未归。”",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6,
+                "aspect_scholar_knock": 1
+            },
+            "uniquenessgroup": "uqganying",
+            "icon": "ganying",
+            "xtriggers": {
+                "aspect_addp": "p_ganying_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_ganying_b",
+            "label": "合作者甘英",
+            "description": "“说来惭愧，使与皇族女生情，腹子将成丑闻，故大秦强留之，后应有家族血脉留存，或许。”",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6,
+                "knock": 6,
+                "heart": 6,
+                "aspect_scholar_knock": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqganying",
+            "icon": "ganying",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqganying",
+            "label": "甘英的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_anna_a",
+            "label": "熟人安娜",
+            "description": "只有一部分人能看到安娜，其中更少的一部分可以触摸到她。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6,
+                "aspect_scholar_winter": 1
+            },
+            "uniquenessgroup": "uqanna",
+            "icon": "anna",
+            "xtriggers": {
+                "aspect_addp": "p_anna_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_anna_b",
+            "label": "合作者安娜",
+            "description": "哦，你可以看见我，我可以摸到你！这真是太棒太神奇了！",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 6,
+                "winter": 8,
+                "aspect_scholar_winter": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqanna",
+            "icon": "anna",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqanna",
+            "label": "安娜的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_maxim_a",
+            "label": "熟人马克沁",
+            "description": "马克沁对喊他马克思的人报以11.43毫米的热情，每分钟六百次。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 8,
+                "aspect_scholar_forge": 1
+            },
+            "uniquenessgroup": "uqmaxim",
+            "icon": "maxim",
+            "xtriggers": {
+                "aspect_addp": "p_maxim_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_maxim_b",
+            "label": "合作者马克沁",
+            "description": "首先咒骂爱迪生，其次咒骂俾斯麦，然后得到马克沁的帮助。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 8,
+                "forge": 8,
+                "knock": 4,
+                "aspect_scholar_forge": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "verb_talk",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqmaxim",
+            "icon": "maxim",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqmaxim",
+            "label": "马克沁的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_rasputin_a",
+            "label": "熟人拉斯普京",
+            "description": "如果拉斯普京生于某些更合适的时机，我们将看到列宁与卡斯特罗的结合……当然，是负面的结合。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 8,
+                "aspect_scholar_heart": 1
+            },
+            "uniquenessgroup": "uqrasputin",
+            "icon": "rasputin",
+            "xtriggers": {
+                "aspect_addp": "p_rasputin_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_rasputin_b",
+            "label": "合作者拉斯普京",
+            "description": "经再三考量，我们否决了突袭圣彼得堡的计划，即使策划书作为备案保存，也以图书馆为第一目标而非某家博物馆。。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 8,
+                "heart": 8,
+                "winter": 4,
+                "aspect_scholar_heart": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqrasputin",
+            "icon": "rasputin",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqrasputin",
+            "label": "拉斯普京的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_rameses_a",
+            "label": "熟人拉美西斯",
+            "description": "二世在这里并非什么好称呼。因此我们在称呼他时，通常会省去敬称前缀。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 10,
+                "aspect_scholar_grail": 1
+            },
+            "uniquenessgroup": "uqrameses",
+            "icon": "rameses",
+            "xtriggers": {
+                "aspect_addp": "p_rameses_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_rameses_b",
+            "label": "合作者拉美西斯",
+            "description": "据称拉美西斯最后一次露面成就了纳赛尔，而现在他选择带上发光的金色面具。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 10,
+                "grail": 10,
+                "forge": 6,
+                "aspect_scholar_grail": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqrameses",
+            "icon": "rameses",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqrameses",
+            "label": "拉美西斯的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_lihanguang_a",
+            "label": "熟人李含光",
+            "description": "茅山历代循道家本宗，无事则隐，有难则出。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 10,
+                "aspect_scholar_moth": 1
+            },
+            "uniquenessgroup": "uqlihanguang",
+            "icon": "lihanguang",
+            "xtriggers": {
+                "aspect_addp": "p_lihanguang_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_lihanguang_b",
+            "label": "合作者李含光",
+            "description": "玄静先生少有谈及翠仙圃。“只有出马仙才会追着已有的存在不放，我等历来谨以自强。”",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 10,
+                "moth": 10,
+                "lantern": 6,
+                "aspect_scholar_moth": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqlihanguang",
+            "icon": "lihanguang",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqlihanguang",
+            "label": "李含光的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_qiandaxin_a",
+            "label": "熟人钱大昕",
+            "description": "“冶史如冶经，天文地理制度人文皆通方可完备，岂文忠公，朱文公者轻取，颇与我史官相悖。”",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 12,
+                "aspect_scholar_history": 1
+            },
+            "uniquenessgroup": "uqqiandaxin",
+            "icon": "qiandaxin",
+            "xtriggers": {
+                "aspect_addp": "p_qiandaxin_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_qiandaxin_b",
+            "label": "合作者钱大昕",
+            "description": "“先汉成法如此，万代不易则万事当兴，一言糟粕而尽弃，二以满清畏汉制，实大忌也。”",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 12,
+                "secrethistories": 12,
+                "lantern": 8,
+                "aspect_scholar_history": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqqiandaxin",
+            "icon": "qiandaxin",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqqiandaxin",
+            "label": "钱大昕的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_jike_a",
+            "label": "熟人王子成父",
+            "description": "城父者，守备之长也。其人先王次子，名讳克，后奔齐，乃既往不咎。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 12,
+                "aspect_scholar_edge": 1
+            },
+            "uniquenessgroup": "uqjike",
+            "icon": "jike",
+            "xtriggers": {
+                "aspect_addp": "p_jike_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_jike_b",
+            "label": "合作者王子成父",
+            "description": "王子成父偶尔会读起亚历山大和狄奥多西一世的历史，并在读到两人的起始与终末时沉默不语。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 12,
+                "edge": 12,
+                "moth": 6,
+                "aspect_scholar_edge": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqjike",
+            "icon": "jike",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqjike",
+            "label": "王子成父的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        },
+        {
+            "id": "p_zhangheng_a",
+            "label": "熟人张衡",
+            "description": "以文采斐然之赋惊世，以通天彻地之能封圣。",
+            "aspects": {
+                "acquaintance": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 14,
+                "aspect_scholar_lantern": 1
+            },
+            "uniquenessgroup": "uqzhangheng",
+            "icon": "zhangheng",
+            "xtriggers": {
+                "aspect_addp": "p_zhangheng_b",
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "p_zhangheng_b",
+            "label": "合作者张衡",
+            "description": "现在的张衡在汉画馆打杂。南阳张家为此向汉画馆申请了海量的临时工名额以给张衡打杂。",
+            "aspects": {
+                "aspect_partner": 1,
+                "aspect_supernatural": 1,
+                "aspect_level": 12,
+                "lantern": 15,
+                "forge": 12,
+                "aspect_scholar_lantern": 1
+            },
+            "slots": [
+                {
+                    "id": "buy_money1",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money2",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money3",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money4",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                },
+                {
+                    "id": "buy_money5",
+                    "required": {
+                        "funds": 1,
+                        "compensationvalue": 1
+                    },
+                    "actionId": "study",
+                    "label": "资金",
+                    "description": "现实世界的通行货币……或隐秘世界的。"
+                }
+            ],
+            "uniquenessgroup": "uqzhangheng",
+            "icon": "zhangheng",
+            "xtriggers": {
+                "derangemortal": "lunatic",
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "uqzhangheng",
+            "label": "张衡的集组。",
+            "isAspect": true,
+            "isHidden": true,
+            "noartneeded": true,
+            "description": "."
+        }
+        
+    ]
+}
