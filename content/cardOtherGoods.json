@@ -1,7 +1,7 @@
 {
     "elements": [
         {
-            "id": "good_stationery",
+            "id": "item_stationery",
             "label": "文具",
             "description": "一套写作用品，足以日常使用。",
             "aspects": {
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "id": "good_gaolujie",
+            "id": "item_gaolujie",
             "label": "高露洁牙膏",
             "description": "一盒儿童装香橙口味高露洁牙膏，带有梦幻般的清甜气息，触之使万般思绪涌来。",
             "aspects": {
@@ -52,7 +52,7 @@
             "unique": true
         },
         {
-            "id": "good_feizifen",
+            "id": "item_feizifen",
             "label": "痱子粉",
             "description": "一盒牌子未知的痱子粉，带有悠久的沉香气息，涂抹在身可溶于夏风。",
             "aspects": {

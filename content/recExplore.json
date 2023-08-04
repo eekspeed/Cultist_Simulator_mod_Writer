@@ -12,7 +12,7 @@
             },
             "effects": {
                 "funds": -1,
-                "good_stationery": 1
+                "item_stationery": 1
             },
             "warmup": 20,
             "craftable": true
