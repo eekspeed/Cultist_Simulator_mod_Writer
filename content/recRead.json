@@ -490,69 +490,6 @@
             "warmup": 10
         },
         {
-            "id": "read_heart_2",
-            "actionId": "study",
-            "label": "读书",
-            "startdescription": "研修更高阶的心之书籍。",
-            "description": "书读百遍，其义自见。",
-            "requirements": {
-                "aspect_myself": 1,
-                "aspect_original": 1,
-                "heart": 2
-            },
-            "linked": [
-                {
-                    "id": "read_heart_add",
-                    "chance": 100
-                }
-            ],
-            "warmup": 50,
-            "craftable": true,
-            "maxexecutions": 1
-        },
-        {
-            "id": "read_heart_4",
-            "actionId": "study",
-            "label": "读书",
-            "startdescription": "研修更高阶的心之书籍。",
-            "description": "书读百遍，其义自见。",
-            "requirements": {
-                "aspect_myself": 1,
-                "aspect_original": 1,
-                "heart": 6
-            },
-            "linked": [
-                {
-                    "id": "read_heart_add",
-                    "chance": 100
-                }
-            ],
-            "warmup": 50,
-            "craftable": true,
-            "maxexecutions": 1
-        },
-        {
-            "id": "read_heart_6",
-            "actionId": "study",
-            "label": "读书",
-            "startdescription": "研修更高阶的心之书籍。",
-            "description": "书读百遍，其义自见。",
-            "requirements": {
-                "aspect_myself": 1,
-                "aspect_original": 1,
-                "heart": 10
-            },
-            "linked": [
-                {
-                    "id": "read_heart_add",
-                    "chance": 100
-                }
-            ],
-            "warmup": 50,
-            "craftable": true,
-            "maxexecutions": 1
-        },
-        {
             "id": "read_heart_8",
             "actionId": "study",
             "label": "读书",
@@ -1466,6 +1403,18 @@
                 }
             ],
             "warmup": 10
+        },
+        {
+            "id": "rec_readtip1",
+            "actionId": "study",
+            "label": "研修？",
+            "startdescription": "玩弄拙作，日夜呻吟。",
+            "craftable": false,
+            "requirements": {
+                "aspect_myself": 1,
+                "aspect_original": -1
+            },
+            "hintonly": true
         }
     ]
 }
