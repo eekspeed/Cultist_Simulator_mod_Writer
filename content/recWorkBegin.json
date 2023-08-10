@@ -5,12 +5,12 @@
             "label": "开始一天的工作",
             "actionId": "work",
             "requirements": {
-                "card_saleBook_1": 1
+                "card_salebook_1": 1
             },
             "effects": {
                 "funds": 1,
-                "card_saleBook_1": -1,
-                "card_saleBook_2": 1
+                "card_salebook_1": -1,
+                "card_salebook_2": 1
             },
             "startdescription": "这并非第一次，但心情始终如一。",
             "description": "熟悉的人流来去，正如昨日，与昨日的昨日。同样的书籍在无边的深海中进进出出，偶尔有大部头文学著作摆在收银台前，便是又一位迷途羔羊。",
@@ -22,12 +22,12 @@
             "label": "开始一天的工作",
             "actionId": "work",
             "requirements": {
-                "card_saleBook_2": 1
+                "card_salebook_2": 1
             },
             "effects": {
                 "funds": 1,
-                "card_saleBook_2": -1,
-                "card_saleBook_3": 1
+                "card_salebook_2": -1,
+                "card_salebook_3": 1
             },
             "startdescription": "没什么不同。电子书，开学季，签售会，大促销。附近的书店使劲浑身解数，而我目送他们挂上“转租”的牌子。",
             "description": "这当然意义非凡，但那是对我的顾客而言。对我呢？至少现在我不知道。",
@@ -39,12 +39,12 @@
             "label": "开始一天的工作",
             "actionId": "work",
             "requirements": {
-                "card_saleBook_3": 1
+                "card_salebook_3": 1
             },
             "effects": {
                 "funds": 1,
-                "card_saleBook_3": -1,
-                "card_saleBook": 1
+                "card_salebook_3": -1,
+                "card_salebook": 1
             },
             "startdescription": "我有些预感。或许今天不该开门，但我不能跟顾客过不去。",
             "description": "日虽西斜，心境不宁。速速入眠。",
@@ -102,16 +102,7 @@
             "label": "书籍抵达",
             "actionId": "verb_talk",
             "effects": {
-                "funds": 10,
-                "book_2_grail": 1,
-                "book_2_moth_t": 1,
-                "book_4_history_t": 1,
-                "book_4_lantern_t": 1,
-                "book_4_grail_t": 1,
-                "book_4_winter": 1,
-                "book_4_moth_t": 1,
-                "book_6_history": 1,
-                "book_6_edge_t": 1
+                "item_deadwriterpackage": 1
             },
             "startdescription": "尚未凌晨，一位资深书撰遣使而来，带着遗存的另一部分。",
             "description": "“保持镇定，尽力而为。我们会帮忙，但被指定继任者必须面对。”",
@@ -169,6 +160,30 @@
             ],
             "warmup": 30,
             "craftable": false
+        },
+        {
+            "id": "rec_openpackage",
+            "label": "拆封",
+            "actionId": "work",
+            "requirements": {
+                "item_deadwriterpackage": 1
+            },
+            "effects": {
+                "funds": 10,
+                "book_2_grail": 1,
+                "book_2_moth_t": 1,
+                "book_4_history_t": 1,
+                "book_4_lantern_t": 1,
+                "book_4_grail_t": 1,
+                "book_4_winter": 1,
+                "book_4_moth_t": 1,
+                "book_6_history": 1,
+                "book_6_edge_t": 1
+            },
+            "startdescription": "得人之物，承人之事。",
+            "description": "我从中选出了非凡的那一部分书籍，以及金钱收入囊中。看样子更为重要的东西已经被拿去。",
+            "warmup": 30,
+            "craftable": true
         }
     ]
 }

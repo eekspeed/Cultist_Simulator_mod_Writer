@@ -31,6 +31,12 @@
             "description": "一回生，二回熟。[达到10之后可晋升其阶位。]"
         },
         {
+            "id": "aspect_scholar",
+            "label": "学者",
+            "isAspect": true,
+            "description": "已在无形之术上登堂入室，且愿意分享之人。"
+        },
+        {
             "id": "aspect_scholar_edge",
             "label": "刃之学者",
             "isAspect": true,

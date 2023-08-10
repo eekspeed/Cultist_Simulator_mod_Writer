@@ -13,12 +13,12 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_transcript": 1
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
-                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
-                    "cosumes": true
+                    "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
+                    "cosumes": false
                 }
             ],
             "xtriggers": {
@@ -38,12 +38,12 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_transcript": 1
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
-                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
-                    "cosumes": true
+                    "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
+                    "cosumes": false
                 }
             ],
             "xtriggers": {
@@ -63,19 +63,19 @@
                 {
                     "id": "newverb_write",
                     "chance": 100,
-                    "additional": true
+                    "additional": false
                 }
             ],
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_transcript": 1
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
-                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
-                    "cosumes": true
+                    "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
+                    "cosumes": false
                 }
             ],
             "xtriggers": {
@@ -95,19 +95,19 @@
                 {
                     "id": "newverb_coop",
                     "chance": 100,
-                    "additional": true
+                    "additional": false
                 }
             ],
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_transcript": 1
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
-                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
-                    "cosumes": true
+                    "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
+                    "cosumes": false
                 }
             ],
             "xtriggers": {
@@ -127,19 +127,19 @@
                 {
                     "id": "newverb_write",
                     "chance": 100,
-                    "additional": true
+                    "additional": false
                 }
             ],
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_transcript": 1
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
-                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
-                    "cosumes": true
+                    "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
+                    "cosumes": false
                 }
             ],
             "xtriggers": {
@@ -159,19 +159,19 @@
                 {
                     "id": "newverb_coop",
                     "chance": 100,
-                    "additional": true
+                    "additional": false
                 }
             ],
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_transcript": 1
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
-                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
-                    "cosumes": true
+                    "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
+                    "cosumes": false
                 }
             ],
             "xtriggers": {
@@ -191,12 +191,12 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_transcript": 1
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
-                    "description": "对于研习而言还是便宜的抄本比较合适，正如泉此方的三套理论。",
-                    "cosumes": true
+                    "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
+                    "cosumes": false
                 }
             ]
         }

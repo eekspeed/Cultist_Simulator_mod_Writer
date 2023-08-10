@@ -59,6 +59,15 @@
                 "aspect_memory": 1
             },
             "unique": true
+        },
+        {
+            "id": "item_deadwriterpackage",
+            "label": "已故书撰的遗物",
+            "description": "打包的方式同时带有书撰的严谨和事发紧急的杂乱。极其沉重。",
+            "aspects": {
+                "aspect_memory": 1
+            },
+            "unique": true
         }
     ]
 }

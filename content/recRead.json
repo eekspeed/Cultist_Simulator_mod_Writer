@@ -8,7 +8,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "edge": 2
             },
             "linked": [
@@ -29,8 +29,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "edge": 4
+                "aspect_original": 1,
+                "edge": 6
             },
             "linked": [
                 {
@@ -50,8 +50,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "edge": 6
+                "aspect_original": 1,
+                "edge": 10
             },
             "linked": [
                 {
@@ -71,8 +71,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "edge": 8
+                "aspect_original": 1,
+                "edge": 14
             },
             "linked": [
                 {
@@ -92,8 +92,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "edge": 10
+                "aspect_original": 1,
+                "edge": 18
             },
             "linked": [
                 {
@@ -113,8 +113,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "edge": 12
+                "aspect_original": 1,
+                "edge": 22
             },
             "linked": [
                 {
@@ -134,8 +134,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "edge": 14
+                "aspect_original": 1,
+                "edge": 26
             },
             "linked": [
                 {
@@ -171,7 +171,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "forge": 2
             },
             "linked": [
@@ -192,8 +192,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "forge": 4
+                "aspect_original": 1,
+                "forge": 6
             },
             "linked": [
                 {
@@ -213,8 +213,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "forge": 6
+                "aspect_original": 1,
+                "forge": 10
             },
             "linked": [
                 {
@@ -234,8 +234,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "forge": 8
+                "aspect_original": 1,
+                "forge": 14
             },
             "linked": [
                 {
@@ -255,8 +255,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "forge": 10
+                "aspect_original": 1,
+                "forge": 18
             },
             "linked": [
                 {
@@ -276,8 +276,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "forge": 12
+                "aspect_original": 1,
+                "forge": 22
             },
             "linked": [
                 {
@@ -297,8 +297,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "forge": 14
+                "aspect_original": 1,
+                "forge": 26
             },
             "linked": [
                 {
@@ -334,7 +334,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "grail": 2
             },
             "linked": [
@@ -355,8 +355,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "grail": 4
+                "aspect_original": 1,
+                "grail": 6
             },
             "linked": [
                 {
@@ -376,8 +376,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "grail": 6
+                "aspect_original": 1,
+                "grail": 10
             },
             "linked": [
                 {
@@ -397,8 +397,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "grail": 8
+                "aspect_original": 1,
+                "grail": 14
             },
             "linked": [
                 {
@@ -418,8 +418,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "grail": 10
+                "aspect_original": 1,
+                "grail": 18
             },
             "linked": [
                 {
@@ -439,8 +439,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "grail": 12
+                "aspect_original": 1,
+                "grail": 22
             },
             "linked": [
                 {
@@ -460,8 +460,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "grail": 14
+                "aspect_original": 1,
+                "grail": 26
             },
             "linked": [
                 {
@@ -497,7 +497,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "heart": 2
             },
             "linked": [
@@ -518,8 +518,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "heart": 4
+                "aspect_original": 1,
+                "heart": 6
             },
             "linked": [
                 {
@@ -539,8 +539,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "heart": 6
+                "aspect_original": 1,
+                "heart": 10
             },
             "linked": [
                 {
@@ -560,8 +560,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "heart": 8
+                "aspect_original": 1,
+                "heart": 14
             },
             "linked": [
                 {
@@ -581,8 +581,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "heart": 10
+                "aspect_original": 1,
+                "heart": 18
             },
             "linked": [
                 {
@@ -602,8 +602,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "heart": 12
+                "aspect_original": 1,
+                "heart": 22
             },
             "linked": [
                 {
@@ -623,8 +623,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "heart": 14
+                "aspect_original": 1,
+                "heart": 26
             },
             "linked": [
                 {
@@ -660,7 +660,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "secrethistories": 2
             },
             "linked": [
@@ -681,8 +681,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "secrethistories": 4
+                "aspect_original": 1,
+                "secrethistories": 6
             },
             "linked": [
                 {
@@ -702,8 +702,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "secrethistories": 6
+                "aspect_original": 1,
+                "secrethistories": 10
             },
             "linked": [
                 {
@@ -723,8 +723,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "secrethistories": 8
+                "aspect_original": 1,
+                "secrethistories": 14
             },
             "linked": [
                 {
@@ -744,8 +744,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "secrethistories": 10
+                "aspect_original": 1,
+                "secrethistories": 18
             },
             "linked": [
                 {
@@ -765,8 +765,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "secrethistories": 12
+                "aspect_original": 1,
+                "secrethistories": 22
             },
             "linked": [
                 {
@@ -786,8 +786,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "secrethistories": 14
+                "aspect_original": 1,
+                "secrethistories": 26
             },
             "linked": [
                 {
@@ -823,7 +823,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "knock": 2
             },
             "linked": [
@@ -844,8 +844,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "knock": 4
+                "aspect_original": 1,
+                "knock": 6
             },
             "linked": [
                 {
@@ -865,8 +865,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "knock": 6
+                "aspect_original": 1,
+                "knock": 10
             },
             "linked": [
                 {
@@ -886,8 +886,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "knock": 8
+                "aspect_original": 1,
+                "knock": 14
             },
             "linked": [
                 {
@@ -907,8 +907,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "knock": 10
+                "aspect_original": 1,
+                "knock": 18
             },
             "linked": [
                 {
@@ -928,8 +928,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "knock": 12
+                "aspect_original": 1,
+                "knock": 22
             },
             "linked": [
                 {
@@ -949,8 +949,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "knock": 14
+                "aspect_original": 1,
+                "knock": 26
             },
             "linked": [
                 {
@@ -986,7 +986,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "lantern": 2
             },
             "linked": [
@@ -1007,8 +1007,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "lantern": 4
+                "aspect_original": 1,
+                "lantern": 6
             },
             "linked": [
                 {
@@ -1028,8 +1028,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "lantern": 6
+                "aspect_original": 1,
+                "lantern": 10
             },
             "linked": [
                 {
@@ -1049,8 +1049,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "lantern": 8
+                "aspect_original": 1,
+                "lantern": 14
             },
             "linked": [
                 {
@@ -1070,8 +1070,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "lantern": 10
+                "aspect_original": 1,
+                "lantern": 18
             },
             "linked": [
                 {
@@ -1091,8 +1091,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "lantern": 12
+                "aspect_original": 1,
+                "lantern": 22
             },
             "linked": [
                 {
@@ -1112,8 +1112,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "lantern": 14
+                "aspect_original": 1,
+                "lantern": 26
             },
             "linked": [
                 {
@@ -1149,7 +1149,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "moth": 2
             },
             "linked": [
@@ -1170,8 +1170,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "moth": 4
+                "aspect_original": 1,
+                "moth": 6
             },
             "linked": [
                 {
@@ -1191,8 +1191,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "moth": 6
+                "aspect_original": 1,
+                "moth": 10
             },
             "linked": [
                 {
@@ -1212,8 +1212,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "moth": 8
+                "aspect_original": 1,
+                "moth": 14
             },
             "linked": [
                 {
@@ -1233,8 +1233,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "moth": 10
+                "aspect_original": 1,
+                "moth": 18
             },
             "linked": [
                 {
@@ -1254,8 +1254,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "moth": 12
+                "aspect_original": 1,
+                "moth": 22
             },
             "linked": [
                 {
@@ -1275,8 +1275,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "moth": 14
+                "aspect_original": 1,
+                "moth": 26
             },
             "linked": [
                 {
@@ -1312,7 +1312,7 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 2,
+                "aspect_original": 1,
                 "winter": 2
             },
             "linked": [
@@ -1333,8 +1333,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 4,
-                "winter": 4
+                "aspect_original": 1,
+                "winter": 6
             },
             "linked": [
                 {
@@ -1354,8 +1354,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 6,
-                "winter": 6
+                "aspect_original": 1,
+                "winter": 10
             },
             "linked": [
                 {
@@ -1375,8 +1375,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 8,
-                "winter": 8
+                "aspect_original": 1,
+                "winter": 14
             },
             "linked": [
                 {
@@ -1396,8 +1396,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 10,
-                "winter": 10
+                "aspect_original": 1,
+                "winter": 18
             },
             "linked": [
                 {
@@ -1417,8 +1417,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 12,
-                "winter": 12
+                "aspect_original": 1,
+                "winter": 22
             },
             "linked": [
                 {
@@ -1438,8 +1438,8 @@
             "description": "书读百遍，其义自见。",
             "requirements": {
                 "aspect_myself": 1,
-                "aspect_value": 14,
-                "winter": 14
+                "aspect_original": 1,
+                "winter": 26
             },
             "linked": [
                 {

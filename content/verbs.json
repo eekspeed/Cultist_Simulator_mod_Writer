@@ -17,16 +17,28 @@
                     "tutor": 1,
                     "language": 1,
                     "legacyplotitem": 1,
-                    "aspect_scholar_edge": 1,
-                    "aspect_scholar_forge": 1,
-                    "aspect_scholar_grail": 1,
-                    "aspect_scholar_heart": 1,
-                    "aspect_scholar_history": 1,
-                    "aspect_scholar_knock": 1,
-                    "aspect_scholar_lantern": 1,
-                    "aspect_scholar_moth": 1,
-                    "aspect_scholar_winter": 1,
+                    "aspect_scholar": 1,
                     "aspect_myself": 1
+                }
+            }
+        },
+        {
+            "id": "work",
+            "label": "作业",
+            "description": "或赚钱糊口，或施展无形之术。",
+            "atStart": true,
+            "slot": {
+                "id": "work",
+                "label": "作业",
+                "description": "我能做的，我知道的，或者我身为的。",
+                "required": {
+                    "ability": 1,
+                    "job": 1,
+                    "ritual": 1,
+                    "aspect_memory": 1
+                },
+                "forbidden": {
+                    "reasonskill": 1
                 }
             }
         },

@@ -8,6 +8,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 4,
+                "aspect_scholar": 1,
                 "aspect_scholar_moth": 1
             },
             "uniquenessgroup": "uqfiresky",
@@ -28,6 +29,7 @@
                 "aspect_level": 4,
                 "moth": 4,
                 "heart": 4,
+                "aspect_scholar": 1,
                 "aspect_scholar_moth": 1
             },
             "slots": [
@@ -105,6 +107,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 4,
+                "aspect_scholar": 1,
                 "aspect_scholar_edge": 1
             },
             "uniquenessgroup": "uqredline",
@@ -125,6 +128,7 @@
                 "aspect_level": 4,
                 "edge": 4,
                 "knock": 4,
+                "aspect_scholar": 1,
                 "aspect_scholar_edge": 1
             },
             "slots": [
@@ -202,6 +206,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 6,
+                "aspect_scholar": 1,
                 "aspect_scholar_lantern": 1
             },
             "uniquenessgroup": "uqcalvin",
@@ -222,6 +227,7 @@
                 "aspect_level": 6,
                 "lantern": 6,
                 "secrethistories": 4,
+                "aspect_scholar": 1,
                 "aspect_scholar_lantern": 1
             },
             "slots": [
@@ -299,6 +305,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 6,
+                "aspect_scholar": 1,
                 "aspect_scholar_knock": 1
             },
             "uniquenessgroup": "uqganying",
@@ -319,6 +326,7 @@
                 "aspect_level": 6,
                 "knock": 6,
                 "heart": 6,
+                "aspect_scholar": 1,
                 "aspect_scholar_knock": 1
             },
             "slots": [
@@ -396,6 +404,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 6,
+                "aspect_scholar": 1,
                 "aspect_scholar_winter": 1
             },
             "uniquenessgroup": "uqanna",
@@ -415,6 +424,7 @@
                 "aspect_supernatural": 1,
                 "aspect_level": 6,
                 "winter": 8,
+                "aspect_scholar": 1,
                 "aspect_scholar_winter": 1
             },
             "slots": [
@@ -492,6 +502,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 8,
+                "aspect_scholar": 1,
                 "aspect_scholar_forge": 1
             },
             "uniquenessgroup": "uqmaxim",
@@ -512,6 +523,7 @@
                 "aspect_level": 8,
                 "forge": 8,
                 "knock": 4,
+                "aspect_scholar": 1,
                 "aspect_scholar_forge": 1
             },
             "slots": [
@@ -589,6 +601,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 8,
+                "aspect_scholar": 1,
                 "aspect_scholar_heart": 1
             },
             "uniquenessgroup": "uqrasputin",
@@ -602,13 +615,14 @@
         {
             "id": "p_rasputin_b",
             "label": "合作者拉斯普京",
-            "description": "经再三考量，我们否决了突袭圣彼得堡的计划，即使策划书作为备案保存，也以图书馆为第一目标而非某家博物馆。。",
+            "description": "经再三考量，我们否决了突袭圣彼得堡的计划，即使策划书作为备案保存，也以图书馆为第一目标而非某家博物馆。",
             "aspects": {
                 "aspect_partner": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 8,
                 "heart": 8,
                 "winter": 4,
+                "aspect_scholar": 1,
                 "aspect_scholar_heart": 1
             },
             "slots": [
@@ -686,6 +700,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 10,
+                "aspect_scholar": 1,
                 "aspect_scholar_grail": 1
             },
             "uniquenessgroup": "uqrameses",
@@ -706,6 +721,7 @@
                 "aspect_level": 10,
                 "grail": 10,
                 "forge": 6,
+                "aspect_scholar": 1,
                 "aspect_scholar_grail": 1
             },
             "slots": [
@@ -783,6 +799,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 10,
+                "aspect_scholar": 1,
                 "aspect_scholar_moth": 1
             },
             "uniquenessgroup": "uqlihanguang",
@@ -803,6 +820,7 @@
                 "aspect_level": 10,
                 "moth": 10,
                 "lantern": 6,
+                "aspect_scholar": 1,
                 "aspect_scholar_moth": 1
             },
             "slots": [
@@ -880,6 +898,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 12,
+                "aspect_scholar": 1,
                 "aspect_scholar_history": 1
             },
             "uniquenessgroup": "uqqiandaxin",
@@ -900,6 +919,7 @@
                 "aspect_level": 12,
                 "secrethistories": 12,
                 "lantern": 8,
+                "aspect_scholar": 1,
                 "aspect_scholar_history": 1
             },
             "slots": [
@@ -977,6 +997,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 12,
+                "aspect_scholar": 1,
                 "aspect_scholar_edge": 1
             },
             "uniquenessgroup": "uqjike",
@@ -997,6 +1018,7 @@
                 "aspect_level": 12,
                 "edge": 12,
                 "moth": 6,
+                "aspect_scholar": 1,
                 "aspect_scholar_edge": 1
             },
             "slots": [
@@ -1074,6 +1096,7 @@
                 "acquaintance": 1,
                 "aspect_supernatural": 1,
                 "aspect_level": 14,
+                "aspect_scholar": 1,
                 "aspect_scholar_lantern": 1
             },
             "uniquenessgroup": "uqzhangheng",
@@ -1094,6 +1117,7 @@
                 "aspect_level": 12,
                 "lantern": 15,
                 "forge": 12,
+                "aspect_scholar": 1,
                 "aspect_scholar_lantern": 1
             },
             "slots": [
