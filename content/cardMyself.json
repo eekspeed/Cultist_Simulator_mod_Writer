@@ -14,7 +14,7 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_original": 1
+                        "aspect_mine": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
@@ -39,7 +39,7 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_original": 1
+                        "aspect_mine": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
@@ -71,7 +71,7 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_original": 1
+                        "aspect_mine": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
@@ -103,7 +103,7 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_original": 1
+                        "aspect_mine": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
@@ -135,7 +135,7 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_original": 1
+                        "aspect_mine": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
@@ -167,7 +167,7 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_original": 1
+                        "aspect_mine": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
@@ -192,7 +192,7 @@
                 {
                     "id": "read",
                     "required": {
-                        "aspect_original": 1
+                        "aspect_mine": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
