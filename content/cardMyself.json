@@ -7,7 +7,8 @@
             "aspects": {
                 "aspect_myself": 1,
                 "aspect_bookwriter": 1,
-                "aspect_level": 2
+                "aspect_level": 2,
+                "heart": 6
             },
             "slots": [
                 {
