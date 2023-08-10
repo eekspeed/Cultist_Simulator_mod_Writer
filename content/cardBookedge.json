@@ -20,7 +20,8 @@
             "aspects": {
                 "aspect_transcript": 1,
                 "edge": 6,
-                "aspect_value": 6
+                "aspect_value": 6,
+                "aspect_japan": 1
             },
             "unique": false,
             "icon":"book_6_edge"
@@ -45,7 +46,8 @@
             "aspects": {
                 "aspect_transcript": 1,
                 "edge": 8,
-                "aspect_value": 8
+                "aspect_value": 8,
+                "aspect_russian": 1
             },
             "unique": false,
             "icon":"book_8_edge"
@@ -70,7 +72,8 @@
             "aspects": {
                 "aspect_transcript": 1,
                 "edge": 8,
-                "aspect_value": 8
+                "aspect_value": 8,
+                "aspect_regular": 1
             },
             "unique": false,
             "icon":"book_10_edge"

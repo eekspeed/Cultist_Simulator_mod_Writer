@@ -7,8 +7,7 @@
             "aspects": {
                 "aspect_original": 1,
                 "moth": 2,
-                "aspect_value": 6,
-                "aspect_mine": 1
+                "aspect_value": 6
             },
             "unique": true,
             "icon": "book_2_moth"
@@ -20,8 +19,7 @@
             "aspects": {
                 "aspect_transcript": 1,
                 "moth": 2,
-                "aspect_value": 2,
-                "aspect_mine": 1
+                "aspect_value": 2
             },
             "unique": false,
             "icon": "book_2_moth"
