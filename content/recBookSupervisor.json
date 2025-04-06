@@ -319,7 +319,7 @@
             }
         },
         {
-            "id": "rec_booksupertip4",
+            "id": "rec_booksupertip_s124_2",
             "actionId": "verb_talk",
             "label": "晋升——错误的作品",
             "startdescription": "这不是我亲笔写成。",
@@ -333,7 +333,7 @@
             "hintonly": true
         },
         {
-            "id": "rec_booksupertip3",
+            "id": "rec_booksupertip_s124_1",
             "actionId": "verb_talk",
             "label": "晋升——笔力未及",
             "startdescription": "虽为亲作，难入法眼。",
@@ -347,7 +347,31 @@
             "hintonly": true
         },
         {
-            "id": "rec_booksupertip2",
+            "id": "rec_booksupertip_s14",
+            "actionId": "verb_talk",
+            "label": "晋升？",
+            "startdescription": "笔墨浅新，何人所作？",
+            "craftable": false,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "aspect_value": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "rec_booksupertip_s13",
+            "actionId": "verb_talk",
+            "label": "引荐？",
+            "startdescription": "通名报姓，谁人作保？",
+            "craftable": false,
+            "requirements": {
+                "card_booksupervisor": 1,
+                "acquaintance": 1
+            },
+            "hintonly": true
+        },
+        {
+            "id": "rec_booksupertip_s12",
             "actionId": "verb_talk",
             "label": "我",
             "startdescription": "我已于此处署名。如发书上计，需附拙作为证；如歃血盟誓，则问吾谁与归。",
@@ -359,7 +383,7 @@
             "hintonly": true
         },
         {
-            "id": "rec_booksupertip1",
+            "id": "rec_booksupertip_s1",
             "actionId": "verb_talk",
             "label": "谈及司书监？",
             "startdescription": "以书撰之名上书陈事，或为晋身，或为朋党。",

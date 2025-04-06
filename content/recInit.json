@@ -29,7 +29,7 @@
                 "card_salebook_2": -1,
                 "card_salebook_3": 1
             },
-            "startdescription": "没什么不同。电子书，开学季，签售会，大促销。附近的书店使劲浑身解数，而我目送他们挂上“转租”的牌子。",
+            "startdescription": "没什么不同。电子书，开学季，签售会，大促销。附近的书店使尽浑身解数，而我目送他们挂上“转租”的牌子。",
             "description": "这当然意义非凡，但那是对我的顾客而言。对我呢？至少现在我不知道。",
             "warmup": 40,
             "craftable": true
@@ -156,10 +156,41 @@
                     "mutate": "aspect_mine",
                     "level": 1,
                     "additive": true
+                },
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "heart",
+                    "level": 6,
+                    "additive": true
+                },
+                {
+                    "filter": "aspect_myself",
+                    "mutate": "aspect_potential",
+                    "level": 6,
+                    "additive": true
                 }
+
             ],
             "warmup": 30,
-            "craftable": false
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "slots": [
+                {
+                    "id": "myself_addheart",
+                    "label": "重拾",
+                    "description": "骨血熔铸，无可忘却。",
+                    "required": {
+                        "aspect_myself": 1
+                    },
+                    "greedy": true
+                }
+            ]
         },
         {
             "id": "rec_openpackage",
@@ -178,7 +209,8 @@
                 "book_4_winter": 1,
                 "book_4_moth_t": 1,
                 "book_6_history": 1,
-                "book_6_edge_t": 1
+                "book_6_edge_t": 1,
+                "item_deadwriterpackage": -1
             },
             "startdescription": "得人之物，承人之事。",
             "description": "我从中选出了非凡的那一部分书籍，以及金钱收入囊中。看样子更为重要的东西已经被拿去。",

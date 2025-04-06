@@ -1,23 +1,6 @@
 {
     "recipes": [
         {
-            "id": "buy_stationery",
-            "actionId": "verb_cooperate",
-            "label": "买文具",
-            "startdescription": "墨水中金粉的密度与浓度，不同质地笔尖与纸张的摩擦……",
-            "description": "反复抉择之下，钱财尽其所用。",
-            "requirements": {
-                "place_smallshop": 1,
-                "funds": 1
-            },
-            "effects": {
-                "funds": -1,
-                "item_stationery": 1
-            },
-            "warmup": 20,
-            "craftable": true
-        },
-        {
             "id": "explorevaultfailure_nofunds",
             "actionId": "verb_cooperate",
             "label": "后勤不力",
@@ -55,17 +38,6 @@
                 }
             ],
             "warmup": 30
-        },
-        {
-            "id": "rec_exptip1",
-            "actionId": "verb_cooperate",
-            "label": "买文具？",
-            "startdescription": "人们戏称这条街道为“艺术殿堂”。但我不得不感谢这些步履悠悠神神叨叨的行人，没有其随心所欲的作风，就没有这些质量过硬的店铺。",
-            "craftable": false,
-            "requirements": {
-                "place_smallshop": 1
-            },
-            "hintonly": true
         },
         {
             "id": "rec_exptip2",

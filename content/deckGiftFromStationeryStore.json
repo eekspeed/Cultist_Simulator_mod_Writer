@@ -1,0 +1,29 @@
+{
+    "decks": [
+        {
+            "id": "deck_gift",
+            "label": "礼物",
+            "description": "礼物",
+            "spec": [
+                "ingredientedgeb",
+                "ingredientforgeb",
+                "ingredientgrailb",
+                "ingredientheartb",
+                "ingredientknockb",
+                "ingredientlanternb",
+                "ingredientmothb",
+                "ingredientwinterb",
+                "influenceedge",
+                "influenceforge",
+                "influencegrail",
+                "influenceheart",
+                "influenceknock",
+                "influencelantern",
+                "influencemoth",
+                "influencewinter"
+            ],
+            "resetonexhaustion":true
+        }
+    ]
+}
+

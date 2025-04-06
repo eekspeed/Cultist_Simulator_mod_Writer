@@ -7,19 +7,20 @@
             "aspects": {
                 "aspect_myself": 1,
                 "aspect_bookwriter": 1,
-                "aspect_level": 2,
-                "heart": 6
+                "aspect_level": 2
             },
+            "uniquenessgroup": "uqmyself",
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_mine": 1
+                        "aspect_mine": 1,
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
                     "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
-                    "cosumes": false
+                    "consumes": true
                 }
             ],
             "xtriggers": {
@@ -35,16 +36,18 @@
                 "aspect_bookwriter": 1,
                 "aspect_level": 4
             },
+            "uniquenessgroup": "uqmyself",
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_mine": 1
+                        "aspect_mine": 1,
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
                     "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
-                    "cosumes": false
+                    "cosumes": true
                 }
             ],
             "xtriggers": {
@@ -67,16 +70,18 @@
                     "additional": false
                 }
             ],
+            "uniquenessgroup": "uqmyself",
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_mine": 1
+                        "aspect_mine": 1,
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
                     "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
-                    "cosumes": false
+                    "cosumes": true
                 }
             ],
             "xtriggers": {
@@ -99,16 +104,18 @@
                     "additional": false
                 }
             ],
+            "uniquenessgroup": "uqmyself",
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_mine": 1
+                        "aspect_mine": 1,
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
                     "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
-                    "cosumes": false
+                    "cosumes": true
                 }
             ],
             "xtriggers": {
@@ -131,16 +138,18 @@
                     "additional": false
                 }
             ],
+            "uniquenessgroup": "uqmyself",
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_mine": 1
+                        "aspect_mine": 1,
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
                     "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
-                    "cosumes": false
+                    "cosumes": true
                 }
             ],
             "xtriggers": {
@@ -163,16 +172,18 @@
                     "additional": false
                 }
             ],
+            "uniquenessgroup": "uqmyself",
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_mine": 1
+                        "aspect_mine": 1,
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
                     "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
-                    "cosumes": false
+                    "cosumes": true
                 }
             ],
             "xtriggers": {
@@ -188,18 +199,28 @@
                 "aspect_bookwriter": 1,
                 "aspect_level": 15
             },
+            "uniquenessgroup": "uqmyself",
             "slots": [
                 {
                     "id": "read",
                     "required": {
-                        "aspect_mine": 1
+                        "aspect_mine": 1,
+                        "aspect_original": 1
                     },
                     "actionId": "study",
                     "label": "书籍",
                     "description": "呕心沥血，含英咀华，批阅反复，相辅相成。",
-                    "cosumes": false
+                    "cosumes": true
                 }
             ]
+        },
+        {
+            "id":"uqmyself",
+            "label":"我的集组",
+            "isAspect":true,
+            "isHidden":true,
+            "noartneeded":true,
+            "description":"."
         }
     ]
 }

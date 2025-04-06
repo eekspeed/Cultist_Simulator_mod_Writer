@@ -1,0 +1,205 @@
+{
+    "recipes": [
+        {
+            "id": "buy_stationery",
+            "actionId": "verb_cooperate",
+            "label": "买文具",
+            "startdescription": "墨水中金粉的密度与浓度，不同质地笔尖与纸张的摩擦……",
+            "description": ".",
+            "requirements": {
+                "place_smallshop": 1,
+                "funds": 1
+            },
+            "warmup": 15,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "buy_stationery_expensivegoods_1",
+                    "chance": 20
+                },
+                {
+                    "id": "buy_stationery_gift",
+                    "chance": 15
+                },
+                {
+                    "id": "buy_stationery_paintedeggshell",
+                    "chance": 1
+                },
+                {
+                    "id": "buy_stationery_nothing",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "buy_stationery_expensivegoods_1",
+            "actionId": "verb_cooperate",
+            "label": "九九成，稀罕物",
+            "startdescription": "不是只有古玩市场才有捡漏的机会。或者这本身就是愿者上钩的鱼竿？",
+            "description": ".",
+            "slots": [
+                {
+                    "id": "fund",
+                    "label": "资金",
+                    "description": "价高者得。",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "warmup": 15,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "buy_stationery_nomoneytip_1",
+                    "chance": 100
+                }
+            ],
+            "linked": [
+                {
+                    "id": "buy_stationery_expensivegoods_2_paper",
+                    "chance": 33
+                },
+                {
+                    "id": "buy_stationery_expensivegoods_2_pen",
+                    "chance": 50
+                },
+                {
+                    "id": "buy_stationery_expensivegoods_2_ink",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "buy_stationery_expensivegoods_2_paper",
+            "actionId": "verb_cooperate",
+            "label": "得手！",
+            "startdescription": "[这些钱足以买下这件文具。]",
+            "description": "钩直饵咸，砒霜蜜糖。飞蛾扑火，其奈公何？",
+            "requirements": {
+                "place_smallshop": 1,
+                "funds": 2
+            },
+            "effects": {
+                "funds": -2
+            },
+            "deckeffects": {
+                "deck_paper_1": 1
+            },
+            "warmup": 15,
+            "craftable": false
+        },
+        {
+            "id": "buy_stationery_expensivegoods_2_pen",
+            "actionId": "verb_cooperate",
+            "label": "得手！",
+            "startdescription": "[这些钱足以买下这件文具。]",
+            "description": "钩直饵咸，砒霜蜜糖。飞蛾扑火，其奈公何？",
+            "requirements": {
+                "place_smallshop": 1,
+                "funds": 2
+            },
+            "effects": {
+                "funds": -2
+            },
+            "deckeffects": {
+                "deck_pen_1": 1
+            },
+            "warmup": 15,
+            "craftable": false
+        },
+        {
+            "id": "buy_stationery_expensivegoods_2_ink",
+            "actionId": "verb_cooperate",
+            "label": "得手！",
+            "startdescription": "[这些钱足以买下这件文具。]",
+            "description": "钩直饵咸，砒霜蜜糖。飞蛾扑火，其奈公何？",
+            "requirements": {
+                "place_smallshop": 1,
+                "funds": 2
+            },
+            "effects": {
+                "funds": -2
+            },
+            "deckeffects": {
+                "deck_ink_1": 1
+            },
+            "warmup": 15,
+            "craftable": false
+        },
+        {
+            "id": "buy_stationery_nomoneytip_1",
+            "actionId": "verb_cooperate",
+            "label": "囊中羞涩",
+            "startdescription": "有稀有的文具在售！只是标价骇人，一文钱难倒英雄汉。",
+            "description": ".",
+            "requirements": {
+                "place_smallshop": 1,
+                "funds": -2
+            },
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "buy_stationery_nothing",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "buy_stationery_gift",
+            "actionId": "verb_cooperate",
+            "label": "小礼品",
+            "startdescription": "小隐隐于野，大隐隐于市。我非方外人，岂无世俗情？[你常去的位置放了一份只有书撰能看懂的礼物]",
+            "description": ".",
+            "deckeffects": {
+                "deck_gift": 1
+            },
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "buy_stationery_nothing",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "buy_stationery_paintedeggshell",
+            "actionId": "verb_cooperate",
+            "label": "Surprise!",
+            "startdescription": "当你翻开面前这本笔记，封面上某位已故书撰的署名令你大吃一惊……",
+            "description": "湖面澄清，空气宁静。银光彻雪，秘密深埋。而此刻，你手中是为往圣继绝学的路标。",
+            "effects": {
+                "funds": -1,
+                "item_waitadd": 1
+            },
+            "warmup": 15,
+            "craftable": false
+        },
+        {
+            "id": "buy_stationery_nothing",
+            "actionId": "verb_cooperate",
+            "label": "差强人意",
+            "startdescription": "凡俗笔墨，不堪大用。",
+            "description": "凡俗笔墨，不堪大用。",
+            "effects": {
+                "item_stationery": 1,
+                "funds": -1
+            },
+            "warmup": 5,
+            "craftable": false
+        },
+        {
+            "id": "buy_stationery_tip_1",
+            "actionId": "verb_cooperate",
+            "label": "买文具？",
+            "startdescription": "人们戏称这条街道为“艺术殿堂”。但我不得不感谢这些步履悠悠神神叨叨的行人，没有其随心所欲的作风，就没有这些质量过硬的店铺。",
+            "craftable": false,
+            "requirements": {
+                "place_smallshop": 1
+            },
+            "hintonly": true
+        }
+    ]
+}

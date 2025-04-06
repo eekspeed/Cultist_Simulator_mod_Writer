@@ -1,0 +1,13 @@
+{
+    "elements": [
+        {
+            "id": "ascensionpowera",
+            "label": "萌芽：",
+            "aspects": {
+                "desire": 1,
+                "powermarks": 1
+            },
+            "description": "我突然意识到我握着通往力量的钥匙。[此卡可通达“力量胜利”，只要将其升级到一定程度。以之“入梦”可以使之升级或转变。]"
+        }
+    ]
+}
