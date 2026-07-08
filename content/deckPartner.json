@@ -5,10 +5,6 @@
             "label": "熟人",
             "description": "或可为腹心之手足。",
             "spec": [
-                "p_rahul_a",
-                "p_sunway_a",
-                "p_chuancigong_a"
-
             ],
             "defaultcard": "mistakenidentity"
         },
@@ -17,8 +13,6 @@
             "label": "熟人",
             "description": "或可为腹心之手足。",
             "spec": [
-                "p_heinrich_a",
-                "p_500x_a"
             ],
             "defaultcard": "mistakenidentity"
         },
@@ -27,9 +21,6 @@
             "label": "熟人",
             "description": "或可为腹心之手足。",
             "spec": [
-                "p_kirby_a",
-                "p_karman_a"
-                
             ],
             "defaultcard": "mistakenidentity"
         }

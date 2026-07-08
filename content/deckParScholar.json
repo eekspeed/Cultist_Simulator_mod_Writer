@@ -5,11 +5,9 @@
             "label": "熟人",
             "description": "或可为腹心之手足。",
             "spec": [
-                "p_firesky_a",
                 "p_redline_a",
                 "p_calvin_a",
-                "p_ganying_a",
-                "p_anna_a"
+                "p_ganying_a"
             ],
             "defaultcard": "mistakenidentity"
         },

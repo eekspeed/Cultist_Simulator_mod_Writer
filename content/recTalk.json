@@ -24,20 +24,6 @@
                         "tool": 1
                     }
                 }
-            ],
-            "alt": [
-                {
-                    "id": "sunway_akihabara_1",
-                    "chance": 100
-                },
-                {
-                    "id": "sunway_akihabara_2",
-                    "chance": 100
-                },
-                {
-                    "id": "sunway_akihabara_3",
-                    "chance": 100
-                }
             ]
         },
         {
