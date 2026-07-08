@@ -2,24 +2,26 @@
     "elements": [
         {
             "id": "book_2_winter",
-            "label": "《反叛的大魔王》",
-            "description": "绝不承认此书之阶位。绝不否认此书之阶位。",
+            "label": "《古诗十九首》",
+            "description": "生年不满百，常怀千岁忧。昼短苦夜长，何不秉烛游。无名氏之作，写尽人世悲欢离合、生死无常。其辞质朴而意深远，读之如闻远古叹息，令人心生寂灭之感。",
             "aspects": {
                 "aspect_original": 1,
                 "winter": 2,
-                "aspect_value": 6
+                "aspect_value": 6,
+                "aspect_ancient": 1
             },
             "unique": true,
             "icon": "book_2_winter"
         },
         {
             "id": "book_2_winter_t",
-            "label": "《反叛的大魔王》",
-            "description": "绝不承认此书之阶位。绝不否认此书之阶位。\n[此为抄本。]",
+            "label": "《古诗十九首》",
+            "description": "生年不满百，常怀千岁忧。昼短苦夜长，何不秉烛游。无名氏之作，写尽人世悲欢离合、生死无常。其辞质朴而意深远，读之如闻远古叹息，令人心生寂灭之感。\n[此为抄本。]",
             "aspects": {
                 "aspect_transcript": 1,
                 "winter": 2,
-                "aspect_value": 2
+                "aspect_value": 2,
+                "aspect_ancient": 1
             },
             "unique": false,
             "icon": "book_2_winter"

@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "copy_2_moth_link",
-            "label": "抄写《《The Council》背景剧情考据》",
+            "label": "抄写《神异经》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -35,7 +35,7 @@
         },
         {
             "id": "copy_2_moth",
-            "label": "抄写《《The Council》背景剧情考据》",
+            "label": "抄写《神异经》",
             "actionId": "copy_2_moth",
             "effects": {
                 "book_2_moth_t": 1
@@ -47,7 +47,7 @@
         },
         {
             "id": "copy_4_moth_link",
-            "label": "抄写《项塔兰》",
+            "label": "抄写《酉阳杂俎》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -80,7 +80,7 @@
         },
         {
             "id": "copy_4_moth",
-            "label": "抄写《项塔兰》",
+            "label": "抄写《酉阳杂俎》",
             "actionId": "copy_4_moth",
             "effects": {
                 "book_4_moth_t": 1
@@ -341,7 +341,7 @@
         },
         {
             "id": "copy_15_moth_tip",
-            "label": "抄写《道诡异仙》？",
+            "label": "抄写《庄子》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,

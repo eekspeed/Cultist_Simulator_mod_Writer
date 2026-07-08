@@ -307,7 +307,7 @@
         },
         {
             "id": "write_6_edge_tip",
-            "label": "撰写《刀剑神域》？",
+            "label": "撰写《六韬》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -317,7 +317,7 @@
 
                 "edge": 42
             },
-            "startdescription": "或许不能？撰写当代书撰的作品绝对不是个好主意。",
+            "startdescription": "太公望答文王武王之问，以韬略为宗，以权谋为用。[欲撰此书，另需理性]",
             "craftable": false,
             "hintonly": true
         },

@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "write_15_moth_tip",
-            "label": "撰写《道诡异仙》？",
+            "label": "撰写《庄子》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -11,13 +11,13 @@
                 "aspect_paper":1,
                 "moth": 105
             },
-            "startdescription": "如何评价？只能度过一个相对失败的人生，速速下跪！正确的，直接的，形而上学的，一针见血的，神中神典中典，噫，道爷我成了！一眼丁真，普信男真下头，哪有什么坐忘道，娃，你着相了，怎么说话呢，没有米线的东西！[待补充]",
+            "startdescription": "北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。[待补充]",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "write_15_moth_link",
-            "label": "撰写《道诡异仙》",
+            "label": "撰写《庄子》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -34,7 +34,7 @@
                 "influence": -99,
                 "ingredient": -99
             },
-            "startdescription": "如何评价？只能度过一个相对失败的人生，速速下跪！正确的，直接的，形而上学的，一针见血的，神中神典中典，噫，道爷我成了！一眼丁真，普信男真下头，哪有什么坐忘道，娃，你着相了，怎么说话呢，没有米线的东西！感觉不如……嘿嘿嘿小小的，香香的，玉玉了，兄弟们打个郊县，开了就是挂？差不多得了（流汗黄豆），互联网真是太精彩了。",
+            "startdescription": "北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也。怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。齐谐者，志怪者也。其言不妄，其意无穷。庄周梦蝶，蝶梦庄周，孰知非幻？",
             "description": "境界至此，不知如何。",
             "warmup": 5,
             "craftable": true,
@@ -48,12 +48,12 @@
         },
         {
             "id": "write_15_moth",
-            "label": "撰写《道诡异仙》",
+            "label": "撰写《庄子》",
             "actionId": "write_15_moth",
             "effects": {
                 "book_15_moth": 1
             },
-            "startdescription": "如何评价？只能度过一个相对失败的人生，速速下跪！正确的，直接的，形而上学的，一针见血的，神中神典中典，噫，道爷我成了！一眼丁真，普信男真下头，哪有什么坐忘道，娃，你着相了，怎么说话呢，没有米线的东西！感觉不如……嘿嘿嘿小小的，香香的，玉玉了，兄弟们打个郊县，开了就是挂？差不多得了（流汗黄豆），互联网真是太精彩了。",
+            "startdescription": "北冥有鱼，其名为鲲。鲲之大，不知其几千里也。化而为鸟，其名为鹏。鹏之背，不知其几千里也。怒而飞，其翼若垂天之云。是鸟也，海运则将徙于南冥。南冥者，天池也。齐谐者，志怪者也。其言不妄，其意无穷。庄周梦蝶，蝶梦庄周，孰知非幻？",
             "warmup": 200,
             "craftable": true
         },
@@ -297,7 +297,7 @@
         },
         {
             "id": "write_4_moth_tip",
-            "label": "撰写《项塔兰》？",
+            "label": "撰写《酉阳杂俎》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -306,13 +306,13 @@
                 "aspect_paper":1,
                 "moth": 28
             },
-            "startdescription": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。[欲撰此书，另需理性]",
+            "startdescription": "段成式所撰笔记小说。博杂奇诡，凡天地万物、佛道鬼神、方术异闻、动植珍奇，无所不包。[欲撰此书，另需理性]",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "write_4_moth_link",
-            "label": "撰写《项塔兰》",
+            "label": "撰写《酉阳杂俎》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -331,7 +331,7 @@
                 "influence": -99,
                 "ingredient": -99
             },
-            "startdescription": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。",
+            "startdescription": "段成式所撰笔记小说。博杂奇诡，凡天地万物、佛道鬼神、方术异闻、动植珍奇，无所不包。其文诡丽幽深，读之如入幻境，不知身在何处。",
             "description": "需精研其理，亲身实测。",
             "warmup": 5,
             "craftable": true,
@@ -345,18 +345,18 @@
         },
         {
             "id": "write_4_moth",
-            "label": "撰写《项塔兰》",
+            "label": "撰写《酉阳杂俎》",
             "actionId": "write_4_moth",
             "effects": {
                 "book_4_moth": 1
             },
-            "startdescription": "无法从时间上判断本书与《白奴船》的先后顺序，因此两者都具有借鉴价值。",
+            "startdescription": "段成式所撰笔记小说。博杂奇诡，凡天地万物、佛道鬼神、方术异闻、动植珍奇，无所不包。其文诡丽幽深，读之如入幻境，不知身在何处。",
             "warmup": 200,
             "craftable": true
         },
         {
             "id": "write_2_moth_link",
-            "label": "撰写《《The Council》背景剧情考据》",
+            "label": "撰写《神异经》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -375,7 +375,7 @@
                 "influence": -99,
                 "ingredient": -99
             },
-            "startdescription": "“Big Bad Wolf”试图通过修改名称、转嫁情节等方式掩盖游戏背后的信息,但对于学者而言,“黄金教团”的指代已经被戛然而止的结局明确确定。负责剧情考证的相关工作室人员目前已经全部离职，不知所踪。",
+            "startdescription": "旧题东方朔撰。所记皆荒外诡异之事，言殊俗异貌、奇禽怪兽、诡地怪人，虽似荒诞不经，然其言辞诡谲迷离，读之令人心生迷惘，不知何者为真，何者为幻。",
             "description": "需精研其理，亲身实测。",
             "warmup": 5,
             "craftable": true,
@@ -389,12 +389,12 @@
         },
         {
             "id": "write_2_moth",
-            "label": "撰写《《The Council》背景剧情考据》",
+            "label": "撰写《神异经》",
             "actionId": "write_2_moth",
             "effects": {
                 "book_2_moth": 1
             },
-            "startdescription": "“Big Bad Wolf”试图通过修改名称、转嫁情节等方式掩盖游戏背后的信息,但对于学者而言,“黄金教团”的指代已经被戛然而止的结局明确确定。负责剧情考证的相关工作室人员目前已经全部离职，不知所踪。",
+            "startdescription": "旧题东方朔撰。所记皆荒外诡异之事，言殊俗异貌、奇禽怪兽、诡地怪人，虽似荒诞不经，然其言辞诡谲迷离，读之令人心生迷惘，不知何者为真，何者为幻。",
             "warmup": 200,
             "craftable": true
         }

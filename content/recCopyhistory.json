@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "copy_4_history_link",
-            "label": "抄写《查尔斯·迪克斯特·瓦德事件》",
+            "label": "抄写《竹书纪年》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -35,7 +35,7 @@
         },
         {
             "id": "copy_4_history",
-            "label": "抄写《查尔斯·迪克斯特·瓦德事件》",
+            "label": "抄写《竹书纪年》",
             "actionId": "copy_4_history",
             "effects": {
                 "book_4_history_t": 1
@@ -47,7 +47,7 @@
         },
         {
             "id": "copy_6_history_tip",
-            "label": "抄写《帝都物语》？",
+            "label": "抄写《穆天子传》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -63,7 +63,7 @@
         },
         {
             "id": "copy_6_history_link",
-            "label": "抄写《帝都物语》",
+            "label": "抄写《穆天子传》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -97,7 +97,7 @@
         },
         {
             "id": "copy_6_history",
-            "label": "抄写《帝都物语》",
+            "label": "抄写《穆天子传》",
             "actionId": "copy_6_history",
             "effects": {
                 "book_6_history_t": 1

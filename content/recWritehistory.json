@@ -297,7 +297,7 @@
         },
         {
             "id": "write_6_history_tip",
-            "label": "撰写《帝都物语》？",
+            "label": "撰写《穆天子传》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -306,13 +306,13 @@
                 "aspect_paper":1,
                 "secrethistories": 42
             },
-            "startdescription": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！[欲撰此书，另需理性]",
+            "startdescription": "周穆王驾八骏之马，西巡狩至于昆仑丘，见西王母于瑶池之上。[欲撰此书，另需理性]",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "write_6_history_link",
-            "label": "撰写《帝都物语》",
+            "label": "撰写《穆天子传》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -331,7 +331,7 @@
                 "influence": -99,
                 "ingredient": -99
             },
-            "startdescription": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！等等，没有什么邪恶的阴阳师嘛。",
+            "startdescription": "周穆王驾八骏之马，西巡狩至于昆仑丘，见西王母于瑶池之上。其事荒远难稽，然所记山川道里、部族方国，颇有与后世考证相合者，非尽为虚妄。",
             "description": "需精研其理，亲身实测。",
             "warmup": 5,
             "craftable": true,
@@ -345,18 +345,18 @@
         },
         {
             "id": "write_6_history",
-            "label": "撰写《帝都物语》",
+            "label": "撰写《穆天子传》",
             "actionId": "write_6_history",
             "effects": {
                 "book_6_history": 1
             },
-            "startdescription": "把那个混蛋给我带过来！我要赏他一发正义的铁拳！我要让他尝尝关东大地震的滋味儿！我要取下他的帽子！等等，没有什么邪恶的阴阳师嘛。",
+            "startdescription": "周穆王驾八骏之马，西巡狩至于昆仑丘，见西王母于瑶池之上。其事荒远难稽，然所记山川道里、部族方国，颇有与后世考证相合者，非尽为虚妄。",
             "warmup": 200,
             "craftable": true
         },
         {
             "id": "write_4_history_tip",
-            "label": "撰写《查尔斯·迪克斯特·瓦德事件》？",
+            "label": "撰写《竹书纪年》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -365,13 +365,13 @@
                 "aspect_paper":1,
                 "secrethistories": 28
             },
-            "startdescription": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。[欲撰此书，另需理性]",
+            "startdescription": "魏国史官所记编年之书，自夏商周三代以降，与正史多有不合。[欲撰此书，另需理性]",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "write_4_history_link",
-            "label": "撰写《查尔斯·迪克斯特·瓦德事件》",
+            "label": "撰写《竹书纪年》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -390,7 +390,7 @@
                 "influence": -99,
                 "ingredient": -99
             },
-            "startdescription": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。如果不是某位不可分离者的强烈要求，此书将会在某些地方公开发行。",
+            "startdescription": "魏国史官所记编年之书，自夏商周三代以降，与正史多有不合。其纪事简质直书，不加讳饰，所载之事往往令后世儒者不安，然其古意凛然，不可轻废。",
             "description": "需精研其理，亲身实测。",
             "warmup": 5,
             "craftable": true,
@@ -404,12 +404,12 @@
         },
         {
             "id": "write_4_history",
-            "label": "撰写《查尔斯·迪克斯特·瓦德事件》",
+            "label": "撰写《竹书纪年》",
             "actionId": "write_4_history",
             "effects": {
                 "book_4_history": 1
             },
-            "startdescription": "作为诱饵之一，查尔斯·迪克斯特·瓦德在他所不知的引导下试图牵引“真正的大敌”，虽然结果令人惋惜，但在尝试的过程中得到的信息弥足珍贵。如果不是某位不可分离者的强烈要求，此书将会在某些地方公开发行。",
+            "startdescription": "魏国史官所记编年之书，自夏商周三代以降，与正史多有不合。其纪事简质直书，不加讳饰，所载之事往往令后世儒者不安，然其古意凛然，不可轻废。",
             "warmup": 200,
             "craftable": true
         }

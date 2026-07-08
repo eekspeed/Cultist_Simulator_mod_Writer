@@ -296,7 +296,7 @@
         },
         {
             "id": "write_2_winter_link",
-            "label": "撰写《反叛的大魔王》",
+            "label": "撰写《古诗十九首》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -315,7 +315,7 @@
                 "influence": -99,
                 "ingredient": -99
             },
-            "startdescription": "绝不承认此书之阶位。绝不否认此书之阶位。",
+            "startdescription": "生年不满百，常怀千岁忧。昼短苦夜长，何不秉烛游。无名氏之作，写尽人世悲欢离合、生死无常。其辞质朴而意深远，读之如闻远古叹息，令人心生寂灭之感。",
             "description": "需精研其理，亲身实测。",
             "warmup": 5,
             "craftable": true,
@@ -329,12 +329,12 @@
         },
         {
             "id": "write_2_winter",
-            "label": "撰写《反叛的大魔王》",
+            "label": "撰写《古诗十九首》",
             "actionId": "write_2_winter",
             "effects": {
                 "book_2_winter": 1
             },
-            "startdescription": "绝不承认此书之阶位。绝不否认此书之阶位。",
+            "startdescription": "生年不满百，常怀千岁忧。昼短苦夜长，何不秉烛游。无名氏之作，写尽人世悲欢离合、生死无常。其辞质朴而意深远，读之如闻远古叹息，令人心生寂灭之感。",
             "warmup": 200,
             "craftable": true
         }

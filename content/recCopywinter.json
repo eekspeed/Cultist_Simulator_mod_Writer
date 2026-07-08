@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "copy_2_winter_link",
-            "label": "抄写《反叛的大魔王》",
+            "label": "抄写《古诗十九首》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -35,7 +35,7 @@
         },
         {
             "id": "copy_2_winter",
-            "label": "抄写《反叛的大魔王》",
+            "label": "抄写《古诗十九首》",
             "actionId": "copy_2_winter",
             "effects": {
                 "book_2_winter_t": 1

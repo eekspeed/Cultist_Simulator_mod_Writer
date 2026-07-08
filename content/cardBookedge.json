@@ -2,26 +2,26 @@
     "elements": [
         {
             "id": "book_6_edge",
-            "label": "《刀剑神域》",
-            "description": "描写了如何在“通过入梦抵达的更高之处”将“守护的意志”转化为“破坏的力量”。很是畅销。",
+            "label": "《六韬》",
+            "description": "太公望答文王武王之问，以韬略为宗，以权谋为用。书中所言用兵之道，非止于战阵之间，亦通天地之变、鬼神之机。",
             "aspects": {
                 "aspect_original": 1,
                 "edge": 6,
                 "aspect_value": 18,
-                "aspect_japan": 1
+                "aspect_ancient": 1
             },
             "unique": true,
             "icon":"book_6_edge"
         },
         {
             "id": "book_6_edge_t",
-            "label": "《刀剑神域》",
-            "description": "描写了如何在“通过入梦抵达的更高之处”将“守护的意志”转化为“破坏的力量”。很是畅销。\n[此为抄本。]",
+            "label": "《六韬》",
+            "description": "太公望答文王武王之问，以韬略为宗，以权谋为用。书中所言用兵之道，非止于战阵之间，亦通天地之变、鬼神之机。\n[此为抄本。]",
             "aspects": {
                 "aspect_transcript": 1,
                 "edge": 6,
                 "aspect_value": 6,
-                "aspect_japan": 1
+                "aspect_ancient": 1
             },
             "unique": false,
             "icon":"book_6_edge"

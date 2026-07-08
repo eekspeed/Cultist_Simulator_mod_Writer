@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "copy_6_edge_tip",
-            "label": "抄写《刀剑神域》？",
+            "label": "抄写《六韬》？",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -18,7 +18,7 @@
         },
         {
             "id": "copy_6_edge_link",
-            "label": "抄写《刀剑神域》",
+            "label": "抄写《六韬》",
             "actionId": "verb_write",
             "requirements": {
                 "aspect_bookwriter": 1,
@@ -52,7 +52,7 @@
         },
         {
             "id": "copy_6_edge",
-            "label": "抄写《刀剑神域》",
+            "label": "抄写《六韬》",
             "actionId": "copy_6_edge",
             "effects": {
                 "book_6_edge_t": 1

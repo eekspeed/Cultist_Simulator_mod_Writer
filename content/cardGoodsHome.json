@@ -2,11 +2,13 @@
     "elements": [
         {
             "id": "book_2_edge",
-            "label": "《假面骑士：G4计划》",
-            "description": "一张蓝色近代DVD光盘，标题为“奥特曼大战”，其下的集数编号模糊不清。",
+            "label": "《三略》",
+            "description": "黄石公授张良之书。上略设礼赏，中略差德行，下略察安危。其言简而意深，柔弱胜刚强之道尽在其中。",
             "aspects": {
+                "aspect_original": 1,
                 "edge": 2,
-                "aspect_value": 6
+                "aspect_value": 6,
+                "aspect_ancient": 1
             },
             "unique": true,
             "icon":"book_2_edge"
